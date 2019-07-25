@@ -1,0 +1,480 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="Behat">
+        <behat_settings>
+          <BehatSettings />
+        </behat_settings>
+      </component>
+      <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
+        <pharConfigPath>$USER_HOME$/Documents/JooServer/_Projects/Coommercio/Apps/app-coommercio-www/composer.json</pharConfigPath>
+        <executablePath>/usr/local/bin/composer</executablePath>
+      </component>
+      <component name="Encoding">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="Git.Settings">
+        <option name="PUSH_AUTO_UPDATE" value="true" />
+        <option name="ROOT_SYNC" value="DONT_SYNC" />
+      </component>
+      <component name="GitSharedSettings">
+        <option name="FORCE_PUSH_PROHIBITED_PATTERNS">
+          <list />
+        </option>
+      </component>
+      <component name="InspectionProjectProfileManager">
+        <profile version="1.0">
+          <option name="myName" value="Project Default" />
+          <inspection_tool class="Annotator" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="AnonymousFunctionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="AssignmentResultUsedJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="AssignmentToForLoopParameterJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="AssignmentToFunctionParameterJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="BladeClosingSection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="BladeControlDirectives" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="BlockStatementJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="BreakStatementJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="BreakStatementWithLabelJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="CheckEmptyScriptTag" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="CheckImageSize" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="CheckNodeTest" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="CheckValidXmlInScriptTagBody" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="CoffeeScriptArgumentsOutsideFunction" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="CoffeeScriptFunctionSignatures" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+          <inspection_tool class="CoffeeScriptInfiniteLoop" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="CoffeeScriptLiteralNotFunction" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="CoffeeScriptSillyAssignment" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="CoffeeScriptSwitchStatementWithNoDefaultBranch" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="CoffeeScriptUnnecessaryReturn" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="CoffeeScriptUnusedLocalSymbols" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="ConditionalExpressionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="ConditionalExpressionWithIdenticalBranchesJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="ConfusingFloatingPointLiteralJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="ConfusingPlusesOrMinusesJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="ContinueStatementJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="ContinueStatementWithLabelJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="CssFloatPxLength" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="CssMissingSemicolon" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="CssOverwrittenProperties" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="CssUnusedSymbol" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="CucumberExamplesColon" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="CucumberMissedExamples" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="CucumberTableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="CucumberUndefinedStep" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="CyclomaticComplexityJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="DebuggerStatementJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="DefaultNotLastCaseInSwitchJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="DivideByZeroJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="DocumentWriteJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="DuplicateConditionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="DuplicateKeyInSection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="DuplicateSectionInFile" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="Duplicates" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="DynamicallyGeneratedCodeJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="ES6Validation" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="EmptyCatchBlockJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="EmptyFinallyBlockJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="EmptyTryBlockJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="Eslint" enabled="true" level="ERROR" enabled_by_default="true" />
+          <inspection_tool class="ForLoopReplaceableByWhileJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="ForLoopThatDoesntUseLoopVariableJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="FunctionNamingConventionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="FunctionWithInconsistentReturnsJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="FunctionWithMultipleLoopsJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="FunctionWithMultipleReturnPointsJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="GherkinBrokenTableInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="GherkinMisplacedBackground" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="HamlNestedTagContent" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="HardwiredNamespacePrefix" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="HtmlDeprecatedTag" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="HtmlExtraClosingTag" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="HtmlFormInputWithoutLabel" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="HtmlPresentationalElement" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="HtmlUnknownAnchorTarget" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="HtmlUnknownAttribute" enabled="false" level="WARNING" enabled_by_default="false">
+            <option name="myValues">
+              <value>
+                <list size="0" />
+              </value>
+            </option>
+            <option name="myCustomValuesEnabled" value="true" />
+          </inspection_tool>
+          <inspection_tool class="HtmlUnknownBooleanAttribute" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="HtmlUnknownTag" enabled="false" level="WARNING" enabled_by_default="false">
+            <option name="myValues">
+              <value>
+                <list size="6">
+                  <item index="0" class="java.lang.String" itemvalue="nobr" />
+                  <item index="1" class="java.lang.String" itemvalue="noembed" />
+                  <item index="2" class="java.lang.String" itemvalue="comment" />
+                  <item index="3" class="java.lang.String" itemvalue="noscript" />
+                  <item index="4" class="java.lang.String" itemvalue="embed" />
+                  <item index="5" class="java.lang.String" itemvalue="script" />
+                </list>
+              </value>
+            </option>
+            <option name="myCustomValuesEnabled" value="true" />
+          </inspection_tool>
+          <inspection_tool class="HtmlUnknownTarget" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="IfStatementWithIdenticalBranchesJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="IfStatementWithTooManyBranchesJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="IgnoreCoverEntry" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="IgnoreDuplicateEntry" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="IgnoreIncorrectEntry" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="IgnoreRelativeEntry" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="IgnoreSyntaxEntry" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="IgnoreUnusedEntry" enabled="false" level="UNUSED ENTRY" enabled_by_default="false" />
+          <inspection_tool class="ImplicitTypeConversion" enabled="false" level="WARNING" enabled_by_default="false">
+            <option name="BITS" value="1720" />
+            <option name="FLAG_EXPLICIT_CONVERSION" value="true" />
+            <option name="IGNORE_NODESET_TO_BOOLEAN_VIA_STRING" value="true" />
+          </inspection_tool>
+          <inspection_tool class="IncrementDecrementResultUsedJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="IndexZeroUsage" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="InheritDocInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+          <inspection_tool class="InjectedReferences" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="InnerHTMLJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="JSClassNamingConvention" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="JSMismatchedCollectionQueryUpdate" enabled="true" level="WARNING" enabled_by_default="true">
+            <option name="queries" value="trace,write,forEach" />
+            <option name="updates" value="pop,push,shift,splice,unshift" />
+          </inspection_tool>
+          <inspection_tool class="JSNonStrictModeUsed" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="LabeledStatementJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="LessResolvedByNameOnly" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+          <inspection_tool class="LessUnresolvedMixin" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="LessUnresolvedVariable" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="LocalVariableNamingConventionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="MagicNumberJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="MessDetectorValidationInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+            <option name="CODESIZE" value="true" />
+            <option name="CONTROVERSIAL" value="true" />
+            <option name="DESIGN" value="true" />
+            <option name="UNUSEDCODE" value="true" />
+            <option name="NAMING" value="true" />
+          </inspection_tool>
+          <inspection_tool class="NegatedConditionalExpressionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="NegatedIfStatementJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="NestedAssignmentJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="NestedConditionalExpressionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="NestedFunctionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="NestedSwitchStatementJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="NestingDepthJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="NewIssuesGlobalInspectionTool" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="NonShortCircuitBooleanExpressionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="ObjectAllocationIgnoredJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="OldIssuesGlobalInspectionTool" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="OverlyComplexArithmeticExpressionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="OverlyComplexBooleanExpressionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="ParameterNamingConventionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="ParametersPerFunctionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhingDomInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="PhpAssignmentInConditionInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpCSValidationInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+            <option name="CODING_STANDARD" value="PSR2" />
+            <option name="SHOW_SNIFF_NAMES" value="true" />
+          </inspection_tool>
+          <inspection_tool class="PhpDivisionByZeroInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpMissingDocCommentInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpMissingParentCallCommonInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpMissingParentCallMagicInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpMultipleClassesDeclarationsInOneFile" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpStaticAsDynamicMethodCallInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpTooManyParametersInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpTraditionalSyntaxArrayLiteralInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpUndefinedCallbackInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpUndefinedClassInspection" enabled="true" level="WARNING" enabled_by_default="true">
+            <option name="DONT_REPORT_MULTI_RESOLVE" value="true" />
+          </inspection_tool>
+          <inspection_tool class="PhpUsageOfSilenceOperatorInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpVariableVariableInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+          <inspection_tool class="PlatformDetectionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="RedundantTypeConversion" enabled="false" level="WARNING" enabled_by_default="false">
+            <option name="CHECK_ANY" value="false" />
+          </inspection_tool>
+          <inspection_tool class="ReplaceAssignmentWithOperatorAssignmentJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="RequiredAttributes" enabled="false" level="WARNING" enabled_by_default="false">
+            <option name="myAdditionalRequiredHtmlAttributes" value="" />
+          </inspection_tool>
+          <inspection_tool class="ReuseOfLocalVariableJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+            <option name="processCode" value="true" />
+            <option name="processLiterals" value="true" />
+            <option name="processComments" value="true" />
+          </inspection_tool>
+          <inspection_tool class="SqlAddNotNullColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlAmbiguousColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlAutoIncrementDuplicateInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlCheckUsingColumnsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlConstantConditionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlDeprecateTypeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlDerivedTableAliasInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlDialectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlDropIndexedColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlIdentifierInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlInsertValuesInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlNullComparisonInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlPostgresqlSelectFromProcedureInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlResolveInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlShouldBeInGroupByInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="SqlTypeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="StatementsPerFunctionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="StringLiteralBreaksHTMLJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="SwitchStatementWithNoDefaultBranchJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="TailRecursionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="TaskInspection" enabled="false" level="INFO" enabled_by_default="false" />
+          <inspection_tool class="TaskProblemsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+          <inspection_tool class="TextLabelInSwitchStatementJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="ThreeNegationsPerFunctionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="TodoComment" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="UnusedCatchParameterJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="UnusedDefine" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="VoidExpressionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="VueDataFunction" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="VueDuplicateTag" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="XHTMLIncompatabilitiesJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="XsltDeclarations" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="XsltTemplateInvocation" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="XsltUnusedDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="XsltVariableShadowing" enabled="false" level="WARNING" enabled_by_default="false" />
+        </profile>
+        <version value="1.0" />
+      </component>
+      <component name="JavaScriptLibraryMappings">
+        <includedPredefinedLibrary name="Node.js Core" />
+      </component>
+      <component name="JavaScriptSettings">
+        <option name="languageLevel" value="JSX" />
+      </component>
+      <component name="JsFlowSettings">
+        <service-enabled>true</service-enabled>
+        <exe-path />
+        <other-services-enabled>true</other-services-enabled>
+        <auto-save>true</auto-save>
+      </component>
+      <component name="MarkdownProjectSettings">
+        <PreviewSettings splitEditorLayout="FIRST" splitEditorPreview="PREVIEW" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" showGitHubPageIfSynced="false" allowBrowsingInPreview="false" synchronizePreviewPosition="true" highlightPreviewType="LINE" highlightFadeOut="5" highlightOnTyping="true" synchronizeSourcePosition="true" verticallyAlignSourceAndPreviewSyncPosition="true" showSearchHighlightsInPreview="true" showSelectionInPreview="true" openRemoteLinks="true">
+          <PanelProvider>
+            <provider providerId="com.vladsch.idea.multimarkdown.editor.javafx.html.panel" providerName="JavaFX WebView" />
+          </PanelProvider>
+        </PreviewSettings>
+        <ParserSettings gitHubSyntaxChange="false">
+          <PegdownExtensions>
+            <option name="ABBREVIATIONS" value="false" />
+            <option name="ANCHORLINKS" value="true" />
+            <option name="ASIDE" value="false" />
+            <option name="ATXHEADERSPACE" value="false" />
+            <option name="AUTOLINKS" value="true" />
+            <option name="DEFINITIONS" value="true" />
+            <option name="DEFINITION_BREAK_DOUBLE_BLANK_LINE" value="false" />
+            <option name="FENCED_CODE_BLOCKS" value="true" />
+            <option name="FOOTNOTES" value="false" />
+            <option name="HARDWRAPS" value="true" />
+            <option name="HTML_DEEP_PARSER" value="false" />
+            <option name="INSERTED" value="false" />
+            <option name="QUOTES" value="false" />
+            <option name="RELAXEDHRULES" value="true" />
+            <option name="SMARTS" value="false" />
+            <option name="STRIKETHROUGH" value="true" />
+            <option name="SUBSCRIPT" value="false" />
+            <option name="SUPERSCRIPT" value="false" />
+            <option name="SUPPRESS_HTML_BLOCKS" value="false" />
+            <option name="SUPPRESS_INLINE_HTML" value="false" />
+            <option name="TABLES" value="true" />
+            <option name="TASKLISTITEMS" value="true" />
+            <option name="TOC" value="false" />
+            <option name="WIKILINKS" value="true" />
+          </PegdownExtensions>
+          <ParserOptions>
+            <option name="COMMONMARK_LISTS" value="false" />
+            <option name="DUMMY" value="false" />
+            <option name="EMOJI_SHORTCUTS" value="false" />
+            <option name="FLEXMARK_FRONT_MATTER" value="false" />
+            <option name="GFM_LOOSE_BLANK_LINE_AFTER_ITEM_PARA" value="false" />
+            <option name="GFM_TABLE_RENDERING" value="true" />
+            <option name="GITBOOK_URL_ENCODING" value="false" />
+            <option name="GITHUB_EMOJI_URL" value="false" />
+            <option name="GITHUB_LISTS" value="false" />
+            <option name="GITHUB_WIKI_LINKS" value="true" />
+            <option name="JEKYLL_FRONT_MATTER" value="false" />
+            <option name="SIM_TOC_BLANK_LINE_SPACER" value="false" />
+          </ParserOptions>
+        </ParserSettings>
+        <HtmlSettings headerTopEnabled="false" headerBottomEnabled="false" bodyTopEnabled="false" bodyBottomEnabled="false" embedUrlContent="false" addPageHeader="false" embedImages="false" embedHttpImages="false">
+          <GeneratorProvider>
+            <provider providerId="com.vladsch.idea.multimarkdown.editor.javafx.html.generator" providerName="JavaFx HTML Generator" />
+          </GeneratorProvider>
+          <headerTop />
+          <headerBottom />
+          <bodyTop />
+          <bodyBottom />
+        </HtmlSettings>
+        <CssSettings previewScheme="UI_SCHEME" cssUri="" isCssUriEnabled="false" isCssTextEnabled="false" isDynamicPageWidth="true">
+          <StylesheetProvider>
+            <provider providerId="com.vladsch.idea.multimarkdown.editor.javafx.html.css" providerName="Default JavaFx Stylesheet" />
+          </StylesheetProvider>
+          <ScriptProviders />
+          <cssText />
+        </CssSettings>
+        <HtmlExportSettings updateOnSave="false" parentDir="$ProjectFileDir$" targetDir="$ProjectFileDir$" cssDir="" scriptDir="" plainHtml="false" imageDir="" copyLinkedImages="false" imageUniquifyType="0" targetExt="" useTargetExt="false" noCssNoScripts="false" linkToExportedHtml="true" exportOnSettingsChange="true" regenerateOnProjectOpen="false" linkFormatType="HTTP_ABSOLUTE" />
+        <LinkMapSettings>
+          <textMaps />
+        </LinkMapSettings>
+      </component>
+      <component name="MessDetector">
+        <phpmd_settings>
+          <MessDetectorConfiguration tool_path="$USER_HOME$/.composer/vendor/phpmd/phpmd/src/bin/phpmd" />
+        </phpmd_settings>
+      </component>
+      <component name="PHPCodeSnifferProjectConfiguration">
+        <option name="selectedConfigurationId" value="DEFAULT_INTERPRETER" />
+      </component>
+      <component name="PhpCodeSniffer">
+        <phpcs_settings>
+          <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/Documents/JooServer/_Projects/Coommercio/Apps/TrustBack.Me/bin/phpcs" timeout="30000" />
+        </phpcs_settings>
+      </component>
+      <component name="PhpDebugGeneral" detect_path_mappings_from_deployment_configuration="false" />
+      <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+      <component name="PhpRuntimeConfiguration">
+        <extensions>
+          <extension name="Ev" enabled="false" />
+          <extension name="SQLite" enabled="false" />
+          <extension name="SplType" enabled="false" />
+          <extension name="ZendCache" enabled="false" />
+          <extension name="ZendDebugger" enabled="false" />
+          <extension name="ZendUtils" enabled="false" />
+          <extension name="apc" enabled="false" />
+          <extension name="com" enabled="false" />
+          <extension name="couchbase" enabled="false" />
+          <extension name="cubrid" enabled="false" />
+          <extension name="dba" enabled="false" />
+          <extension name="enchant" enabled="false" />
+          <extension name="fann" enabled="false" />
+          <extension name="ffmpeg" enabled="false" />
+          <extension name="gearman" enabled="false" />
+          <extension name="geoip" enabled="false" />
+          <extension name="gmagick" enabled="false" />
+          <extension name="gnupg" enabled="false" />
+          <extension name="grpc" enabled="false" />
+          <extension name="ibm_db2" enabled="false" />
+          <extension name="imagick" enabled="false" />
+          <extension name="inotify" enabled="false" />
+          <extension name="interbase" enabled="false" />
+          <extension name="judy" enabled="false" />
+          <extension name="libevent" enabled="false" />
+          <extension name="libsodium" enabled="false" />
+          <extension name="memcache" enabled="false" />
+          <extension name="meta" enabled="false" />
+          <extension name="ming" enabled="false" />
+          <extension name="mongo" enabled="false" />
+          <extension name="mqseries" enabled="false" />
+          <extension name="mssql" enabled="false" />
+          <extension name="mysql" enabled="false" />
+          <extension name="ncurses" enabled="false" />
+          <extension name="newrelic" enabled="false" />
+          <extension name="oauth" enabled="false" />
+          <extension name="oci8" enabled="false" />
+          <extension name="pdo_ibm" enabled="false" />
+          <extension name="pspell" enabled="false" />
+          <extension name="pthreads" enabled="false" />
+          <extension name="rar" enabled="false" />
+          <extension name="recode" enabled="false" />
+          <extension name="rrd" enabled="false" />
+          <extension name="snmp" enabled="false" />
+          <extension name="sqlsrv" enabled="false" />
+          <extension name="suhosin" enabled="false" />
+          <extension name="svn" enabled="false" />
+          <extension name="sybase" enabled="false" />
+          <extension name="v8js" enabled="false" />
+          <extension name="wincache" enabled="false" />
+          <extension name="xcache" enabled="false" />
+          <extension name="xhprof" enabled="false" />
+          <extension name="yaml" enabled="false" />
+          <extension name="zend" enabled="false" />
+          <extension name="zmq" enabled="false" />
+        </extensions>
+      </component>
+      <component name="PhpUnit">
+        <phpunit_settings>
+          <PhpUnitSettings load_method="PHPUNIT_PHAR" bootstrap_file_path="$USER_HOME$/Documents/JooServer/_Projects/SerendipityHQ/Components/Spider/vendor/autoload.php" configuration_file_path="$USER_HOME$/Documents/JooServer/_Projects/SerendipityHQ/Components/Spider/phpunit.xml.dist" custom_loader_path="$USER_HOME$/Documents/JooServer/_Projects/SerendipityFramework/Remotes/vendor/autoload.php" phpunit_phar_path="$USER_HOME$/Documents/JooServer/_Projects/Coommercio/Apps/TrustBack.Me/bin/phpunit" />
+          <phpunit_by_deployment server_id="a37a9514-cddf-4535-b14c-4adc33a1e3a6" load_method="PHPUNIT_PHAR" configuration_file_path="$USER_HOME$/Documents/JooServer/_Projects/Coommercio/Apps/TrustBack.Me/app/phpunit.xml.dist" custom_loader_path="" phpunit_phar_path="$USER_HOME$/Documents/JooServer/_Projects/Coommercio/Apps/TrustBack.Me/bin/phpunit" use_configuration_file="true" />
+          <phpunit_by_deployment server_id="916d704a-d134-4336-9977-cb9ba0088ab8" load_method="PHPUNIT_PHAR" configuration_file_path="$USER_HOME$/Documents/JooServer/_Projects/SerendipityFramework/Remotes/phpunit.xml" custom_loader_path="$USER_HOME$/Documents/JooServer/_Projects/SerendipityFramework/Remotes/vendor/autoload.php" phpunit_phar_path="$USER_HOME$/Documents/JooServer/_Projects/SerendipityFramework/Remotes/vendor/bin/phpunit" use_configuration_file="true" />
+          <phpunit_by_deployment server_id="e9b5ca19-23c3-4a05-9eb5-f1d5786a83ab" load_method="PHPUNIT_PHAR" configuration_file_path="$USER_HOME$/Documents/JooServer/_Projects/SerendipityFramework/APIConnect/phpunit.xml" custom_loader_path="" phpunit_phar_path="$USER_HOME$/Documents/JooServer/_Projects/SerendipityFramework/APIConnect/vendor/bin/phpunit" use_configuration_file="true" />
+        </phpunit_settings>
+      </component>
+      <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+      <component name="ProjectDictionaryState">
+        <dictionary name="Aerendir" />
+      </component>
+      <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+      <component name="ProjectResources">
+        <resource url="https://schema.phpunit.de/7.0/phpunit.xsd" location="" />
+      </component>
+      <component name="PropertiesComponent">
+        <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+        <property name="javascript.nodejs.core.library.configured.version" value="10.0.0" />
+        <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+        <property name="js.eslint.eslintPackage" value="" />
+        <property name="last_opened_file_path" value="$USER_HOME$/Documents/JooServer/_Projects/Coommercio/Apps/app-trust-back-me-www" />
+        <property name="node.js.path.for.package.eslint" value="project" />
+        <property name="node.js.path.for.package.jscs" value="project" />
+        <property name="node.js.path.for.package.standard" value="project" />
+        <property name="node.js.selected.package.eslint" value="$USER_HOME$/Documents/JooServer/_Projects/Coommercio/Apps/app-trust-back-me-www/node_modules/eslint" />
+        <property name="node.js.selected.package.jscs" value="" />
+        <property name="node.js.selected.package.standard" value="$USER_HOME$/Documents/JooServer/_Projects/Coommercio/Apps/app-trust-back-me-www/node_modules/eslint" />
+        <property name="nodejs_interpreter_path" value="node" />
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+        <property name="nodejs_package_manager_path" value="yarn" />
+        <property name="options.lastSelected" value="reference.webide.settings.project.settings.php.composer" />
+        <property name="options.splitter.details.proportions" value="0.2" />
+        <property name="options.splitter.main.proportions" value="0.3" />
+        <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+      </component>
+      <component name="PublishConfigData" deleteMissingItems="true" createEmptyFolders="true" />
+      <component name="SqlDialectMappings">
+        <file url="PROJECT" dialect="MySQL" />
+      </component>
+      <component name="VagrantProjectSettings">
+        <option name="instanceFolder" value="" />
+        <option name="provider" value="" />
+      </component>
+      <component name="VcsContentAnnotationSettings">
+        <option name="myShow1" value="true" />
+        <option name="myLimit" value="2678400000" />
+      </component>
+      <component name="VcsManagerConfiguration">
+        <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="Copyright.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.21414141" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <last-edited>Coommercio</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

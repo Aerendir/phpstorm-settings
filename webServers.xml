@@ -1,0 +1,45 @@
+<application>
+  <component name="WebServers">
+    <sftpAdvancedGlobalOptions>
+      <SftpAdvancedOptions hostKeyCheckingLevel="NO" hashKnownHosts="true">
+        <option name="hashHost" value="true" />
+        <option name="hostKeyCheckingLevel" value="NO" />
+      </SftpAdvancedOptions>
+    </sftpAdvancedGlobalOptions>
+    <option name="servers">
+      <webServer id="a37a9514-cddf-4535-b14c-4adc33a1e3a6" name="TrustBack.Me" url="http://127.0.0.1:8000">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="916d704a-d134-4336-9977-cb9ba0088ab8" name="Remotes" url="http://localhost/_Projects/SerendipityFramework/Remotes/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="dd274d06-26df-4a18-8601-819647b88f16" name="ValueObjects" url="http://localhost/_Projects/SerendipityFramework/ValueObjects">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="e9b5ca19-23c3-4a05-9eb5-f1d5786a83ab" name="APIConnect" url="http://localhost/_Projects/SerendipityFramework/APIConnect">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="db9946a5-cf91-4334-99c2-4abad68bb94c" name="FuturePublieshedPosts" url="http://localhost/_SideProjects/_WordPress/FuturePublieshedPosts/wordpress/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="dd4026d0-4c68-438f-a6ab-8462a6679107" name="TrustBackMe_Com" url="http://localhost/_Projects/Coommercio/Apps/TrustBackMe.com/public_html">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="3678eb82-2224-40c5-aebd-beb7a5107b3c" name="Spider" url="http://localhost/_Projects/_Libraries/Bots/Spider">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="8fb26e02-dcaf-47ce-acd0-00aee121a9b9" name="Tinkidoo" url="http://127.0.0.1:8000">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="6cf41050-71fb-46c3-bce3-b0a570893308" name="ToranProxy" url="http://127.0.0.1:800">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="eee4251a-85ed-4b3a-86ac-5d6bdc6de76c" name="Coommercio/Www" url="http://127.0.0.1:8000">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="a7732ce5-ee0c-4047-ba24-ef1f37d6df01" name="component-remotes" url="http://localhost/_Projects/SerendipityHQ/Components/component-remotes/docs/examples/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>

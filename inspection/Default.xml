@@ -1,0 +1,5 @@
+<inspections profile_name="Default" version="1.0">
+  <option name="myName" value="Default" />
+  <option name="myLocal" value="true" />
+  <inspection_tool class="InheritDocInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+</inspections>

@@ -1,0 +1,11 @@
+<application>
+  <component name="MarkdownApplicationSettings">
+    <MarkdownCssSettings />
+    <MarkdownPreviewSettings>
+      <HtmlPanelProviderInfo>
+        <ProviderInfo name="JavaFX WebView" className="org.intellij.plugins.markdown.ui.preview.javafx.JavaFxHtmlPanelProvider" />
+      </HtmlPanelProviderInfo>
+    </MarkdownPreviewSettings>
+  </component>
+  <component name="MarkdownSettings" parsingTimeout="10000" smarts="false" quotes="false" abbreviations="true" hardWraps="false" autoLinks="true" wikiLinks="false" tables="false" definitions="true" fencedCodeBlocks="true" suppressHTMLBlocks="false" suppressInlineHTML="false" strikethrough="true" />
+</application>
