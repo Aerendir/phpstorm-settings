@@ -4,13 +4,14 @@
     <property name="created">2017-02-04T12:08:19</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2019-11-25T22:29:43</property>
+    <property name="modified">2019-11-26T16:54:51</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_SIZE" value="10" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
   <attributes>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
