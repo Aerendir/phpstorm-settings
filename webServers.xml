@@ -40,6 +40,9 @@
       <webServer id="a7732ce5-ee0c-4047-ba24-ef1f37d6df01" name="component-remotes" url="http://localhost/_Projects/SerendipityHQ/Components/component-remotes/docs/examples/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="4ca5b1c4-9a24-4386-bd87-1d9b7a0076e4" name="PrestaShop 1.7" url="http://localhost/_Tests/PrestaShop/PS17/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
