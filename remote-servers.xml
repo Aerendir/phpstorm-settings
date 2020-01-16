@@ -11,5 +11,11 @@
         <option name="certificatesPath" />
       </configuration>
     </remote-server>
+    <remote-server name="Docker - Kredi" type="docker">
+      <configuration>
+        <option name="apiUrl" value="unix:///var/run/docker.sock" />
+        <option name="certificatesPath" />
+      </configuration>
+    </remote-server>
   </component>
 </application>
