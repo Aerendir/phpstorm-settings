@@ -23,6 +23,7 @@
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="Headers.txt" type="PLAIN_TEXT" />
+      <mapping pattern="phpstan" type="PLAIN_TEXT" />
       <mapping pattern="f" type="PLAIN_TEXT" />
       <mapping pattern="_jquery-ui.scss" type="PLAIN_TEXT" />
       <mapping pattern="validate" type="PLAIN_TEXT" />
