@@ -42,6 +42,7 @@
       <mapping ext="it" type="PLAIN_TEXT" />
       <mapping ext="php1339494244" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping pattern="pull" type="Shell Script" />
       <mapping ext="dist" type="XML" />
       <mapping ext="xlf" type="XML" />
       <mapping pattern="ignore" type="Git exclude file" />
