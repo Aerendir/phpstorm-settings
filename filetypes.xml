@@ -29,6 +29,7 @@
       <mapping pattern="validate" type="PLAIN_TEXT" />
       <mapping pattern="DockerFile" type="PLAIN_TEXT" />
       <mapping pattern="tet" type="PLAIN_TEXT" />
+      <mapping pattern="multiple_thrown" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="js" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
