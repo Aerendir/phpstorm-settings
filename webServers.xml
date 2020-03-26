@@ -43,6 +43,14 @@
       <webServer id="4ca5b1c4-9a24-4386-bd87-1d9b7a0076e4" name="PrestaShop 1.7" url="http://localhost/_Tests/PrestaShop/PS17/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="bdd814a1-5913-4c56-8853-5bf30e53499e" name="Commercianti.Online - Hello" url="http://ftp.commercianti.online">
+        <fileTransfer host="ftp.commercianti.online" port="21" rootFolder="/public_html/wp-content/themes/ecommercers-net">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
