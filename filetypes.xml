@@ -25,8 +25,10 @@
       <mapping pattern="Headers.txt" type="PLAIN_TEXT" />
       <mapping pattern="phpstan" type="PLAIN_TEXT" />
       <mapping pattern="f" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep2" type="PLAIN_TEXT" />
       <mapping pattern="_jquery-ui.scss" type="PLAIN_TEXT" />
       <mapping pattern="validate" type="PLAIN_TEXT" />
+      <mapping pattern="ffii" type="PLAIN_TEXT" />
       <mapping pattern="DockerFile" type="PLAIN_TEXT" />
       <mapping pattern="tet" type="PLAIN_TEXT" />
       <mapping pattern="multiple_thrown" type="PLAIN_TEXT" />
