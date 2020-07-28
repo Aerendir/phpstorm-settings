@@ -8,8 +8,8 @@
       <mapping ext="test" type="PHP" />
       <mapping ext="theme" type="PHP" />
       <mapping ext="install" type="PHP" />
-      <mapping pattern="f" type="PLAIN_TEXT" />
       <mapping pattern=".php_cs" type="PLAIN_TEXT" />
+      <mapping pattern="console" type="PLAIN_TEXT" />
       <mapping pattern="testUri" type="PLAIN_TEXT" />
       <mapping pattern="TodoLists" type="PLAIN_TEXT" />
       <mapping pattern=".bash_profile.swn" type="PLAIN_TEXT" />
@@ -18,13 +18,12 @@
       <mapping pattern="procfile" type="PLAIN_TEXT" />
       <mapping pattern=".mdlrc" type="PLAIN_TEXT" />
       <mapping pattern="credentials" type="PLAIN_TEXT" />
-      <mapping pattern="embeddable_score" type="PLAIN_TEXT" />
       <mapping pattern="default_symfony" type="PLAIN_TEXT" />
       <mapping pattern="Factory" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="phpstan" type="PLAIN_TEXT" />
-      <mapping pattern="console" type="PLAIN_TEXT" />
+      <mapping pattern="f" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep2" type="PLAIN_TEXT" />
       <mapping pattern="_jquery-ui.scss" type="PLAIN_TEXT" />
       <mapping pattern="validate" type="PLAIN_TEXT" />
@@ -38,6 +37,7 @@
       <mapping pattern="config" type="PLAIN_TEXT" />
       <mapping pattern="Headers.txt" type="PLAIN_TEXT" />
       <mapping pattern="Relations-PhoneNumbers-Companies-Stores.md" type="PLAIN_TEXT" />
+      <mapping pattern="embeddable_score" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
