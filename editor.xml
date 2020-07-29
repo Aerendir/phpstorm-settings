@@ -1,16 +1,4 @@
 <application>
-  <component name="CodeInsightSettings">
-    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
-    <option name="PARAMETER_INFO_DELAY" value="10" />
-    <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
-  </component>
-  <component name="EditorSettings">
-    <option name="STRIP_TRAILING_SPACES" value="Whole" />
-    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
-    <option name="IS_WHITESPACES_SHOWN" value="true" />
-    <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
-    <option name="KEEP_TRAILING_SPACE_ON_CARET_LINE" value="false" />
-  </component>
   <component name="TodoConfiguration">
     <pattern pattern="\b*@todo\b.*" />
     <pattern pattern="\b*@fixme\b.*" />
