@@ -1,19 +1,17 @@
 <application>
   <component name="MessDetector">
-    <phpmd_settings_migrated />
     <phpmd_settings>
       <MessDetectorConfiguration tool_path="$USER_HOME$/.composer/vendor/phpmd/phpmd/src/bin/phpmd" />
     </phpmd_settings>
   </component>
   <component name="PhpCodeSniffer">
-    <phpcs_settings_migrated />
     <phpcs_settings>
-      <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" timeout="30000" tool_path="$USER_HOME$/Documents/JooServer/_Projects/Coommercio/Apps/TrustBack.Me/bin/phpcs" />
+      <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/Documents/JooServer/_Projects/Coommercio/Apps/TrustBack.Me/bin/phpcs" timeout="30000" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/usr/local/php5/bin/php" id="2789b968-56eb-41d4-bd7f-5f3423f55bb9" name="PHP" debugger_id="php.debugger.XDebug" />
+      <interpreter id="2789b968-56eb-41d4-bd7f-5f3423f55bb9" name="PHP" home="/usr/local/php5/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
