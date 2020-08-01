@@ -1,4 +1,9 @@
 <application>
+  <component name="GithubAccounts">
+    <account id="9fabe356-b2d7-46ca-a66e-31fa2f8057da" name="Aerendir">
+      <server host="github.com" />
+    </account>
+  </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="Aerendir" />
     <option name="AUTH_TYPE" value="BASIC" />
