@@ -11,8 +11,8 @@
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="Relations-PhoneNumbers-Companies-Stores.md" type="PLAIN_TEXT" />
       <mapping pattern="procfile" type="PLAIN_TEXT" />
-      <mapping pattern="credentials" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
+      <mapping pattern="credentials" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep2" type="PLAIN_TEXT" />
       <mapping pattern="testUri" type="PLAIN_TEXT" />
       <mapping pattern="phpstan" type="PLAIN_TEXT" />
@@ -45,6 +45,7 @@
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
+      <mapping pattern="stop" type="Shell Script" />
       <mapping pattern="pull" type="Shell Script" />
       <mapping ext="dist" type="XML" />
       <mapping ext="xlf" type="XML" />
