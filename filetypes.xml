@@ -47,6 +47,7 @@
       <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping pattern="stop" type="Shell Script" />
       <mapping pattern="pull" type="Shell Script" />
+      <mapping pattern="baselines" type="Shell Script" />
       <mapping ext="dist" type="XML" />
       <mapping ext="xlf" type="XML" />
       <removed_mapping pattern="#!/urs" approved="true" type="Shell Script" />
