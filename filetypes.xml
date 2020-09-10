@@ -45,6 +45,8 @@
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
+      <mapping pattern="fix2" type="Shell Script" />
+      <mapping pattern="api_check" type="Shell Script" />
       <mapping pattern="stop" type="Shell Script" />
       <mapping pattern="pull" type="Shell Script" />
       <mapping pattern="baselines" type="Shell Script" />
