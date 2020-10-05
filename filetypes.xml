@@ -11,8 +11,8 @@
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="Relations-PhoneNumbers-Companies-Stores.md" type="PLAIN_TEXT" />
       <mapping pattern="procfile" type="PLAIN_TEXT" />
-      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern="credentials" type="PLAIN_TEXT" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep2" type="PLAIN_TEXT" />
       <mapping pattern="phpstan" type="PLAIN_TEXT" />
       <mapping pattern="testUri" type="PLAIN_TEXT" />
@@ -21,9 +21,9 @@
       <mapping pattern=".bash_profile.swn" type="PLAIN_TEXT" />
       <mapping pattern="tet" type="PLAIN_TEXT" />
       <mapping pattern=".mdlrc" type="PLAIN_TEXT" />
-      <mapping pattern="D8HkS17J7CO8w_jBimzIvVGLTwwhYjsLb9QgJPp8Ogw" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="default_symfony" type="PLAIN_TEXT" />
+      <mapping pattern="D8HkS17J7CO8w_jBimzIvVGLTwwhYjsLb9QgJPp8Ogw" type="PLAIN_TEXT" />
       <mapping pattern="js" type="PLAIN_TEXT" />
       <mapping pattern="TodoLists" type="PLAIN_TEXT" />
       <mapping pattern="embeddable_score" type="PLAIN_TEXT" />
