@@ -1,6 +1,6 @@
 <application>
-  <component name="FileTypeManager" version="17">
-    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+  <component name="FileTypeManager" version="18">
+    <ignoreFiles list="*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping pattern="phan" type="ARCHIVE" />
       <mapping ext="install" type="PHP" />
@@ -11,8 +11,8 @@
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="Relations-PhoneNumbers-Companies-Stores.md" type="PLAIN_TEXT" />
       <mapping pattern="procfile" type="PLAIN_TEXT" />
-      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern="credentials" type="PLAIN_TEXT" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep2" type="PLAIN_TEXT" />
       <mapping pattern="phpstan" type="PLAIN_TEXT" />
       <mapping pattern="testUri" type="PLAIN_TEXT" />
@@ -52,9 +52,9 @@
       <mapping pattern="baselines" type="Shell Script" />
       <mapping ext="dist" type="XML" />
       <mapping ext="xlf" type="XML" />
+      <removed_mapping pattern="#!/urs" approved="true" type="Shell Script" />
       <removed_mapping pattern="console" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="fix2" approved="true" type="Shell Script" />
-      <removed_mapping pattern="#!/urs" approved="true" type="Shell Script" />
       <removed_mapping pattern="reset" approved="true" type="Native" />
       <removed_mapping pattern="validate" approved="true" type="PLAIN_TEXT" />
       <mapping pattern="ignore" type="Git exclude file" />
