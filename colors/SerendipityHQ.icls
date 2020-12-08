@@ -4,7 +4,7 @@
     <property name="created">2017-02-04T12:08:19</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2020-02-24T10:22:21</property>
+    <property name="modified">2020-12-08T10:54:14</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -15,7 +15,7 @@
   <attributes>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="0" />
+        <option name="FOREGROUND" value="393939" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_OUTPUT">
@@ -28,12 +28,17 @@
         <option name="FOREGROUND" value="5b5b5b" />
       </value>
     </option>
-    <option name="CONSOLE_SYSTEM_OUTPUT">
+    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="aaf667" />
       </value>
     </option>
-    <option name="CONSOLE_WHITE_OUTPUT">
+    <option name="CONSOLE_GREEN_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="a0fd64" />
+      </value>
+    </option>
+    <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ffffff" />
       </value>
