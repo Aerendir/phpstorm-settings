@@ -16,15 +16,15 @@
       <mapping pattern="tet" type="PLAIN_TEXT" />
       <mapping pattern="default_symfony" type="PLAIN_TEXT" />
       <mapping pattern="js" type="PLAIN_TEXT" />
-      <mapping pattern="config" type="PLAIN_TEXT" />
       <mapping pattern="f" type="PLAIN_TEXT" />
+      <mapping pattern="config" type="PLAIN_TEXT" />
       <mapping pattern="ffii" type="PLAIN_TEXT" />
       <mapping pattern=".php_cs" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="Relations-PhoneNumbers-Companies-Stores.md" type="PLAIN_TEXT" />
       <mapping pattern="procfile" type="PLAIN_TEXT" />
-      <mapping pattern="testUri" type="PLAIN_TEXT" />
       <mapping pattern="phpstan" type="PLAIN_TEXT" />
+      <mapping pattern="testUri" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern=".mdlrc" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
