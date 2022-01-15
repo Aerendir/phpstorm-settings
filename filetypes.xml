@@ -47,6 +47,7 @@
       <mapping pattern="baselines" type="Shell Script" />
       <mapping pattern="stop" type="Shell Script" />
       <mapping pattern="reset" type="Shell Script" />
+      <mapping pattern="update" type="Shell Script" />
       <mapping pattern="validate" type="Shell Script" />
       <mapping pattern="console" type="Shell Script" />
       <mapping pattern="pull" type="Shell Script" />
