@@ -1,7 +1,7 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig host="104.248.255.22" id="ef22f298-7170-4faf-92a8-44345cdf28f8" keyPath="$USER_HOME$/.ssh/digitalocean" port="22" customName="Root@DigitalOcean" nameFormat="CUSTOM" username="root">
+      <sshConfig host="104.248.255.22" id="ef22f298-7170-4faf-92a8-44345cdf28f8" keyPath="$USER_HOME$/.ssh/digitalocean" port="22" customName="Root@DigitalOcean" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
         <option name="customName" value="Root@DigitalOcean" />
       </sshConfig>
     </configs>
