@@ -22,6 +22,10 @@
           <option name="url" value="git@bitbucket.org:suitapp2017/verbalizza_backend.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="aerendir@bitbucket.org:suitapp2017/verbalizza_backend.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/JooServer/Customers/BlackNachos" />
