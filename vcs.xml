@@ -12,7 +12,15 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://bitbucket.org" />
-          <option name="userName" value="adamo.crespi@gmail.com" />
+          <option name="userName" value="Aerendir" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://Aerendir@bitbucket.org/suitapp2017/verbalizza_backend.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@bitbucket.org:suitapp2017/verbalizza_backend.git" />
+          <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
