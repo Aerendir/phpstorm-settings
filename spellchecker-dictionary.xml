@@ -3,10 +3,13 @@
     <words>
       <w>aerendir</w>
       <w>aerendir's</w>
+      <w>alnum</w>
       <w>asin</w>
       <w>autohost</w>
       <w>autowire</w>
+      <w>cntrl</w>
       <w>coommercio</w>
+      <w>ctype</w>
       <w>disclosable</w>
       <w>gedmo</w>
       <w>hackzilla</w>
@@ -16,12 +19,14 @@
       <w>jsonrpc</w>
       <w>jurny</w>
       <w>predictate</w>
+      <w>punct</w>
       <w>schedulable</w>
       <w>timestampable</w>
       <w>trofimov</w>
       <w>uids</w>
       <w>votruba</w>
       <w>vrbo</w>
+      <w>xdigit</w>
     </words>
   </component>
 </application>
