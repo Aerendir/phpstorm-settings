@@ -66,6 +66,10 @@
           <option name="url" value="https://github.com/Buzzoole/service-users" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Buzzoole/service-api" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo" />
