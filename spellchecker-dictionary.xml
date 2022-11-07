@@ -13,6 +13,7 @@
       <w>ctype</w>
       <w>cuid</w>
       <w>disclosable</w>
+      <w>fillable</w>
       <w>gedmo</w>
       <w>hackzilla</w>
       <w>hashers</w>
