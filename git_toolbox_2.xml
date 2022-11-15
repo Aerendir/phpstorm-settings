@@ -3,6 +3,13 @@
     <option name="autoFetchEnabled" value="false" />
     <option name="autoFetchOnBranchSwitch" value="false" />
     <option name="commitMessageIssueKeyValidation" value="true" />
+    <option name="commitMessageValidationConfig">
+      <CommitMessageValidationConfig>
+        <option name="enabled" value="true" />
+      </CommitMessageValidationConfig>
+    </option>
     <option name="commitMessageValidationEnabled" value="true" />
+    <option name="startupNotificationVersion" value="1" />
+    <option name="version" value="6" />
   </component>
 </application>
