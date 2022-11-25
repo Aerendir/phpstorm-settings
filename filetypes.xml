@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="env" type=".env file" />
       <mapping pattern="phan" type="ARCHIVE" />
+      <mapping ext="tmpl" type="HTML" />
       <mapping ext="install" type="PHP" />
       <mapping ext="test" type="PHP" />
       <mapping ext="engine" type="PHP" />
@@ -13,31 +14,31 @@
       <mapping pattern="Relations-PhoneNumbers-Companies-Stores.md" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern="Headers.txt" type="PLAIN_TEXT" />
+      <mapping pattern="TodoLists" type="PLAIN_TEXT" />
+      <mapping pattern="tet" type="PLAIN_TEXT" />
+      <mapping pattern=".php_cs" type="PLAIN_TEXT" />
+      <mapping pattern="D8HkS17J7CO8w_jBimzIvVGLTwwhYjsLb9QgJPp8Ogw" type="PLAIN_TEXT" />
+      <mapping pattern="js" type="PLAIN_TEXT" />
+      <mapping pattern="testUri" type="PLAIN_TEXT" />
+      <mapping pattern="phpstan" type="PLAIN_TEXT" />
+      <mapping pattern="f" type="PLAIN_TEXT" />
+      <mapping pattern="default_symfony" type="PLAIN_TEXT" />
+      <mapping pattern="config" type="PLAIN_TEXT" />
       <mapping pattern=".mdlrc" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="embeddable_score" type="PLAIN_TEXT" />
-      <mapping pattern="TodoLists" type="PLAIN_TEXT" />
-      <mapping pattern="tet" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
-      <mapping pattern=".php_cs" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep2" type="PLAIN_TEXT" />
-      <mapping pattern="D8HkS17J7CO8w_jBimzIvVGLTwwhYjsLb9QgJPp8Ogw" type="PLAIN_TEXT" />
       <mapping pattern="procfile" type="PLAIN_TEXT" />
       <mapping pattern="credentials" type="PLAIN_TEXT" />
       <mapping pattern=".bash_profile.swn" type="PLAIN_TEXT" />
-      <mapping pattern="js" type="PLAIN_TEXT" />
       <mapping pattern="Factory" type="PLAIN_TEXT" />
-      <mapping pattern="testUri" type="PLAIN_TEXT" />
       <mapping pattern="ffii" type="PLAIN_TEXT" />
       <mapping pattern="multiple_thrown" type="PLAIN_TEXT" />
-      <mapping pattern="phpstan" type="PLAIN_TEXT" />
       <mapping pattern=".php-version" type="PLAIN_TEXT" />
       <mapping pattern="DockerFile" type="PLAIN_TEXT" />
-      <mapping pattern="f" type="PLAIN_TEXT" />
       <mapping pattern="_jquery-ui.scss" type="PLAIN_TEXT" />
-      <mapping pattern="default_symfony" type="PLAIN_TEXT" />
-      <mapping pattern="config" type="PLAIN_TEXT" />
       <mapping ext="it%2fspedizioni%2f" type="PLAIN_TEXT" />
       <mapping ext="php1339494244" type="PLAIN_TEXT" />
       <mapping ext="it" type="PLAIN_TEXT" />
@@ -46,13 +47,13 @@
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping pattern="api_check" type="Shell Script" />
-      <mapping pattern="baselines" type="Shell Script" />
       <mapping pattern="stop" type="Shell Script" />
       <mapping pattern="reset" type="Shell Script" />
-      <mapping pattern="update" type="Shell Script" />
       <mapping pattern="validate" type="Shell Script" />
-      <mapping pattern="console" type="Shell Script" />
       <mapping pattern="pull" type="Shell Script" />
+      <mapping pattern="baselines" type="Shell Script" />
+      <mapping pattern="update" type="Shell Script" />
+      <mapping pattern="console" type="Shell Script" />
       <mapping ext="dist" type="XML" />
       <mapping ext="xlf" type="XML" />
       <removed_mapping pattern="#!/urs" approved="true" type="Shell Script" />
