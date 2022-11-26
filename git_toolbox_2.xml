@@ -10,6 +10,11 @@
       </CommitMessageValidationConfig>
     </option>
     <option name="commitMessageValidationEnabled" value="true" />
+    <option name="outdatedBranchesAutoCleanup">
+      <OutdatedBranchesAutoCleanupConfig>
+        <option name="autoCheckEnabled" value="false" />
+      </OutdatedBranchesAutoCleanupConfig>
+    </option>
     <option name="outdatedBranchesExclusionGlobs">
       <list>
         <option value="master" />
