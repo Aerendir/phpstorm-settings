@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <ignoreFiles list="*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs" />
     <extensionMap>
+      <mapping pattern="env" type=".env file" />
       <mapping pattern="phan" type="ARCHIVE" />
       <mapping ext="tmpl" type="HTML" />
       <mapping ext="profile" type="PHP" />
@@ -60,7 +61,6 @@
       <removed_mapping pattern="fix2" approved="true" type="Shell Script" />
       <removed_mapping pattern="reset" approved="true" type="Native" />
       <removed_mapping pattern="validate" approved="true" type="PLAIN_TEXT" />
-      <mapping pattern="env" type=".env file" />
       <mapping pattern="ignore" type="Git exclude file" />
     </extensionMap>
   </component>
