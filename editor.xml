@@ -1,4 +1,7 @@
 <application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_METHODS" value="true" />
+  </component>
   <component name="CodeInsightSettings">
     <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
     <option name="PARAMETER_INFO_DELAY" value="10" />
@@ -14,6 +17,9 @@
   </component>
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="JSON.composer.package.version.hints" />
+  </component>
+  <component name="PhpCodeFoldingSettings">
+    <option name="COLLAPSE_METHOD_BODY" value="true" />
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\b*@todo\b.*" />
