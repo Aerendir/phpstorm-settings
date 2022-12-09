@@ -8,6 +8,7 @@
     <entry key="ide.firstStartup" value="false" />
     <entry key="ide.editor.tabs.open.at.the.end" value="true" />
     <entry key="dumb.aware.run.configurations" value="true" />
-    <entry key="ide.experimental.ui" value="false" />
+    <entry key="ide.experimental.ui" value="true" />
+    <entry key="debugger.new.tool.window.layout" value="true" />
   </component>
 </application>
