@@ -7,5 +7,6 @@
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="5" />
     <option name="MAX_LOOKUP_WIDTH2" value="680" />
     <option name="OPEN_IN_PREVIEW_TAB_IF_POSSIBLE" value="true" />
+    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
   </component>
 </application>
