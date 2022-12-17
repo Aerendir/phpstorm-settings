@@ -7,5 +7,12 @@
         <option name="customConfiguratorId" value="DockerDefaultConnectionConfigurator" />
       </configuration>
     </remote-server>
+    <remote-server name="Docker2" type="docker">
+      <configuration>
+        <option name="apiUrl" value="unix:///var/run/docker.sock" />
+        <option name="certificatesPath" />
+        <option name="customConfiguratorId" value="DockerDefaultConnectionConfigurator" />
+      </configuration>
+    </remote-server>
   </component>
 </application>
