@@ -47,6 +47,9 @@
           <option name="READ_ONLY_LOCK" value="false" />
         </PlaceSettings>
       </entry>
+      <entry key="VcsFileHistoryView">
+        <PlaceSettings />
+      </entry>
     </option>
     <option name="SHARED_SETTINGS">
       <SharedSettings>
