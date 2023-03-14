@@ -5,10 +5,10 @@
       <mapping pattern="env" type=".env file" />
       <mapping pattern="phan" type="ARCHIVE" />
       <mapping ext="tmpl" type="HTML" />
-      <mapping ext="profile" type="PHP" />
+      <mapping ext="install" type="PHP" />
       <mapping ext="test" type="PHP" />
       <mapping ext="engine" type="PHP" />
-      <mapping ext="install" type="PHP" />
+      <mapping ext="profile" type="PHP" />
       <mapping ext="theme" type="PHP" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="Relations-PhoneNumbers-Companies-Stores.md" type="PLAIN_TEXT" />
@@ -39,13 +39,13 @@
       <mapping pattern="_jquery-ui.scss" type="PLAIN_TEXT" />
       <mapping pattern="default_symfony" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
-      <mapping ext="db" type="PLAIN_TEXT" />
-      <mapping ext="it" type="PLAIN_TEXT" />
       <mapping ext="it%2fspedizioni%2f" type="PLAIN_TEXT" />
       <mapping ext="php1339494244" type="PLAIN_TEXT" />
-      <mapping ext="cnf" type="PLAIN_TEXT" />
-      <mapping ext="mo" type="PLAIN_TEXT" />
+      <mapping ext="it" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
+      <mapping ext="mo" type="PLAIN_TEXT" />
+      <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping pattern="api_check" type="Shell Script" />
       <mapping pattern="baselines" type="Shell Script" />
       <mapping pattern="stop" type="Shell Script" />
