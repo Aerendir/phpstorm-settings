@@ -7,6 +7,7 @@
       <w>asin</w>
       <w>associable</w>
       <w>associatable</w>
+      <w>autowire</w>
       <w>bips</w>
       <w>builtwith</w>
       <w>buzzoole</w>
@@ -26,6 +27,7 @@
       <w>embeddables</w>
       <w>fornitori</w>
       <w>hasher</w>
+      <w>hashers</w>
       <w>keepa</w>
       <w>lngs</w>
       <w>mobileappapi</w>
