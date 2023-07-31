@@ -1,5 +1,11 @@
 <application>
   <component name="github-copilot">
     <option name="signinNotificationShown" value="true" />
+    <languageAllowList>
+      <map>
+        <entry key="*" value="true" />
+        <entry key="PHP" value="false" />
+      </map>
+    </languageAllowList>
   </component>
 </application>
