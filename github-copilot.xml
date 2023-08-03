@@ -4,7 +4,6 @@
     <languageAllowList>
       <map>
         <entry key="*" value="true" />
-        <entry key="PHP" value="false" />
       </map>
     </languageAllowList>
   </component>
