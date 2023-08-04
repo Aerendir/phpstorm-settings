@@ -57,6 +57,7 @@
       <mapping ext="dist" type="XML" />
       <mapping ext="xlf" type="XML" />
       <removed_mapping pattern="#!/urs" approved="true" type="Shell Script" />
+      <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping pattern="console" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="fix2" approved="true" type="Shell Script" />
       <removed_mapping pattern="reset" approved="true" type="Native" />

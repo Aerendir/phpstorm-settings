@@ -86,27 +86,32 @@
     </group>
     <group seperator="true" action_type="1" position="5">
       <path value="root" />
-      <path value="Main Toolbar Right" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="CheckinProject" is_action="true" action_type="1" position="6">
       <path value="root" />
-      <path value="Main Toolbar Right" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Vcs.Push" is_action="true" action_type="1" position="7">
       <path value="root" />
-      <path value="Main Toolbar Right" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Vcs.UpdateProject" is_action="true" action_type="1" position="8">
       <path value="root" />
-      <path value="Main Toolbar Right" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Git.Fetch" is_action="true" action_type="1" position="9">
       <path value="root" />
-      <path value="Main Toolbar Right" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <action id="CheckinFiles" icon="Console.TableResult.SubmitAndCommit" />
