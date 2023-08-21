@@ -1,5 +1,8 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="1" l="1692630395451" />
+    </e>
     <e n="$Undo">
       <i c="6" l="1692622954789" />
     </e>
@@ -7,7 +10,7 @@
       <i c="1" l="1692623361240" />
     </e>
     <e n="CheckinProject">
-      <i c="1" l="1692622592675" />
+      <i c="3" l="1692630534982" />
     </e>
     <e n="CreateWebProject">
       <i c="1" l="1692624062212" />
@@ -19,7 +22,7 @@
       <i c="2" l="1692623745490" />
     </e>
     <e n="EditorCopy">
-      <i c="7" l="1692623751879" />
+      <i c="8" l="1692630401298" />
     </e>
     <e n="EditorDown">
       <i c="9" l="1692623767683" />
@@ -69,11 +72,20 @@
     <e n="FindInPath">
       <i c="2" l="1692623366189" />
     </e>
+    <e n="Git.Commit.And.Push.Executor">
+      <i c="1" l="1692630562136" />
+    </e>
     <e n="GitCheckoutAction">
-      <i c="1" l="1692622138540" />
+      <i c="2" l="1692630572349" />
+    </e>
+    <e n="GitDeleteBranchAction">
+      <i c="1" l="1692630576627" />
     </e>
     <e n="GotoDeclaration">
       <i c="11" l="1692623891784" />
+    </e>
+    <e n="Help.KeymapReference">
+      <i c="1" l="1692630273694" />
     </e>
     <e n="ManageRecentProjects">
       <i c="1" l="1692624049330" />
@@ -98,6 +110,15 @@
     </e>
     <e n="ToggleLineBreakpoint">
       <i c="4" l="1692622858518" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="7" l="1692630558116" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="1" l="1692630552353" />
+    </e>
+    <e n="WelcomeScreen.CreateWebProject">
+      <i c="1" l="1692630295417" />
     </e>
     <e n="WelcomeScreen.OpenDirectoryProject">
       <i c="1" l="1692621919892" />

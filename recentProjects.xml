@@ -24,14 +24,32 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PS-232.9559.43" />
               <option name="buildTimestamp" value="1692359451985" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
               <option name="productionCode" value="PS" />
               <option name="projectOpenTimestamp" value="1692624102300" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1P6Ix5h3KNTvsCAVPgn0vBBXMIN">
+              <option name="activationTimestamp" value="1692630316653" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359419793" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1692630311855" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www" />
-    <option name="lastProjectLocation" value="$USER_HOME$/Documents/JooServer/Lab/Integrations" />
+    <option name="lastOpenedProject" value="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www" />
+    <option name="lastProjectLocation" value="$USER_HOME$/Documents/JooServer/Projects/Coommercio" />
   </component>
 </application>

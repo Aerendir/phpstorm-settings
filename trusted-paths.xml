@@ -4,6 +4,7 @@
       <map>
         <entry key="$USER_HOME$/Documents/JooServer/Lab/Integrations/rector-serendipity_hq" value="true" />
         <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www" value="true" />
       </map>
     </option>
   </component>
@@ -11,6 +12,7 @@
     <option name="TRUSTED_PATHS">
       <list>
         <option value="$USER_HOME$/Documents/JooServer/Lab/Integrations" />
+        <option value="$USER_HOME$/Documents/JooServer/Projects/Coommercio" />
       </list>
     </option>
   </component>
