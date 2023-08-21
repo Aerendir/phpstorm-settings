@@ -1,0 +1,139 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="6" l="1692622954789" />
+    </e>
+    <e n="Back">
+      <i c="1" l="1692623361240" />
+    </e>
+    <e n="CheckinProject">
+      <i c="1" l="1692622592675" />
+    </e>
+    <e n="CreateWebProject">
+      <i c="1" l="1692624062212" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="21" l="1692623852087" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="2" l="1692623745490" />
+    </e>
+    <e n="EditorCopy">
+      <i c="7" l="1692623751879" />
+    </e>
+    <e n="EditorDown">
+      <i c="9" l="1692623767683" />
+    </e>
+    <e n="EditorEnter">
+      <i c="5" l="1692623737895" />
+    </e>
+    <e n="EditorEscape">
+      <i c="5" l="1692623770852" />
+    </e>
+    <e n="EditorLeft">
+      <i c="4" l="1692623767880" />
+    </e>
+    <e n="EditorLineEnd">
+      <i c="5" l="1692623849043" />
+    </e>
+    <e n="EditorLineEndWithSelection">
+      <i c="2" l="1692623280276" />
+    </e>
+    <e n="EditorLineStart">
+      <i c="4" l="1692623755766" />
+    </e>
+    <e n="EditorLineStartWithSelection">
+      <i c="6" l="1692623851741" />
+    </e>
+    <e n="EditorNextWord">
+      <i c="1" l="1692622946852" />
+    </e>
+    <e n="EditorNextWordWithSelection">
+      <i c="4" l="1692623756108" />
+    </e>
+    <e n="EditorPaste">
+      <i c="8" l="1692623756586" />
+    </e>
+    <e n="EditorPreviousWord">
+      <i c="3" l="1692623761519" />
+    </e>
+    <e n="EditorPreviousWordWithSelection">
+      <i c="2" l="1692623761854" />
+    </e>
+    <e n="EditorRight">
+      <i c="1" l="1692622390712" />
+    </e>
+    <e n="EditorUp">
+      <i c="17" l="1692623771412" />
+    </e>
+    <e n="FindInPath">
+      <i c="2" l="1692623366189" />
+    </e>
+    <e n="GitCheckoutAction">
+      <i c="1" l="1692622138540" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="11" l="1692623891784" />
+    </e>
+    <e n="ManageRecentProjects">
+      <i c="1" l="1692624049330" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="4" l="1692622596159" />
+    </e>
+    <e n="Resume">
+      <i c="4" l="1692622865917" />
+    </e>
+    <e n="Run">
+      <i c="3" l="1692622148377" />
+    </e>
+    <e n="StepInto">
+      <i c="3" l="1692622826900" />
+    </e>
+    <e n="StepOver">
+      <i c="27" l="1692622871886" />
+    </e>
+    <e n="Stop">
+      <i c="6" l="1692622625761" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="4" l="1692622858518" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="1" l="1692621919892" />
+    </e>
+    <e n="com.intellij.execution.ExecutorRegistryImpl$RunSpecifiedConfigExecutorAction">
+      <i c="2" l="1692622600786" />
+    </e>
+    <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+      <i c="1" l="1692622284570" />
+    </e>
+    <e n="com.intellij.execution.ui.SelectRunConfigurationWithInlineActions">
+      <i c="1" l="1692622146783" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="13" l="1692624040522" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="1" l="1692623379532" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="8" l="1692622879002" />
+    </e>
+    <e n="com.intellij.tasks.context.BranchContextTracker$3">
+      <i c="1" l="1692622198013" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1692622622859" />
+    </e>
+    <e n="com.intellij.ui.AnActionButton$AnActionButtonWrapper">
+      <i c="1" l="1692622083244" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="2" l="1692622751248" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="1" l="1692622021550" />
+    </e>
+  </component>
+</application>

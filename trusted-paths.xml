@@ -1,0 +1,17 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/Integrations/rector-serendipity_hq" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Documents/JooServer/Lab/Integrations" />
+      </list>
+    </option>
+  </component>
+</application>
