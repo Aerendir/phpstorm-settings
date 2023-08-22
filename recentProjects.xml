@@ -163,14 +163,15 @@
         </entry>
         <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
-              <option name="activationTimestamp" value="1692719219900" />
+            <RecentProjectMetaInfo frameTitle="app-coommercio-www – Account.php" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
+              <option name="activationTimestamp" value="1692724113601" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PS-232.9559.43" />
               <option name="buildTimestamp" value="1692359419793" />
               <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="1" />
+                <RecentProjectColorInfo associatedIndex="0" />
               </option>
+              <frame x="0" y="0" width="2048" height="1280" fullScreen="true" />
               <option name="productionCode" value="PS" />
               <option name="projectOpenTimestamp" value="1692694077088" />
             </RecentProjectMetaInfo>
@@ -178,11 +179,15 @@
         </entry>
         <entry key="$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2TkdgijPeJmklDPXs6RDqrRh5iu">
-              <option name="activationTimestamp" value="1692719275033" />
+            <RecentProjectMetaInfo frameTitle="core – Company.php" projectWorkspaceId="2TkdgijPeJmklDPXs6RDqrRh5iu">
+              <option name="activationTimestamp" value="1692724105281" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PS-232.9559.43" />
               <option name="buildTimestamp" value="1692359419793" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="-1920" y="122" width="1920" height="1080" fullScreen="true" />
               <option name="productionCode" value="PS" />
               <option name="projectOpenTimestamp" value="1692717463255" />
             </RecentProjectMetaInfo>
@@ -190,7 +195,7 @@
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core" />
+    <option name="lastOpenedProject" value="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www" />
     <option name="lastProjectLocation" value="$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform" />
   </component>
 </application>

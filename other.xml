@@ -7,7 +7,8 @@
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
     "CWM_LOGGING_VERSION": "1",
-    "CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2": "0.6005435",
+    "CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2": "0.6786517",
+    "CommitChangeListDialog.SPLITTER_PROPORTION_2": "0.75206614",
     "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
     "LAST_CALCULATED_COLOR_INDEX_KEY": "6",
     "NonModalCommitPromotionState": "ACCEPTED",
@@ -20,7 +21,7 @@
     "evlsprt3.232": "26",
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.used.version": "232.9559.43",
-    "file.gist.reindex.count": "116",
+    "file.gist.reindex.count": "2938",
     "fileTypeChangedCounter": "1",
     "find.popup.splitter": "0.6705653",
     "fontSizeToResetConsole": "12.0",
