@@ -2,9 +2,19 @@
   <component name="Trusted.Paths">
     <option name="TRUSTED_PROJECT_PATHS">
       <map>
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/Bundles/bundle-features" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/Bundles/bundle-remotes" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-array-writer" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-remotes" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-value-objects" value="true" />
         <entry key="$USER_HOME$/Documents/JooServer/Lab/Integrations/rector-serendipity_hq" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core" value="true" />
         <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www" value="true" />
         <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Projects/Mooney/app-mooney-www" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Projects/SerendipityHQ/app-olympus-www" value="true" />
       </map>
     </option>
   </component>
@@ -13,6 +23,11 @@
       <list>
         <option value="$USER_HOME$/Documents/JooServer/Lab/Integrations" />
         <option value="$USER_HOME$/Documents/JooServer/Projects/Coommercio" />
+        <option value="$USER_HOME$/Documents/JooServer/Lab/Bundles" />
+        <option value="$USER_HOME$/Documents/JooServer/Lab/Components" />
+        <option value="$USER_HOME$/Documents/JooServer/Projects/SerendipityHQ" />
+        <option value="$USER_HOME$/Documents/JooServer/Lab/Misc" />
+        <option value="$USER_HOME$/Documents/JooServer/Projects/Mooney" />
       </list>
     </option>
   </component>

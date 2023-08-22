@@ -8,21 +8,28 @@
   "keyToString": {
     "CWM_LOGGING_VERSION": "1",
     "CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2": "0.6005435",
-    "LAST_CALCULATED_COLOR_INDEX_KEY": "4",
+    "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "6",
     "NonModalCommitPromotionState": "ACCEPTED",
     "PhpStorm.InitialConfiguration": "true",
+    "Vcs.Log.Text.Filter.History": "1fe505a9d8fd235a8d7e4aa0f245f382f65578f8",
     "appcds.runOnSecondStart": "PS-232.9559.43-de97336c66dc9a1e0bd456f051ede254e83cc36fc5e5ea5c84cb3efe08de9f6d",
     "bundled.plugins.list.saved.version": "PS-232.9559.43",
+    "com.intellij.history.integration.ui.views.FileHistoryDialog.0": "300",
+    "com.intellij.history.integration.ui.views.FileHistoryDialog.1": "800",
     "evlsprt3.232": "26",
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.used.version": "232.9559.43",
-    "file.gist.reindex.count": "16",
+    "file.gist.reindex.count": "116",
     "fileTypeChangedCounter": "1",
     "find.popup.splitter": "0.6705653",
     "fontSizeToResetConsole": "12.0",
     "fontSizeToResetEditor": "10.0",
     "got.it.tooltip.Debug Validation": "1",
     "got.it.tooltip.changes.view.toolwindow": "1",
+    "got.it.tooltip.copilot.inlayGotIt": "1",
+    "got.it.tooltip.php.terminal.customization": "1",
+    "got.it.tooltip.reader.mode.got.it": "1",
     "gotit.previous.run": "PS-232.9559.43",
     "migrated.non.roamable.values.from.general.settings": "true",
     "previousColorScheme": "SerendipityHQ",
@@ -44,10 +51,11 @@
 }]]></component>
   <component name="ShownTips"><![CDATA[{
   "shownTips": {
-    "ShowUsages": 1692630319705,
+    "ShowUsages": 1692691336950,
     "FindReplaceToggle": 1692630319380
   },
   "proposedTips": {
+    "ShowUsages": 1692691336579,
     "FindReplaceToggle": 1692630319173
   },
   "tipsOrderSeed": 1692630319149
