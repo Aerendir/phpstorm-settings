@@ -7,7 +7,7 @@
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
     "CWM_LOGGING_VERSION": "1",
-    "CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2": "0.41966426",
+    "CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2": "0.41965812",
     "CommitChangeListDialog.SPLITTER_PROPORTION_2": "0.75206614",
     "FindSplitterProportion": "0.44925576",
     "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
@@ -25,7 +25,7 @@
     "evlsprt3.232": "26",
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.used.version": "232.9559.43",
-    "file.gist.reindex.count": "3890",
+    "file.gist.reindex.count": "3892",
     "fileTypeChangedCounter": "1",
     "find.popup.splitter": "0.6705653",
     "fontSizeToResetConsole": "12.0",
@@ -57,13 +57,15 @@
   <component name="ShownTips"><![CDATA[{
   "shownTips": {
     "Rename": 1692865125116,
-    "FindReplaceToggle": 1692630319380,
-    "ShowUsages": 1692691336950
+    "SearchEverywhere": 1692955144270,
+    "ShowUsages": 1692691336950,
+    "FindReplaceToggle": 1692630319380
   },
   "proposedTips": {
     "Rename": 1692865123756,
-    "FindReplaceToggle": 1692630319173,
-    "ShowUsages": 1692691336579
+    "SearchEverywhere": 1692955144113,
+    "ShowUsages": 1692691336579,
+    "FindReplaceToggle": 1692630319173
   },
   "tipsOrderSeed": 1692630319149
 }]]></component>

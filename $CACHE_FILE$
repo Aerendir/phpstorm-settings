@@ -128,14 +128,18 @@
       <feature name="TRAITS" />
       <feature name="SHORT_ARRAY_SYNTAX" />
       <feature name="ARRAY_DEREFERENCING" />
+      <feature name="THIS_IN_CLOSURE" />
+      <feature name="SELF_IN_CLOSURE" />
       <feature name="CLASS_NAME_CONST" />
       <feature name="USE_FUNCTION_AND_CONST" />
       <feature name="RETURN_TYPES" />
       <feature name="SCALAR_TYPE_HINTS" />
+      <feature name="KEYWORD_NAMES" />
       <feature name="RETURN_VOID" />
       <feature name="NULLABLES" />
       <feature name="CLASS_CONSTANT_VISIBILITY" />
       <feature name="TRAILING_COMMA_IN_FUNCTION_CALL" />
+      <feature name="FLEXIBLE_HEREDOCS" />
       <feature name="TYPED_PROPERTIES" />
       <feature name="ARROW_FUNCTION_SYNTAX" />
       <feature name="UNION_TYPES" />
@@ -152,10 +156,15 @@
       <feature name="CLASS_MEMBER_ACCESS_ON_INSTANTIATION" />
       <feature name="THIS_IN_CLOSURE" />
       <feature name="SELF_IN_CLOSURE" />
+      <feature name="CLASS_NAME_CONST" />
       <feature name="RETURN_TYPES" />
       <feature name="SCALAR_TYPE_HINTS" />
+      <feature name="COALESCE_OPERATOR" />
+      <feature name="KEYWORD_NAMES" />
       <feature name="RETURN_VOID" />
+      <feature name="NULLABLES" />
       <feature name="CLASS_CONSTANT_VISIBILITY" />
+      <feature name="TRAILING_COMMA_IN_FUNCTION_CALL" />
       <feature name="FLEXIBLE_HEREDOCS" />
       <feature name="TYPED_PROPERTIES" />
       <feature name="ARROW_FUNCTION_SYNTAX" />
@@ -13389,6 +13398,14 @@
           }
         ]
       },
+      "*.rell": {
+        "dataSet": [
+          {
+            "pluginIdString": "net.postchain.rellide.jetbrains",
+            "nullablePluginName": "Rell"
+          }
+        ]
+      },
       "*.remoteSite": {
         "dataSet": [
           {
@@ -19584,7 +19601,7 @@
         ]
       }
     },
-    "lastUpdateTime": 1692865123904
+    "lastUpdateTime": 1692955144271
   },
   "dependencies": {
     "featureMap": {
@@ -21189,7 +21206,7 @@
         ]
       }
     },
-    "lastUpdateTime": 1692865123978
+    "lastUpdateTime": 1692955144337
   }
 }]]></component>
   <component name="PluginFeatureService">{
@@ -21614,21 +21631,22 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/A/R" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/7/L/L5h8LQfTHTu90nyUGYNw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/V/zjESPHy+6XY9ZHds+Otg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/9/6/ala1vcnwFt1UhD0EIM0g" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/A/V" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/9/6/ala1vcnwFt1UhD0EIM0g" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor/serendipity_hq/phpcs-config" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Components/component-array-writer/vendor/rector/rector/rules/TypeDeclaration/Rector/ClassMethod/ReturnTypeFromStrictScalarReturnExprRector.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/V/P/G2O9WTlEgNyNRQxTktoA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/W/uoQgitsQCJvMeY4U4A7g" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/config/routing/genid.xml" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/W/uoQgitsQCJvMeY4U4A7g" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/.php-cs-fixer.test.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/9/L/l0iQ496HrP+FNoSAQg2g" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/J/xJT4bWfyWn2NtSiBx5fw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getDoctrine_Orm_EntityValueResolverService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getMaker_AutoCommand_MakeStateProviderService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/7/Y/hkvbmfh1JqICi3hNstUg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getSecurity_Validator_UserPasswordService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Common/Scraper" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/7/Y/hkvbmfh1JqICi3hNstUg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/J/4/yG3Ub73NIjK4a-NBymew" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Common/Scraper" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Util/ErrorFormatGuesser.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/N/Q/Ldij+9gs39L8chiu+p4A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/A/J" charset="utf-8" />
@@ -21637,9 +21655,9 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/W/O/Az5XU6FMzNdYDO8uAJSA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/C/F/gSl-hgkTPuRxjNjK14GA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/A/O" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Exception/InvalidResourceException.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Resource/Factory/FormatsResourceMetadataCollectionFactory.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/A/P" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Resource/Factory/FormatsResourceMetadataCollectionFactory.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Exception/InvalidResourceException.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/A/A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/J/7/lJQCgbB406G4KYZTzHxA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getApiPlatform_Metadata_PropertySchema_UniqueRestrictionService.php" charset="utf-8" />
@@ -21653,15 +21671,15 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Y/G/08gwdmuV4FBoLug0rF3Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/CacheWarmer/CachePoolClearerCacheWarmer.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/5/K/Rub+cvMLQHJXcw0yN7QQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getOfferManagerService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/V/T/-BwGiRplZLXj-kYRvmSw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getOfferManagerService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/4/S/mrZoTUEP5C62JrYsURsg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/rector/d4/23" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/F/B/DR4AwqahFYNCazaHH1MA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/rector/d4/23" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/src/Console/ExitCode.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/JsonSchema/Tests/Fixtures/ApiResource" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getMessenger_RoutableMessageBusService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Z/1/hOCflqM6LlW88MtGKN4g" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getMessenger_RoutableMessageBusService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/L/C/2t69I19-fVK4xS2hlAzA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/0/J" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/0/N" charset="utf-8" />
@@ -21674,25 +21692,25 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSupplyLineFactoryService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/C/D/PggI8Q0vQprlf5--n3UA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/J/X/5Hvr3JkTlV4vcFw62Qtg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/9/R/rPE60HuwrEe21Z7m5phQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/2/G/nqXHXS49DYwQjIRDHH-Q" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/9/R/rPE60HuwrEe21Z7m5phQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/W/V/ma5kRUH61dsk4gfNZlxw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/F/K/bLZ80KpkyKSgId0Z4nfA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/J/0/FdUNMZE3rGLaKTUxrd0w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/S/E/vmexeiadVBGvDsT3JHBg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/G/S/Oon3cBaVl5Ul9bNasVnw" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www/vendor/rector/rector/composer.json" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/0/X" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www/vendor/rector/rector/composer.json" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/2/M/yJTjwOVdKvg9H3bHt1iQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/8/Y/wlPSmuImrEOrmRHDKTYQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/T/A/aTgQI-XbiOCvdBuJSMBA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getRemoteOrderSubscriberService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/T/A/aTgQI-XbiOCvdBuJSMBA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/rector/a9/09" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/0/N/5GMZYUfIW+kiMUk7EfuA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/EkKGH1LR6h/H/Z/-KMtAxxOR1aa7l3aCBcw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getCommand_Bus_Middleware_AddBusNameStampMiddlewareService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/WGVDQr2mW+/+/Z/4ZHovj5X8ySO57BKN6nQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/public/fonts/open-sans/files/open-sans-greek-400-normal.woff2" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/WGVDQr2mW+/+/Z/4ZHovj5X8ySO57BKN6nQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/L/E/Ni9i+PkdLn3o7NKQJVug" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/C/C/i30w-XsD+GJnOKat66-w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/EventListener/JsonApi/TransformPaginationParametersListener.php" charset="utf-8" />
@@ -21713,38 +21731,38 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/W/H/c8MwqUbpSxbtQxWGVSRQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/O/9/AS3+8tz5318aDipXtGkg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getLocalItemImagesManagerService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/L/DX4qeWx6FcSdQ+KsCpaA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/K/N/nfYcrEnpcxzXTUhyU9Ow" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/L/DX4qeWx6FcSdQ+KsCpaA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/O/Z/U5wJyNvMABqeyGHHMkjg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/Y/0/iFtvIcmSAt4Q-dPEBYBw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/GraphQl/Resolver/Factory/ResolverFactoryInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/R/0432Q9l9GYJn12zErdgA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/rules/TypeDeclaration/Rector/Empty_" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/7/V/45IhcaHm2ueiv1okRa+Q" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/rules/TypeDeclaration/Rector/Empty_" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/G/K/yzfZjVaoMY-pmz9RL93w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Q/P/VlfaOkJU3Zq609xCVrcQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Command/GraphQlExportCommand.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getEntityRepositoryService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/D/F/JyZSU2PU8dxri5ISAapQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor-bin/phan/vendor/composer/pcre/src/MatchAllStrictGroupsResult.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Mooney/app-mooney-www/node_modules/ci-info" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/6/M/BNJg53Ql2sLX60-rshng" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Mooney/app-mooney-www/node_modules/ci-info" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/T/E/SglD81zT-aoy51x2WiKg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getBuyBoxRepositoryService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getLiipImagine_Command_CacheResolveService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/storage/_test/files/64e35f1740de1_lego-60283.jpg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/rector/cd/f1" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/storage/_test/files/64e35f1740de1_lego-60283.jpg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/vendor/rector/rector-phpunit/config/sets/annotations-to-attributes.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/1/D/BImd+U9Jap0kxY0bOGIA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/GraphQl/Type/Definition/TypeInterface.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getLiipImagine_Binary_Loader_DefaultService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/H/N/tVJ1DsA01vRGszFjKiFw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getLiipImagine_Binary_Loader_DefaultService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/GraphQl/Type/Definition/TypeInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/E/Y/TaQihayAgXe3gt2opGYg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getNelmioApiDoc_Controller_SwaggerYamlService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/rector/c2/87" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/D/Z/YwlDV6wuU36FGOaSPGdA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/C/M/CrGBhClvc6-904IWzqzg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/X/K/GXqHlAHEmpWLGm2TZsNw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/C/M/CrGBhClvc6-904IWzqzg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/D/Z/YwlDV6wuU36FGOaSPGdA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/rector/eb/02" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www/vendor/rector/rector/rules/CodeQuality/NodeAnalyzer" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www/vendor-bin/phpcs/vendor/symfony/event-dispatcher-contracts/.gitignore" charset="utf-8" />
@@ -21757,8 +21775,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Validator/ValidationGroupsGeneratorInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Doctrine/Odm/PropertyInfo/DoctrineExtractor.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/1/V/WPnHV5psIVlWMB-55VXw" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/JsonLd/AnonymousContextBuilderInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/V/2Ls4crgfW65Jrjuw5XIQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/JsonLd/AnonymousContextBuilderInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/T/Z/+pVk0qwbPDBlp2U92IIA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/T/N/+L0tJTwUtGhDbfvMranw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/L/O/7IO77TsgoytJrM3mKl7Q" charset="utf-8" />
@@ -21767,17 +21785,17 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/T/Y/DPpSWY53OJW7XTR1jL2w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Z/P/61XGMkeWlar-IHtG14kQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/L/C/E95pO1ICEI7S3dBe+i0w" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/GraphQl/Type/Definition/IterableType.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/Symfony/Maker/CustomStateProcessor.fixture" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/D/4/ZXaj9hXNKsHhcAH5P8Pg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/Symfony/Maker/CustomStateProcessor.fixture" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/GraphQl/Type/Definition/IterableType.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/0/8/APdF4gfNbcifmAGtsiig" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/B/Z/IfiIfHFTeTz+CUONG06A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/F/2/My5lM3vBEtbBs8p98eSg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Mooney/app-mooney-www/vendor-bin/phpcs/vendor/friendsofphp/php-cs-fixer/src/Fixer/ArrayNotation/ReturnToYieldFromFixer.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getNelmioApiDoc_ModelDescribers_SelfDescribingService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Hal/Serializer/CollectionNormalizer.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/U/IVFlGhBWLuV7KC+WBm5g" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/0/2/SXBTDcgf3GQfNkITKNVA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/U/IVFlGhBWLuV7KC+WBm5g" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Hal/Serializer/CollectionNormalizer.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/+/I/uzzkmWwPfjUcQMV7XEnw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/E/W/fTSRvOTR8ePqBbV5mc8w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/C/4/sdspuw0+lrCElGoIHgwQ" charset="utf-8" />
@@ -21796,13 +21814,13 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpunit/vendor/vimeo/psalm/src/Psalm/Plugin/PluginFileExtensionsInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/E/H/umL3gwXvs9aMzr1nSkRw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/4/QP66D03fDQF371wCbDJg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/z17jDXEraT/9/K/ki2apoHlMXU-MCzueceg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/L/T/YwnaBll0xyiREJsrJXmA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/z17jDXEraT/9/K/ki2apoHlMXU-MCzueceg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/F/U/3lX31CqlsWWOd4ea8HcQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Q/5/Bt0Xml2zLNzlmS3RmW3Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/W/T/X0SUsYwKmaciTpTGDoaQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Property/Factory" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Intelligence/Amazon/Messenger/Message/Command/Amazon/Process/ProcessProductPageScrapedFromAmazonMessage.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Property/Factory" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/J/+/HztpZXWGlE6C8HHSVRvg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getMaker_GeneratorService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Y/T/ZNtEm5s+5YVQChuEr3VA" charset="utf-8" />
@@ -21811,28 +21829,28 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Z/+/4KIzh6w8S2VWvznQ0tSQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/E/O/7JPjBwPIOt6pA5+rXx-w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/L/vSmYjDaENaf5b5KNDHZQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Extractor/yaml/input-and-output-are-strings.yaml" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/UriVariableTransformer" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/OpenApi/Model/Server.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/UriVariableTransformer" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Extractor/yaml/input-and-output-are-strings.yaml" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/1/P/gOKPlhx9i-0-fgCpF9fQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/V/F/elSJjspK-uuogzqX3wAw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/H/J/XkfOzEZxwZQxt8xoF4vw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/rules/TypeDeclaration/Rector/ClassMethod/StrictArrayParamDimFetchRector.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSecurity_Listener_UserChecker_MainService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/Z/Y/aSFAWa0pyZ3kRfiiAYeg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/get_Messenger_HandlerDescriptor_OwHnZPService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/D/A/yFbkGdeYECNn+M94+7JQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/Y/P/uc88GMwcnWsTKDpKB-Pg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/D/A/yFbkGdeYECNn+M94+7JQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/get_Messenger_HandlerDescriptor_OwHnZPService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getDebug_DumpListenerService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getNelmioApiDoc_ObjectModel_PropertyDescribers_CompoundService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Q/B/cE1ezCgB70NbNGtvkAAA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/z17jDXEraT/L/T/ct42q5Kh9xTOF5WBcphg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/C/kTxfx9JbxsmM8RAPjsSA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/M/K/R3JvSQYQS125Q+OA-0Bg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/C/kTxfx9JbxsmM8RAPjsSA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/OpenApi/Tests/Fixtures" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/6/4/ApjcHdyr0Bwxb4NhCU-g" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/V/7/saEQSRKkTF4sMIwjSmew" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getMessenger_Transport_AsyncService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/V/7/saEQSRKkTF4sMIwjSmew" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Y/J/xfWXhUawzTjjmjZ2kzHg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/S/E/tyW62Yv397ZralmZk45g" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/B/U/lIepQCYTL6Z1k85KSjrw" charset="utf-8" />
@@ -21845,15 +21863,15 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/T/Y/VRspi2BNDKhNgX-C3y-Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getLiipImagine_Factory_Config_Filter_BackgroundService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/O/S/+iFDHjdZGsB1LlMkKMjg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/Q/y6973SAyNnti2+9KyN-A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/Y/K/0icdAIJsCXR8uFnwF4IQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/Q/y6973SAyNnti2+9KyN-A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Maker/Resources/help" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/4/V/iiCsBSf-ZVdC2KOcmtCQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/Q/V/MtSXQtMZIml8sEy5O9fA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/D/FaimtKwoFlfbMQh+CuxQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor-bin/phpunit/vendor/vimeo/psalm/src/Psalm/Plugin/EventHandler/Event/BeforeStatementAnalysisEvent.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpinsights/vendor/friendsofphp/php-cs-fixer/src/Fixer/ArrayNotation/ReturnToYieldFromFixer.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/2/C/gCudlL3kETTKhR--Un7Q" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpinsights/vendor/friendsofphp/php-cs-fixer/src/Fixer/ArrayNotation/ReturnToYieldFromFixer.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getValidator_EmailService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/JsonSchema/.gitignore" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Hal/JsonSchema/SchemaFactory.php" charset="utf-8" />
@@ -21871,9 +21889,9 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/D/95f+RoBUtFY3YbtFANxA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getTodoList1TodosFixtureService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/E/+/orw0SP0YwB4I3CcRvQ1w" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Routing/ApiLoader.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/B/L/FpaLq56FZ5Y1PHSCzivg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getSession_FactoryService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/B/L/FpaLq56FZ5Y1PHSCzivg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Routing/ApiLoader.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Doctrine/Orm/Extension" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/K/6" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/K/4" charset="utf-8" />
@@ -21887,8 +21905,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/E/Z/VGp5IOb8RNYSGV-vwDoQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/config/routing/jsonld.xml" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Components/component-remotes/vendor/rector/rector/rules/TypeDeclaration/Rector/ClassMethod/ReturnUnionTypeRector.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSecurity_HttpUtilsService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/-/L/IO-L7N2XEnZwFAb2x24A" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSecurity_HttpUtilsService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/J/P/3YRrSRoGY1qhDp6e4p-g" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/I/R/10GDIde3cl9qhmXhha3w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/I/E/+9eWX3tlSZdrGISQTE1A" charset="utf-8" />
@@ -21909,26 +21927,26 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/C/+/1qvr4AQCUh9mnCoDuqhg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Z/I/g-m-NH1IzlVDOqV6QHZQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/W/D/dMJ+H7N4UHwh6ZDKGBMQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getMessenger_Middleware_RejectRedeliveredMessageMiddlewareService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Components/component-array-writer/vendor/rector/rector/src/Console/ProcessConfigureDecorator.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getMessenger_Middleware_RejectRedeliveredMessageMiddlewareService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/-/D/MFKsDmvSQuVE8IMDNAVg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getDoctrine_QuerySqlCommandService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getCacheWarmerService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getDoctrine_QuerySqlCommandService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/L/D/6QGQZpRQck+pBt7Ijw3A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/storage/_test/files/64e7167dd4c69_img_3.jpg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/0/F/GKmLXiHNJtBFCv6gfRKw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/rules/CodeQuality/Rector/Ternary/TernaryEmptyArrayArrayDimFetchToCoalesceRector.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getShqRemotes_Ems_RemoteManagerService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/Y/4aqVIGC6SDsR4-pq6fFA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getDoctrine_Orm_ProxyCacheWarmerService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/Y/4aqVIGC6SDsR4-pq6fFA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/X/V/cvT+ZCD34nPyJ1G5o+xA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getLiipImagine_Filter_Loader_RelativeResizeService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Doctrine/Odm/Extension/AggregationResultItemExtensionInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/0/G/TAYS6to96WTSnj1n3B8g" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Doctrine/Odm/Extension/AggregationResultItemExtensionInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/G/5/7WYsIzK935VuaGgkbtIA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/L/E/AWe9+gL-e-QLLWafephQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/9/Q/aMCXu8OcqGX54u+X1ayg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/Fa9wPE4pSM/A/I/YqqJg+86CMqIkNRWVNyw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/9/Q/aMCXu8OcqGX54u+X1ayg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/O/1/1ObMEavNr9GswKjj2mVg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/F/5/ESEtJ8cKHGWrZYWzhQVw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getMailer_Messenger_MessageHandlerService.php" charset="utf-8" />
@@ -21940,15 +21958,15 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/EkKGH1LR6h/9/G/+4332FFZwQXoE-EFD8wQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/B/U/1F9fZGqIZh+PWdLczj8Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/J/N/-RBqhZ9WOuDS2cGDsotg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/V/M/-Ra0WxBRHzlSU-sk64jg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/X/9/IbvOFewxecMPa8qDQ6FQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/V/M/-Ra0WxBRHzlSU-sk64jg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/M/vG-EKR7ZNxR3fYPGYzHA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/O/F2LnwzlQy7eYbzMtk2hw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/7/V/a2ElBkdmfyVLPRGWFKbw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getKeepaMiddlewareService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Serializer/Mapping" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/JsonApi/Serializer/CollectionNormalizer.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/L/D/m9LHtGhJFAKzCXv98-5Q" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/JsonApi/Serializer/CollectionNormalizer.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/W/V/f99D+tMwmv4F047ZHg-Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/X/Z/nP9MA-ppz4b5c+WA799A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getConsole_Command_TranslationDebugService.php" charset="utf-8" />
@@ -21956,8 +21974,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getTranslation_Loader_PoService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/4/Z/CEJMtSCf8b0e8Nsl0Axw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/EkKGH1LR6h/J/-/aKS2bOh9Napdjy055eVA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getForm_TypeGuesser_DoctrineService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/rector/04/8f" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getForm_TypeGuesser_DoctrineService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/GraphQl/Type/TypesFactory.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getReceipt02FixtureService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Fixtures/FileConfigurations/properties.yml" charset="utf-8" />
@@ -21975,8 +21993,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/2/R/bB7fc1kqG7mISq2yUxGQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/Z/7/ppRvDwR2Wa+rt-m1JEOA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/+/N/V9nzSvl1VdesdS2aYAjQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/ThirdParty/Keepa/Keepa.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/B/-/0Pu+ruEBLkYr9FMJ4foA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/ThirdParty/Keepa/Keepa.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/config/ramsey_uuid.xml" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Q/T/1mi2smEUrlyXDDFT14iA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/rules/CodeQuality/Rector/Switch_/SwitchTrueToIfRector.php" charset="utf-8" />
@@ -22005,8 +22023,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/GraphQl/Resolver/Util/IdentifierTrait.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getProductOffersScraperFactoryService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Common/Entity/Property/FileRemoteVich.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Test" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/Q/T/1PFsgK+dfecvturxt66A" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Test" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/3/R/fdEvr+SWFt9YudDSZ+cg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www/vendor/rector/rector/packages" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Common/Entity/AccountingDocument/DocumentLine/AccountingDocumentLineTrait.php" charset="utf-8" />
@@ -22032,8 +22050,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/Z/K/4XF67tu3kWHlwhJPmOgw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/EkKGH1LR6h/H/L/FukaHZF0C2ardi1ujmBA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/N/C/ZyIaJoVZGWOcP3nrPeKA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/5/0/vWxO5JZhyrvu3BcWKdrA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/7/7/6yK9JbQrlrFGqCcNloXg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/5/0/vWxO5JZhyrvu3BcWKdrA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Intelligence/Amazon/Entity/Offer.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/1/D/0d2bErfjglBAq0T4pjMQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/S/C/1Xu1XMCy7mMA73-umSFw" charset="utf-8" />
@@ -22045,38 +22063,38 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Api/IriConverterInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/X/5/u+DuAfi5BMlySVEQi9Cw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor-bin/phpunit/vendor/vimeo/psalm/src/Psalm/Issue/ClassConstantIssue.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/V/4/S-DqSUK9+rbN0GChnZWQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/8/2/tyfetauTk-E+lekZbT4Q" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/V/4/S-DqSUK9+rbN0GChnZWQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Kernel.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getVichUploader_Listener_Upload_FileImageService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/packages/BetterPhpDocParser/PhpDoc/ArrayItemNode.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/H/Z/nIfI4+w8eOBplx9GsiqA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Elasticsearch/Metadata/Document/Factory" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getDoctrineMigrations_VersionsCommandService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Doctrine/Orm/State/CollectionProvider.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getDoctrineMigrations_VersionsCommandService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/U/M/Kp0YLstFdJjhPfEPqLsQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/O/L/R69bGcpuAPkL4ENVH49Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/E/O/jsCN9eWT-TXN3HflGYUg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/src/Intelligence/Amazon/Messenger/Stamp" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Intelligence/Amazon/Scraper/ProductOffers/ConditionRule.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Business/Messenger/Command/Message/ImportSupplierCatalogMessage.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpinsights/vendor/friendsofphp/php-cs-fixer/src/RuleSet/Sets/PERCS1x0RiskySet.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/Y/W/sin4G04FyssudaV3PW6g" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www/vendor/rector/rector/rules/CodeQuality/Rector/NotEqual" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpinsights/vendor/friendsofphp/php-cs-fixer/src/RuleSet/Sets/PERCS1x0RiskySet.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Business/Messenger/Command/Message/ImportSupplierCatalogMessage.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getDebug_Security_Firewall_Authenticator_ApiRegisterService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www/vendor/rector/rector/rules/CodeQuality/Rector/NotEqual" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getOrder02FixtureService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/K/Q/Ulj7BIy0Yz7KJZPfKdcw" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www/vendor/rector/rector/rules/CodeQuality/Rector/BooleanAnd" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/U/A/RKPo85Aq8Y9n04qaj3ng" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www/vendor/rector/rector/rules/CodeQuality/Rector/BooleanAnd" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/9/W/D4yXScuZqI4qvqBsP4mw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/get_Messenger_HandlerDescriptor_UgW8i0pService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getApiPlatform_Listener_ExceptionService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/N/G/tAOiAklSzCQx6RFIG+sg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/public/webby.png" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/1/Z/XDlOFGhXZKTLA-yTZ00Q" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/public/webby.png" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/2/9/FaKxvjBKEmuuN4E+V+Gw" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor/aws/aws-sdk-php/src/data/entityresolution" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/TestBundle/Entity/Issue5735" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor/aws/aws-sdk-php/src/data/entityresolution" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/rules/Php80/ValueObject/AnnotationPropertyToAttributeClass.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/ApiProperty.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getEntityDtoService.php" charset="utf-8" />
@@ -22088,11 +22106,11 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/N/P/fPPw4oGwJ-5NMprB8LwQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getCollectionTypeExtensionService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/X/Z/9H0jb0D1RYIsv2vkIG-w" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Fixtures/ApiResource/ExtraPropertiesResource.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/N/O/t4lVLSUIMSbU9b6aDJbQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/storage/_test/files/64e7167b7fed9_img_1.jpg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Intelligence/Amazon/Messenger/Handler/Command/Keepa/ProcessProductRetrievedFromKeepaHandler.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/N/O/t4lVLSUIMSbU9b6aDJbQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Fixtures/ApiResource/ExtraPropertiesResource.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/TestBundle/Entity/Issue5722" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Intelligence/Amazon/Messenger/Handler/Command/Keepa/ProcessProductRetrievedFromKeepaHandler.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/tests/App/integration/KernelTestCase.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/K/I/rdXAePrJWY-lLiUl1MRg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/Q/V/yXs2P6Jnok2kbiQFDeNg" charset="utf-8" />
@@ -22116,16 +22134,16 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/-/Q/1g47uwEgohuqSLo+v0qA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Y/G/eK5RLCXbuRm6n+-uVmNQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/K/I/RfQdba-OQWGyBFr3q1qQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getSecurity_Listener_UserChecker_ApiLoginService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Components/component-remotes/vendor/rector/rector/vendor/phpstan/phpdoc-parser/src/Ast/ConstExpr/DoctrineConstExprStringNode.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getSecurity_Listener_UserChecker_ApiLoginService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Documentation" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getInvoiceFactoryService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/Y/Q/mjhIM-6Yw8yE+3PorFuQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getInvoiceFactoryService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Y/M/NqPcN92hBKNq4ta6xwlg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/G/Z/N3cLk+3zmnF7NxaH3N2Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getRemote_S3_LiipCache_StorageService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getForm_TypeExtension_Form_TransformationFailureHandlingService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/config/hal.xml" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getForm_TypeExtension_Form_TransformationFailureHandlingService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Doctrine/Orm/Filter/NumericFilter.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getConsole_Command_CachePoolInvalidateTagsService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/A/M/xW9ZgALFEIFiZeUd-ZgQ" charset="utf-8" />
@@ -22145,11 +22163,11 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/K/8/PpkOULz39TcERHPc6+6w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/config/metadata/resource.xml" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Action/ExceptionAction.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSecurity_AuthenticationUtilsService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/O/UyVdDNEROGGUqZibVtOw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSecurity_AuthenticationUtilsService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Fixtures/DummyEntity.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getCachePoolClearer_CacheWarmerService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/S/A/N-ZnNC5FtS1S7A3cX+-Q" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getCachePoolClearer_CacheWarmerService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Documentation/Action" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/docker/data/db/pg_stat_tmp/db_16401.stat" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/E/D/34RpMBRc1uhGrxIcSmgQ" charset="utf-8" />
@@ -22167,14 +22185,14 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/R/D" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/I/D/DeOnIChzKcN3QF-S655A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/rules/DeadCode/PhpDoc/Guard" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/H/Q/3gh5Gykbi2TAWLFp-fsQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/thecodingmachine/safe/deprecated/misc.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/H/Q/3gh5Gykbi2TAWLFp-fsQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getCommand_Bus_Messenger_HandlersLocatorService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Mooney/app-mooney-www/vendor-bin/phpcs/vendor/friendsofphp/php-cs-fixer/src/Fixer/Whitespace/SpacesInsideParenthesesFixer.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/J/E/F7I4qfAtJKPcS9jD2PZA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Validator/Metadata/Property/Restriction/PropertySchemaRestrictionMetadataInterface.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/Fa9wPE4pSM/P/K/1k-aSpcDOMVAaHNi9Syw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/J/Z/sXQRwQsGX8DXq+wQoxIA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/Fa9wPE4pSM/P/K/1k-aSpcDOMVAaHNi9Syw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Doctrine/Orm/Extension/QueryItemExtensionInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/V/O/aguhcax3jek9Yk8SUNKQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/E/H/yF9+kBvaoIBwEVnUXfJg" charset="utf-8" />
@@ -22183,32 +22201,32 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getTimestampableListenerService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/N/Y/PJXckOZIt7YxgaLfvx3g" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpunit/vendor/vimeo/psalm/src/Psalm/Plugin/DynamicTemplateProvider.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/M/R/1bxXj-p3IUhk7ijC50TA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/Q/A/-Q5riZSh6n9Yqqccw+9A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/M/E/XGkN+ujvSLLf501EGvyQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/Q/A/-Q5riZSh6n9Yqqccw+9A" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/M/R/1bxXj-p3IUhk7ijC50TA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/R/9" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getNelmioApiDoc_RenderDocs_YamlService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/G/F/i03esPwluDFNlLa0ui2Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/X/X/MfbtQdAtqPgNuYT8FNvw" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Exception/RuntimeException.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/6/C/vRAjrsly5VJ4rGKlEAyA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/N/M/HAM52Nlflx-p6uGMhmxQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Q/V/AUvNSnrLvFYcYlbVwSmA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/2/P/XSKTSkiK6Jxj8MBGETqQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/Q/LDTnof8TZub5XtH8+ssA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/N/M/HAM52Nlflx-p6uGMhmxQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/6/C/vRAjrsly5VJ4rGKlEAyA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Exception/RuntimeException.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/vendor/rector/rector-phpunit/src/ValueObject/AnnotationWithValueToAttribute.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/Q/LDTnof8TZub5XtH8+ssA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/2/P/XSKTSkiK6Jxj8MBGETqQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/T/G/-S-iZeTKZHUk0x5JgrWQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getDoctrine_ClearQueryRegionCommandService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/1/H/iH-jM9Ys-qxEgDAYbWoA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpinsights/vendor/friendsofphp/php-cs-fixer/src/RuleSet/Sets/PERCS1x0Set.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/Q/M" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpinsights/vendor/friendsofphp/php-cs-fixer/src/RuleSet/Sets/PERCS1x0Set.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/config/metadata/operation.xml" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/Q/O" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/I/R/PlQXA4t4Xwin-Vs5TIbw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/A/Z/fGU+1sP3GZQBsdQlxxxQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSecurity_Listener_CheckAuthenticatorCredentialsService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getConsole_Command_CachePoolPruneService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getEntityPaginatorService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getConsole_Command_CachePoolPruneService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/E/R/BU2gp3CkxqeN7fR5D64Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/N/1/h7qGM0nQRss2V8wz2NHA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/F/A/moLuHDWRjXqEdQH5nqNw" charset="utf-8" />
@@ -22232,21 +22250,21 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/Y/Q/81NGecibz3Q5I2RCp96w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/G/M/xJxbFvoh07A3cB327K-A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/XAeU521ycm/5/F/OgD7rrdSpwyyF5yOwipQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/vendor/rector/rector-symfony/src/NodeAnalyzer/Command" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/G/G/AkUGFZbg2iBNYC5t19iQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/F/L/GqgKT+nk6k5nJWOo-90g" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/vendor/rector/rector-symfony/src/NodeAnalyzer/Command" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/rector/58/73" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/F/L/GqgKT+nk6k5nJWOo-90g" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor/aws/aws-sdk-php/src/data/appfabric" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/rules/Php80/ValueObject/NestedDoctrineTagAndAnnotationToAttribute.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/S/2/bQm+0nLE6vaTziccpeFg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/V/T/5tdB-Zdf0gVJOvKF+0cw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/rules/Php80/ValueObject/NestedDoctrineTagAndAnnotationToAttribute.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/X/H/Aa+gd575IECvEK2TfSjw" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/GraphQl/Resolver/MutationResolverInterface.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/V/T/5tdB-Zdf0gVJOvKF+0cw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Q/6/SG9sr8ClCWzftBr2hITQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/GraphQl/Resolver/MutationResolverInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/rector/89/c7" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/V/D/51wxaF1aQCxDA-ZI+oNw" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/XAeU521ycm/C/Y/o-xcTD61+NQsVWZG5oxw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/W/J/8mR1P6RIgsNeHPNWxHLQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/XAeU521ycm/C/Y/o-xcTD61+NQsVWZG5oxw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/Z/2/GhsCNIZnx15Cx7QVGieg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/J/8/Yx4efUszRdUMdr2pg5Jg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/O/+/k-fd4MnUZqSadSjL0GrA" charset="utf-8" />
@@ -22262,15 +22280,15 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/T/X/yAuNS99iJj3+fE5oRLRw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/O/L/mG65V4Z+8TntQ5k71vKg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor-bin/phpunit/vendor/phpunit/phpunit/src/Util/Cloner.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/B/W/hFgU+x8Rf7RyCfjXYj4Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/storage/_test/files/64e4cefd58add_lego-60283.jpg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/B/W/hFgU+x8Rf7RyCfjXYj4Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/H/G/6KtGhGee8QwHVefTcVug" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getApiPlatform_SwaggerUi_ActionService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/J/Q/be6HfE16d5BwGE8XU5pg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/J/W/wWeMKZShc30O61jmHGxA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/J/Q/be6HfE16d5BwGE8XU5pg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/EkKGH1LR6h/Q/H/2S7rK-7hl2N7yseqtO1g" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSecurity_Firewall_Map_Context_ApiDocsService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/M/4/RDax1wrYzqdON8swYNgA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSecurity_Firewall_Map_Context_ApiDocsService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getMessenger_Transport_KeepaService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Intelligence/Amazon/Scraper/ProductOffersScraperFactory.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/JsonSchema/phpunit.xml.dist" charset="utf-8" />
@@ -22281,9 +22299,9 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/T/2/Z0KHIxmNjn-5h3eaxuqA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/Z/qa7Pz9+gU+jED3GHEdmQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/9/U/bZV5Xmt+VasS8A9YLMKQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Api/IdentifiersExtractorInterface.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/A/iD1iVcR5XrjRsYexV87Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Bundles/bundle-remotes/vendor/rector/rector/src/Console/ProcessConfigureDecorator.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/A/iD1iVcR5XrjRsYexV87Q" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Api/IdentifiersExtractorInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSupplierFactoryService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/G/2/ktLzkHah-ZVa4-ieogmw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Link.php" charset="utf-8" />
@@ -22292,8 +22310,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/S/A/2iwVFegQoTYWAWghJa3g" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getDoctrineMessageFinderService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/config/security.xml" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/H/MNJZ065505blwqfZ-VBg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/L/M/Y9FWe9AysZ0+3Pv03unA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/H/MNJZ065505blwqfZ-VBg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Components/component-remotes/vendor/rector/rector/rules/TypeDeclaration/Rector/ClassMethod/ReturnTypeFromStrictScalarReturnExprRector.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/C/1/7Fj6icO2Pp3YNiOsET8A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/C/Zb9SV055rdH4GuNzBTiA" charset="utf-8" />
@@ -22314,15 +22332,15 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getFiltersService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/N/S/vyYnLKbcvfYVezpwI+rA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/G/9/FInfzcn1s3zAAZgIUvtw" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/A/F/o1UKo7-8U+YnI5sGACJA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/C/Y/jEMCzuRdzKHLDbhH0Mew" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/A/F/o1UKo7-8U+YnI5sGACJA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerW2xn0wW" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Fixtures/ApiResource/DummyEnum.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/X/H/9ebDdBC-gAPn4P07i2vA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Fixtures/ApiResource/DummyEnum.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/W/J/rgnBbBPGeNV1GBheBwlw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/3/R/646XFox5KTY5X+y9DKeA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getDoctrine_UuidGeneratorService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/I/R/NcjWGJ859ZenBbzgRraw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getDoctrine_UuidGeneratorService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/X/X/M2a29bJPU7q-X-6OlQcA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/Z/U/fFq1gwfxzKHvBCX7K6NA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/Y/9/p5mbPAAHyeTsCAdfRlOg" charset="utf-8" />
@@ -22333,8 +22351,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/Q/Z/YANkW2g9cZW6TXbkh3iw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/Y/G/eT-6fgwbwZrCvGObW5cg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getLocalItemProfileImagesManagerService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getTwig_ErrorRenderer_HtmlService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getMessenger_SendersLocatorService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getTwig_ErrorRenderer_HtmlService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getLiipImagine_GdService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/M/N/aMB3sqapDmZuhE71x1iQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/rector/53/e5" charset="utf-8" />
@@ -22365,8 +22383,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getMaker_AutoCommand_MakeMessageService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/V/U/+Gewts0dKUJ4VGjQPkaQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Q/W/hT-Lb7TFpzMpEjMGBLPA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getFlysystem_Adapter_Remote_S3_File_StorageService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/Y/bvASEHJJA9geW0ZCb6fw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getFlysystem_Adapter_Remote_S3_File_StorageService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Hydra/Serializer/EntrypointNormalizer.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/T/P/29vNm5g2qEooemzd-EOA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/8/2/ShZxtAa1UaOD1Sancsig" charset="utf-8" />
@@ -22399,12 +22417,12 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/X/F/HPCZjadvv-jiJMAdutmA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getCache_AppClearerService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/Y/6/0-Y0-sY-7IXs4xKTUemA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/D/T/1O3uVe4cc-T6fz1LVdUg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Doctrine/Orm/Filter/DateFilter.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/D/T/1O3uVe4cc-T6fz1LVdUg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getSecurity_Listener_CsrfProtectionService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/O/R/e7wi1ypREQscVPsdR0cg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/B/tAvMud004u9bk2fA8T3Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/G/NL5-RWXuuAaky+QS6Iug" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/B/tAvMud004u9bk2fA8T3Q" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/O/R/e7wi1ypREQscVPsdR0cg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/var/cache/psalm/63adb70d209c9ded110991dd669a4d3673265c86/class_cache/fe45add4c5fe3d333114ef35e541111a" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getMaker_AutoCommand_MakeVoterService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/P/1/IOgzIIfUjHvf27iAf7Ng" charset="utf-8" />
@@ -22429,8 +22447,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/T/D/rbFlODaUlQnSw1ieWFiw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Warehouse/Entity/Item.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/8/V/yFHtMKa+L--b2ZD0V1Aw" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Warehouse/Manager" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/M/S/OArVzjTTIDKZH+4YyVvA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Warehouse/Manager" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Common/Controller/CreateFileImageVichAction.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Fixtures/ApiResource/AttributeResources.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getDoctrineMigrations_VersionsCommandService.php" charset="utf-8" />
@@ -22439,13 +22457,13 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getApiPlatform_Jsonld_Action_ContextService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/WGVDQr2mW+/5/F/OgD7rrdSpwyyF5yOwipQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Bundles/bundle-features/vendor/rector/rector/vendor/evenement/evenement/src/EventEmitter.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/-/E/0Np1sURnI5thW0MVYnBA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/J/m+q6MZjVFkdR0zV+VAyQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/-/E/0Np1sURnI5thW0MVYnBA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getAssetsService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/N/2/kM5wY9dW2Smw7+TDR1Pg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSyncForceCommandService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/V/O/eySQ8Ywd+lzh4UhS64zw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSyncForceCommandService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/C/6/xQb79TjjrrJfnAIom1yA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Y/0/T29qul1H+9nlpc7rXq1g" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/C/K/9RjzEZEeSiKVIryEpIcg" charset="utf-8" />
@@ -22453,8 +22471,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/P/F/WCh2q4WgT6dfwaYW0TAQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/W/E/V1Dv0slSGG7eRboE7PBg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/W/E/V1Dv0slSGG7eRboE7PBg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/L/L/LCdrNwD-VzLvV1tfdAEQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/A/0/6fuaXz1jeQdeIkqN8mlA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/L/L/LCdrNwD-VzLvV1tfdAEQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getSecurity_Listener_Api_UserProviderService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getRouting_Loader_GlobService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/J/Q/+t7YRoUETQ-Q9xWqpe+g" charset="utf-8" />
@@ -22475,8 +22493,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Common/Messenger/Stamp/DelayStampFactory.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Components/component-array-writer/.git/refs/remotes/origin/dependabot/composer/vendor-bin" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/get_ServiceLocator_T7nLwyXService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/2/X/EVREFrTM5HODt5yATigQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/I/Y/wYk9kQXtvzhbCzafddHg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/2/X/EVREFrTM5HODt5yATigQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getExceptionListenerService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpcs/vendor/symfony/console/Resources/completion.fish" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/get_Debug_ValueResolver_ArgumentResolver_RequestService.php" charset="utf-8" />
@@ -22489,8 +22507,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/7/G/lLiibt2LMQVEbKQOPyTA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/rules/Php80/Rector/ClassConstFetch" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/6/4/gxAsaMHfldP91eDsdbtg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/S/G/dytNK5f4UMb7+GkQHnHg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/6/8/2Wjilt8hrFlRjf9KB62g" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/S/G/dytNK5f4UMb7+GkQHnHg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Bundles/bundle-features/vendor/doctrine/orm/lib/Doctrine/ORM/Exception/EntityIdentityCollisionException.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Doctrine/Orm/Util" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/7/0/-keSg3npv4EXnYqfKGfA" charset="utf-8" />
@@ -22498,8 +22516,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/9/3/sKi+sYP2shIl5kymaixQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Bundles/bundle-remotes/vendor/rector/rector/vendor/rector/rector-downgrade-php/rules/DowngradePhp81/Rector/StmtsAwareInterface" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/WGVDQr2mW+/Z/P/FECR18G0wB+bOnzmOorA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Z/I/GsOT4dKzUkm8009FxktQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/6/V/p4UkzXkOS52HqIJPifxg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Z/I/GsOT4dKzUkm8009FxktQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/L/fdtqQSXJq0d9gl3OxNrg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/7/-/QCS+6HYOju7Q+ovCUoAQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/J/S/wAAEmx5XEXl5DVk5P9GQ" charset="utf-8" />
@@ -22524,21 +22542,21 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/JsonSchema/Tests/Fixtures/DummyResourceInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/V/V/j-1PWY8WbOEcolPwRyBA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getNelmioApiDoc_Describers_Route_DefaultService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/vendor/rector/rector-symfony/config/sets/symfony/symfony62.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/ApiResource.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/W/6/seeikZoescfrAwq3QLhg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/vendor/rector/rector-symfony/config/sets/symfony/symfony62.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/T/+/O2ch0olApXyHuVOmrlbw" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/config/graphql.xml" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/var/cache/psalm/63adb70d209c9ded110991dd669a4d3673265c86/class_cache/30752cdc0b3578454c072fe3a647ca9f" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/S/E/nVM41Cjq79+BVQL8qvGw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/W/6/seeikZoescfrAwq3QLhg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/A/F/lgfNrlKsj3lOhPfvcB5A" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/S/E/nVM41Cjq79+BVQL8qvGw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/var/cache/psalm/63adb70d209c9ded110991dd669a4d3673265c86/class_cache/30752cdc0b3578454c072fe3a647ca9f" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/config/graphql.xml" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSecurity_Listener_RememberMe_AdminService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/X/H/xjU2UGnp8ttrYCB6pSQw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/psalm/33df697d5f96df17eeeed33d435e144d5314b2a3/php-parser/2815ca3f8b8b9231bc02b8f552b421ba-r" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/rules/TypeDeclaration/TypeAnalyzer/PropertyTypeDefaultValueAnalyzer.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getDoctrine_Orm_Command_EntityManagerProviderService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/get_Messenger_HandlerDescriptor_4lp_MkvService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/packages/VendorLocker/Exception" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/get_Messenger_HandlerDescriptor_4lp_MkvService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/rules/TypeDeclaration/NodeAnalyzer/ParamAnalyzer.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/B/D/himpRPpKlxcn-C0Dxuqw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/O/K/2MK8KRuI2qENrCXW7kVQ" charset="utf-8" />
@@ -22552,8 +22570,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/vendor/rector/rector-symfony/config/sets/twig/level" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Elasticsearch/Extension/AbstractFilterExtension.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpunit/vendor/vimeo/psalm/src/Psalm/Internal/LanguageServer/Provider" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/-/C/w6ATcG6EV0UP1ZI12xqQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/M/Kp0YLstFdJjhPfEPqLsQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/-/C/w6ATcG6EV0UP1ZI12xqQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Coommercio/Helper" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/S/2/+RNl37dgWjBmXUjnVp0A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/M/R/IcpO0kgf7a3tb2RiMjhg" charset="utf-8" />
@@ -22563,22 +22581,22 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Q/X/w8t3aSObUpYyAt3mRBnA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getTranslation_ProviderFactory_NullService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/phpstan/phpstan-phpunit/src/Rules/PHPUnit/NoMissingSpaceInClassAnnotationRule.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/Y/S/KhM-1JqDPNgV-ezMgc+w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/V/W/QeyoSqt7H+WIEbDPB9Gg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/Y/S/KhM-1JqDPNgV-ezMgc+w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/I/D/3TU5razPyIB3RTNOxMOw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor-bin/phpunit/vendor/vimeo/psalm/src/Psalm/Issue/InvalidInterfaceImplementation.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/I/Q/IKU4mvYZYsfUnASLWS9A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/A/L/rtuG+pER9SODBt7dO8dg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Extractor/yaml/invalid" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Intelligence/Amazon/Scraper" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/S/U/wz0EThemI0a0hRXDCnGQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Y/X/Sn0-pi50P1s9fJ0xpknQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/S/U/wz0EThemI0a0hRXDCnGQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/Fa9wPE4pSM/V/G/3rvTeY-iVkg3eY0GqFlw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getMaker_AutoCommand_MakeFixturesService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/H/G/in0oSRODSUKTwjMDgAuw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/O/G/ENAQp57+4aHqo3YMKhiQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Intelligence/Amazon/Messenger/Message/Command/Keepa/ProcessProductRetrievedFromKeepaMessage.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/EkKGH1LR6h/A/9/tKJ+VOTsu9BfU+Y6LJng" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Intelligence/Amazon/Messenger/Message/Command/Keepa/ProcessProductRetrievedFromKeepaMessage.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getConsole_Command_MessengerStatsService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getSecurity_Listener_Admin_UserProviderService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/Y/E/ltAATpKpj2R6yQ+0LKDQ" charset="utf-8" />
@@ -22590,10 +22608,10 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getFiltersFormTypeService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/9/J/cMTp2X3SMxrTjThWin3w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/get_Debug_ValueResolver_ArgumentResolver_RequestAttributeService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/X/B/RThcRzQvU-kWGRLUQBjw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Hub/Event/HubPullEventInterface.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/H/G/NSarOX0QAkmK-N2Bo8wA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/X/B/RThcRzQvU-kWGRLUQBjw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/4/9NMdavp6iRenXXCiOHnQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/H/G/NSarOX0QAkmK-N2Bo8wA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/TestBundle/Entity/Issue5662" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getConsole_Command_CacheWarmupService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Api/UriVariableTransformer/DateTimeUriVariableTransformer.php" charset="utf-8" />
@@ -22602,8 +22620,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/J/X/uiWbbrHBuseIapsssQTA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/A/+/2GOv5bCbfIDU1S+92Cqw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/D/B/GR4TjBqCAxrvr6vyZELg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getSecurity_Listener_UserChecker_ApiRegisterService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSecurity_Access_RoleHierarchyVoterService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getSecurity_Listener_UserChecker_ApiRegisterService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/7/0/l12kXirNv11IQg57Pb2A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Resource/Factory/LinkFactoryTest.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getNelmioApiDoc_RenderDocs_JsonService.php" charset="utf-8" />
@@ -22622,17 +22640,17 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/O/C/1FkhjakT7doLg8aetmMg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/8/M/C0KdGQ+58NeD+rfJn3DQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/G/T/COPjrZvAWG4JYJTeSFTA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Extractor/ResourceExtractorTrait.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/+/B/+xqQkkKgzSPAxaYTrCIg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Extractor/ResourceExtractorTrait.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Elasticsearch/Filter/MatchFilter.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Todos/Entity/Todo.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/EkKGH1LR6h/J/4/792B9U7-GWf2swR4HBJQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/public/fetch" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/E/F/G8cfC53y5TvQD47O5O-w" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/EkKGH1LR6h/7/H/dInmmgrXVICRWMtlPTMw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/psalm/33df697d5f96df17eeeed33d435e144d5314b2a3/php-parser/f1bf9ff159c8968c6c3dc6deeff3d0c4-r" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpunit/vendor/vimeo/psalm/src/Psalm/Issue/AmbiguousConstantInheritance.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/EkKGH1LR6h/7/H/dInmmgrXVICRWMtlPTMw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/B/G/TbKzarU65e8geVK52hrQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpunit/vendor/vimeo/psalm/src/Psalm/Issue/AmbiguousConstantInheritance.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/4/S/chwG7T0PWiynsuAb0Aqg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getDoctrine_Orm_Messenger_DoctrineSchemaListenerService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/GraphQl/Serializer/Exception/ErrorNormalizer.php" charset="utf-8" />
@@ -22642,17 +22660,17 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getLocaleConfiguratorService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/GraphQl/Resolver/Stage/SecurityStageInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getConsole_Command_TranslationPullService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getConsole_Command_TranslationPullService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getVichUploader_Listener_Upload_FileDocService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/Y/zdGaxqyZxJJG0wYLWl+w" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getConsole_Command_TranslationPullService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getEmailConfiguratorService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/Y/zdGaxqyZxJJG0wYLWl+w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/A/V/cXhJOMrpgd57fYMc0XqQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/O/P/dmV0hTLo0U2x+uelZfZA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/WGVDQr2mW+/1/A/cpEADPqdCH3PmvunbiDg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Doctrine/Common/Filter" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/O/K/KpL69GI3k67L29DH9h6Q" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/W/Q/U3MoNJXc0yHtYHiFqZ6Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpinsights/vendor/slevomat/coding-standard/SlevomatCodingStandard/Helpers/ParsedDocComment.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/W/Q/U3MoNJXc0yHtYHiFqZ6Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/A/J/s+YcjwRUr9JGxzNIT4jQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/1/N/qJuOIWr46w1gN6Au-yjA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/5/D/15T7-VgtuAHqrdICCGYg" charset="utf-8" />
@@ -22667,15 +22685,15 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Coommercio/Subscriber/ChannelRemoteChecker.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Warehouse/Manager/LocalItemVariantsManager.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getPercentConfiguratorService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/E/4/ac2eiFfiCE0PNxfWVemg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpunit/vendor/vimeo/psalm/src/Psalm/Issue/UnusedBaselineEntry.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/E/4/ac2eiFfiCE0PNxfWVemg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getApiPlatform_Symfony_UriVariables_Transformer_UuidService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/GraphQl/Resolver/Stage/ReadStageInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor-bin/phpunit/vendor/vimeo/psalm/src/Psalm/Issue/InheritorViolation.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/5/A/NrBcl35vBDXwO6WaD9AQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/C/4/O4KMjAC4muKY+xvDoLwA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Q/T/1PFsgK+dfecvturxt66A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/M/B/JXJQ+Ec0SAmOUfKpV8QA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Q/T/1PFsgK+dfecvturxt66A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/B/N/NMGWhK5IxQW8I-WesvtA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getActionsService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/U/J/4raRRpY2O+xdeIMnD5HQ" charset="utf-8" />
@@ -22686,9 +22704,9 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Doctrine/Common/Filter/RangeFilterInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/Z/2/C1bmztsAZuOBK8gEZUXw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/I/B/851Zvh-wlIBP0etizzeA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Common/Scraper/Helper" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/A/W/I7-KmopV-v5Sq8ntaGMA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/JsonSchema/Tests/Fixtures/DummyResourceImplementation.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/A/W/I7-KmopV-v5Sq8ntaGMA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Common/Scraper/Helper" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getLexikJwtAuthentication_KeyLoaderService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/L/X/iXSA7hQHLkRhbSEk1UEA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/M/6/lcPNMYhqGXHEfqg+GgpQ" charset="utf-8" />
@@ -22717,8 +22735,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/A/1/8GkxQom+PGRNf-E71fZg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/C/-/40fdwsnitv0e6AIdSQSg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/rules/TypeDeclaration/Rector/StmtsAwareInterface" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/psalm/33df697d5f96df17eeeed33d435e144d5314b2a3/php-parser/64ca999815f8c98508e5c6538c83d9d1-r" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/State/Pagination/PaginatorInterface.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/psalm/33df697d5f96df17eeeed33d435e144d5314b2a3/php-parser/64ca999815f8c98508e5c6538c83d9d1-r" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/B/1/VwnG+bnLHHurf71zB6Zg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/S/L/I+2zzI150D0AEnJVfFjQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/config/routing/graphql/graphiql.xml" charset="utf-8" />
@@ -22738,34 +22756,34 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/src/Kernel/ContainerBuilderBuilder.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/G/I/V1pW53gVuG78HMxeeOdw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getMonolog_Logger_WorkflowService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/D/I/R0focEp03+s9A-IAV6WQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Z/W/1gCjeaiJkqYHDesmKAzg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/D/I/R0focEp03+s9A-IAV6WQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/thecodingmachine/safe/deprecated/strings.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/V/R/XGEZvVs8V3+VZj7H6YTQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Q/O/LEIHX9lN9REsdKT-rElA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/E/O/Q4gg7k3xzPAiBxWPFDEw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/-/S/eLwx-pMEggVBTSkiIptg" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/E/F/71Bw8-EXWXP6IbqV5Zjg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/D/0/mr4PaQn9yI5xl2OY7GcA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/E/F/71Bw8-EXWXP6IbqV5Zjg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/G/J/YkHFV93g5Ca7oFlfb1zw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getSecurity_Listener_UserChecker_MainService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/4/H/ILXbdB0F4fKcreS6l1MA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Z/0/m8eRP2KvIJmZ2TLyKesA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/O/-/v+yfAACmFa5un-VgXCmA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/JsonSchema/Tests" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/D/J/Ag5B5B6-kJf3S-9jXc-A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/L/C/Ggh9UWOVTZp7hV+uuE2g" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/N/U/RRiyXqiDdeUmMRgDxhvg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/D/J/Ag5B5B6-kJf3S-9jXc-A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Intelligence/Amazon/Messenger/Handler/Command/Amazon/Process" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/N/U/RRiyXqiDdeUmMRgDxhvg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/GraphQl/Subscription/MercureSubscriptionIriGeneratorInterface.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/V/B/cLBwGbYOYQaWYzvNoaVw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/O/7/Y6K3pVYg0UWVVr6Pqjcg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getChoiceConfigurator2Service.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getLiipImagine_Filter_ManagerService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/L/B/ozhQvwpZgnhboW6OKfCQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor-bin/phpunit/vendor/vimeo/psalm/dictionaries/CallMap_82_delta.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/O/u5rVG1wtEmJdoyx4DGqA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/DependencyInjection/Configuration.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/O/u5rVG1wtEmJdoyx4DGqA" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor-bin/phpunit/vendor/vimeo/psalm/dictionaries/CallMap_82_delta.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getSecurity_ChannelListenerService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Business/Entity/Supply.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/EkKGH1LR6h/C/W/HbcwWTLI3zQoDt0MFgzw" charset="utf-8" />
@@ -22778,8 +22796,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/M/M/M8-eFYEXQ3kwPUEEsGAA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/M/E/XGkN+ujvSLLf501EGvyQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/X/S/HHCxzvVZ3WYKVqgn0MQA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getDateTimeConfigurator2Service.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/8/9/LqzD0HNMJvCjanA+4b6g" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getDateTimeConfigurator2Service.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/H/L/QsTYkQzBSGK2LdpYkNMg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/EkKGH1LR6h/Z/+/C1zNmCyQ-etJDGdwqOxg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/N/W/IiYrSmQ9-ae+ZcROW7SQ" charset="utf-8" />
@@ -22788,11 +22806,11 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getDoctrine_UlidGeneratorService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/qWpGZ+Kg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/T/V/pVokH3kW-AVxJn78p01g" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/N/9/7vaZ5EKN69iZ2Op6V10A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Property/Factory/SerializerPropertyMetadataFactory.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/N/9/7vaZ5EKN69iZ2Op6V10A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/5/B/MQ8wMehKVXQ9Kh-eBO8A" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/-/H/+O6LfgDSDmt4hWgvcLdw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Business/Messenger" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/-/H/+O6LfgDSDmt4hWgvcLdw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/R/C/IODlbng8NqGct2MwM9GQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/storage/_test/files/64e35f252ff07_img_1.jpg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/XAeU521ycm/K/Y/wVaalUamrrbdrALUBTbA" charset="utf-8" />
@@ -22811,30 +22829,30 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getLocalItemProfileVariantsManagerService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Operation/DashPathSegmentNameGenerator.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/0/N/x4mR83ohctSFipDMu1Rw" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Mooney/app-mooney-www/node_modules/@nuxt/friendly-errors-webpack-plugin/node_modules/ansi-styles" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/O/N/pJet4qSuUObBtuT8Oq-Q" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Mooney/app-mooney-www/node_modules/@nuxt/friendly-errors-webpack-plugin/node_modules/ansi-styles" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getDoctrine_UuidGeneratorService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getConfigBuilder_WarmerService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/H/J/odBjIgoCxLLl66KTd82Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/F/v4GmV5lWsJqZcQiSzyUA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getConsole_Command_MessengerDebugService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Admin/Intelligence/Amazon/Controller/ProductCrudController.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Hydra/Serializer" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/P/K" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/I/V/01gUgg9L09MnwNKpuAVA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getLexikJwtAuthentication_JwtManagerService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Hydra/Serializer" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/2/1/yHE-M2Ll07Zgyz7hC-LQ" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Operation/Factory/OperationMetadataFactoryTest.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getLexikJwtAuthentication_JwtManagerService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/I/V/01gUgg9L09MnwNKpuAVA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/B/Y/GMIIBbM6UlDPKwZrxckw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Operation/Factory/OperationMetadataFactoryTest.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www/vendor/beberlei" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/G/D/0N+v0icguTIP-eSEQ1ZA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/P/8/YVgY52IUxx406OB9Mp5g" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/get_Messenger_HandlerDescriptor__IJbVKQService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/F/V/uRKYwIwDiqYahfLaOr5Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/P/I" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/F/V/uRKYwIwDiqYahfLaOr5Q" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/get_Messenger_HandlerDescriptor__IJbVKQService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/7/T/H6lvfqOqN7yiU6k37F1g" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getInvoiceLineFactoryService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/src/Console/ProcessConfigureDecorator.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getInvoiceLineFactoryService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/EkKGH1LR6h/2/R/wbqn32bHhoAYZa8BvOVg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/A/N/-AeecUkwYaM2hieAE5jQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/4/A/aLPatVaE-rH3xXZXQLzQ" charset="utf-8" />
@@ -22843,21 +22861,21 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/5/S/3FrHFVnNVJDS0r-xMV+A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/BvnmcpV66n/P/X" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/L/C/zDaILxE3i1AJkbpXvoFA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getItem71411FixtureService.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSecurity_Validator_UserPasswordService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/D/R/boWczdfEcdW8ISbH9Ojw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSecurity_Validator_UserPasswordService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getItem71411FixtureService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getSecurity_Command_DebugFirewallService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/8/E/5VooYv9NuoUmXRdHhAug" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/8/V/24M-1+74x-SvImVQUpBg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/T/B/rHunknGMKrzhzXh-5LNg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/M/G/m0T04KKOn-MdbIsejb+g" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Metadata/Tests/Property/Factory/SerializerPropertyMetadataFactoryTest.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/WGVDQr2mW+/Z/M/IlKOs4mpNNCIckuVNLvA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/X/Z/-0FdfxkVjvzWM3fpsNpA" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/HttpCache/EventListener/AddHeadersListener.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/public/fonts/open-sans/files/open-sans-cyrillic-700-normal.woff2" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/WGVDQr2mW+/E/M/+jQQp1bxt4P0m5qNGgFw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/WGVDQr2mW+/Z/M/IlKOs4mpNNCIckuVNLvA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/K/V/07jkiVNf3imZEoNNA2CQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/WGVDQr2mW+/E/M/+jQQp1bxt4P0m5qNGgFw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/Resources/public/fonts/open-sans/files/open-sans-cyrillic-700-normal.woff2" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/HttpCache/EventListener/AddHeadersListener.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor-bin/phpunit/vendor/vimeo/psalm/src/Psalm/Issue/PrivateFinalMethod.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getDoctrine_CacheCollectionRegionCommandService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/F/8/i2FZILKq3QHsz6HJYFEw" charset="utf-8" />
@@ -22866,8 +22884,8 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/vendor/rector/rector-symfony/config/sets/symfony/level/up-to-symfony-62.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/-Xvs6XnL5O/R/O/hstqgbv+uUroFLhRJhHQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/OpenApi/Model/Components.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/3/9/0eBeG-8-eryFwO1iXXfg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getItem75313FixtureService.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/3/9/0eBeG-8-eryFwO1iXXfg" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/F/K/9xXM7Lo9CPYNK3cLnn-A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/N/M/-cLJsy4Hd91UWZaSGL1A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/var/cache/psalm/63adb70d209c9ded110991dd669a4d3673265c86/file_cache/4394beae5feeb41b628e005d5d739bb5" charset="utf-8" />
@@ -22889,9 +22907,9 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/vendor/rector/rector-phpunit/rules" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/N/P/3Nj0a648lRlMbcnG1x3Q" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor/rector/rector/vendor/rector/rector-symfony/src/Enum/SensioAttribute.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Doctrine/Odm/Filter/BooleanFilter.php" charset="utf-8" />
-    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Hal/Serializer/ObjectNormalizer.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/5/8/uML5Vf9bpm5rBkE2kRCQ" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Hal/Serializer/ObjectNormalizer.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Doctrine/Odm/Filter/BooleanFilter.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Warehouse/Entity/Property" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/Y/D/fi3bMkmCR+2YY2ko92QQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getMessenger_RedispatchMessageHandlerService.php" charset="utf-8" />
@@ -23136,6 +23154,7 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/R/H/I9VaZnySo5MuyhHC-4VA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/E/W/fTSRvOTR8ePqBbV5mc8w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/SwaggerUi/SwaggerUiContext.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerXrIebPm.legacy" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/W/4/Z82tJEVALyvjo9kFLIsw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getDebug_Security_Firewall_Authenticator_AdminService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/H/0MkjW3OELHwADdEVAVtw" charset="utf-8" />
@@ -25946,6 +25965,7 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/7/E/Qo+q+RIHpd02nnVDi-Fw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getNelmioApiDoc_Routes_DefaultService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Hub/Event/RemoteItemEvent.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/," charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/ContainerTyvNC5L/getSecurity_Logout_Listener_Default_AdminService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Financials/Entity/Payment.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/H/+/xD8Y8F8+NdclsHxOxFaQ" charset="utf-8" />
@@ -29404,6 +29424,7 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/BackShop/Manager/LocalCustomersManager.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Symfony/Bundle/EventListener/SwaggerUiListener.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/D/V/9stJRT3Pm7TfWpV8-zDg" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/fixerFactory" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Bundles/bundle-features/vendor-bin/phpcs/composer.lock" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/K/Q/mbuKorvGv-zGe2PBT2QQ" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/Fa9wPE4pSM/L/I/H6Kr2BiDbPmN-kmfVC7Q" charset="utf-8" />
@@ -30790,6 +30811,7 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getDoctrineMigrations_StatusCommandService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/ContainerP92UmOL/getVichUploader_Listener_Clean_FileImageService.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/C/T/WdAkCM0-EjUICEOXfJxw" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/toolInfo" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/Z/K/SBW3yH8ulvv8KU92eVhA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/fF9LJpKLJR/0/X/1AYOJFj0d1zYTd3mWe9w" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/A/0/iTQacnnRdx-W9D8+f45g" charset="utf-8" />
@@ -31021,6 +31043,7 @@
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/src/Intelligence/Amazon/Scraper/ProductPage/MainDescription/TotalVotesRule.php" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core/tests/Fixtures/app/var/cache/test/pools/system/2U+YyWx4VH/W/K/oOXGsWGRsU50K-OSMGHA" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter/vendor-bin/phpunit/vendor/vimeo/psalm/src/Psalm/Issue/UnusedDocblockParam.php" charset="utf-8" />
+    <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/.git/objects/a3/46d12106fca8062dcc8ed4f9ade62c0302de4d" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/test/pools/system/WSiES2YUqU/U/C/69hsaMc9D2WST45qsc7A" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/F/5/ESEtJ8cKHGWrZYWzhQVw" charset="utf-8" />
     <file url="file://$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www/var/cache/dev/pools/system/6d1hJwdANS/B/V/SP+213OYXtkOQn+YLWtw" charset="utf-8" />

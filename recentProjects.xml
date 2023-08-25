@@ -177,35 +177,35 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www">
-          <value>
-            <RecentProjectMetaInfo frameTitle="app-coommercio-www – ~/Documents/JooServer/Lab/_Forks/PHP-CS-Fixer/vendor/bin/phpunit" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
-              <option name="activationTimestamp" value="1692901143261" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="PS-232.9559.43" />
-              <option name="buildTimestamp" value="1692359411506" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="0" />
-              </option>
-              <frame x="-1920" y="122" width="1920" height="1080" fullScreen="true" />
-              <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1692865123307" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/Documents/JooServer/Lab/_Forks/PHP-CS-Fixer">
           <value>
-            <RecentProjectMetaInfo frameTitle="PHP-CS-Fixer – trash.md" projectWorkspaceId="1h3NoxK4jU31l5K6QLDUQNfvykE">
-              <option name="activationTimestamp" value="1692901706790" />
+            <RecentProjectMetaInfo frameTitle="PHP-CS-Fixer – ListFixersCommand.php" projectWorkspaceId="1h3NoxK4jU31l5K6QLDUQNfvykE">
+              <option name="activationTimestamp" value="1692980066651" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PS-232.9559.43" />
-              <option name="buildTimestamp" value="1692359411506" />
+              <option name="buildTimestamp" value="1692359432687" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="7" />
               </option>
-              <frame x="-1920" y="147" width="1920" height="1055" fullScreen="true" />
+              <frame x="64" y="125" width="1920" height="1055" />
               <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1692901708536" />
+              <option name="projectOpenTimestamp" value="1692955137579" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www">
+          <value>
+            <RecentProjectMetaInfo frameTitle="app-coommercio-www – ListFixersCommand.php" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
+              <option name="activationTimestamp" value="1692980064564" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359432687" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="-1920" y="122" width="1920" height="1080" extendedState="6" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1692957107375" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
