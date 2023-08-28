@@ -7,7 +7,7 @@
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
     "CWM_LOGGING_VERSION": "1",
-    "CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2": "0.41965812",
+    "CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2": "0.41794872",
     "CommitChangeListDialog.SPLITTER_PROPORTION_2": "0.75206614",
     "FindSplitterProportion": "0.44925576",
     "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
@@ -20,12 +20,13 @@
     "Vcs.Log.Text.Filter.History": "1fe505a9d8fd235a8d7e4aa0f245f382f65578f8",
     "appcds.runOnSecondStart": "PS-232.9559.43-de97336c66dc9a1e0bd456f051ede254e83cc36fc5e5ea5c84cb3efe08de9f6d",
     "bundled.plugins.list.saved.version": "PS-232.9559.43",
+    "clt.was.used.run.anything.ui": "true",
     "com.intellij.history.integration.ui.views.FileHistoryDialog.0": "300",
     "com.intellij.history.integration.ui.views.FileHistoryDialog.1": "800",
     "evlsprt3.232": "26",
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.used.version": "232.9559.43",
-    "file.gist.reindex.count": "3892",
+    "file.gist.reindex.count": "3893",
     "fileTypeChangedCounter": "1",
     "find.popup.splitter": "0.6705653",
     "fontSizeToResetConsole": "12.0",
@@ -56,16 +57,18 @@
 }]]></component>
   <component name="ShownTips"><![CDATA[{
   "shownTips": {
+    "SpeedSearch": 1693210270615,
     "Rename": 1692865125116,
     "SearchEverywhere": 1692955144270,
-    "ShowUsages": 1692691336950,
-    "FindReplaceToggle": 1692630319380
+    "FindReplaceToggle": 1692630319380,
+    "ShowUsages": 1692691336950
   },
   "proposedTips": {
+    "SpeedSearch": 1693210268465,
     "Rename": 1692865123756,
     "SearchEverywhere": 1692955144113,
-    "ShowUsages": 1692691336579,
-    "FindReplaceToggle": 1692630319173
+    "FindReplaceToggle": 1692630319173,
+    "ShowUsages": 1692691336579
   },
   "tipsOrderSeed": 1692630319149
 }]]></component>
