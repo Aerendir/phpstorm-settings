@@ -161,51 +161,51 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core">
-          <value>
-            <RecentProjectMetaInfo frameTitle="core – ItemNormalizer.php" projectWorkspaceId="2TkdgijPeJmklDPXs6RDqrRh5iu">
-              <option name="activationTimestamp" value="1692889958083" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="PS-232.9559.43" />
-              <option name="buildTimestamp" value="1692359411506" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="7" />
-              </option>
-              <frame x="-1920" y="122" width="1920" height="1080" fullScreen="true" />
-              <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1692865116965" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/Documents/JooServer/Lab/_Forks/PHP-CS-Fixer">
           <value>
-            <RecentProjectMetaInfo frameTitle="PHP-CS-Fixer – ListFixersCommand.php" opened="true" projectWorkspaceId="1h3NoxK4jU31l5K6QLDUQNfvykE">
-              <option name="activationTimestamp" value="1693240392150" />
+            <RecentProjectMetaInfo frameTitle="PHP-CS-Fixer – ListFixersCommand.php" projectWorkspaceId="1h3NoxK4jU31l5K6QLDUQNfvykE">
+              <option name="activationTimestamp" value="1693240433391" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PS-232.9559.43" />
               <option name="buildTimestamp" value="1692359441844" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="7" />
               </option>
-              <frame x="64" y="125" width="1920" height="1055" />
+              <frame x="128" y="33" width="1920" height="1055" fullScreen="true" />
               <option name="productionCode" value="PS" />
               <option name="projectOpenTimestamp" value="1693210262122" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core">
+          <value>
+            <RecentProjectMetaInfo frameTitle="core – ~/Documents/JooServer/Lab/_Forks/api-platform/core/vendor/soyuka/contexts/src/Context/RestContext.php" projectWorkspaceId="2TkdgijPeJmklDPXs6RDqrRh5iu">
+              <option name="activationTimestamp" value="1693328331002" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359441844" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="-1920" y="122" width="1920" height="1080" fullScreen="true" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693240438332" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www">
           <value>
-            <RecentProjectMetaInfo frameTitle="app-coommercio-www – ListFixersCommand.php" opened="true" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
-              <option name="activationTimestamp" value="1693240410199" />
+            <RecentProjectMetaInfo frameTitle="app-coommercio-www – ApiTestCase.php" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
+              <option name="activationTimestamp" value="1693329471608" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PS-232.9559.43" />
               <option name="buildTimestamp" value="1692359441844" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="0" />
               </option>
-              <frame x="-1920" y="122" width="1920" height="1080" extendedState="6" />
+              <frame x="0" y="0" width="2048" height="1280" fullScreen="true" />
               <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1693210266116" />
+              <option name="projectOpenTimestamp" value="1693240465658" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

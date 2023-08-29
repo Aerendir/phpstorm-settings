@@ -7,7 +7,7 @@
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
     "CWM_LOGGING_VERSION": "1",
-    "CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2": "0.41794872",
+    "CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2": "0.41685393",
     "CommitChangeListDialog.SPLITTER_PROPORTION_2": "0.75206614",
     "FindSplitterProportion": "0.44925576",
     "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
@@ -17,6 +17,7 @@
     "MemberChooser.showClasses": "true",
     "NonModalCommitPromotionState": "ACCEPTED",
     "PhpStorm.InitialConfiguration": "true",
+    "PhpUnit.Splitter.Proportion": "0.3198789",
     "Vcs.Log.Text.Filter.History": "1fe505a9d8fd235a8d7e4aa0f245f382f65578f8",
     "appcds.runOnSecondStart": "PS-232.9559.43-de97336c66dc9a1e0bd456f051ede254e83cc36fc5e5ea5c84cb3efe08de9f6d",
     "bundled.plugins.list.saved.version": "PS-232.9559.43",
@@ -26,7 +27,7 @@
     "evlsprt3.232": "26",
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.used.version": "232.9559.43",
-    "file.gist.reindex.count": "3893",
+    "file.gist.reindex.count": "8607",
     "fileTypeChangedCounter": "1",
     "find.popup.splitter": "0.6705653",
     "fontSizeToResetConsole": "12.0",
