@@ -43,5 +43,17 @@
         <option name="index" value="2" />
       </TabImpl>
     </runner>
+    <runner id="Session">
+      <ViewImpl>
+        <option name="ID" value="Input" />
+        <option name="placeInGrid" value="center" />
+      </ViewImpl>
+      <TabImpl>
+        <option name="displayName" value="Session" />
+      </TabImpl>
+      <General>
+        <option name="isTabLabelsHidden" value="false" />
+      </General>
+    </runner>
   </component>
 </application>

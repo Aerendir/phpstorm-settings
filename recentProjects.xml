@@ -33,22 +33,6 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-array-writer">
-          <value>
-            <RecentProjectMetaInfo frameTitle="component-array-writer" projectWorkspaceId="1WXDS5TrXpbFEKTf2xObLCRg3Mz">
-              <option name="activationTimestamp" value="1692632195970" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="PS-232.9559.43" />
-              <option name="buildTimestamp" value="1692359419793" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="4" />
-              </option>
-              <frame x="-1884" y="192" width="1400" height="1000" />
-              <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1692631293743" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/Documents/JooServer/Lab/Bundles/bundle-features">
           <value>
             <RecentProjectMetaInfo frameTitle="bundle-features – fix" projectWorkspaceId="1WZ9omfqMPSUJLVdspS1nCQWopv">
@@ -78,38 +62,6 @@
               <frame x="-1736" y="147" width="1400" height="1000" fullScreen="true" />
               <option name="productionCode" value="PS" />
               <option name="projectOpenTimestamp" value="1692691571309" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-remotes">
-          <value>
-            <RecentProjectMetaInfo frameTitle="component-remotes" projectWorkspaceId="1TZPWyEJPkn0JUQxnfZszNM4vk7">
-              <option name="activationTimestamp" value="1692691811308" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="PS-232.9559.43" />
-              <option name="buildTimestamp" value="1692359419793" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="5" />
-              </option>
-              <frame x="-1831" y="147" width="1400" height="1000" fullScreen="true" />
-              <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1692691659827" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-value-objects">
-          <value>
-            <RecentProjectMetaInfo frameTitle="component-value-objects" projectWorkspaceId="1hB7mbOGU03J5twsqWaXK8bvba1">
-              <option name="activationTimestamp" value="1692691960449" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="PS-232.9559.43" />
-              <option name="buildTimestamp" value="1692359419793" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="3" />
-              </option>
-              <frame x="-1799" y="147" width="1400" height="1000" fullScreen="true" />
-              <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1692691960587" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -145,22 +97,6 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/Documents/JooServer/Projects/Mooney/app-mooney-www">
-          <value>
-            <RecentProjectMetaInfo frameTitle="app-mooney-www" projectWorkspaceId="1qnrT6fXql78kDBvXIFoZbXpVfW">
-              <option name="activationTimestamp" value="1692692606150" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="PS-232.9559.43" />
-              <option name="buildTimestamp" value="1692359419793" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="4" />
-              </option>
-              <frame x="-1818" y="147" width="1400" height="1000" fullScreen="true" />
-              <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1692692314445" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/Documents/JooServer/Lab/_Forks/PHP-CS-Fixer">
           <value>
             <RecentProjectMetaInfo frameTitle="PHP-CS-Fixer – ListFixersCommand.php" projectWorkspaceId="1h3NoxK4jU31l5K6QLDUQNfvykE">
@@ -177,41 +113,105 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core">
-          <value>
-            <RecentProjectMetaInfo frameTitle="core – ~/Documents/JooServer/Lab/_Forks/api-platform/core/vendor/soyuka/contexts/src/Context/RestContext.php" projectWorkspaceId="2TkdgijPeJmklDPXs6RDqrRh5iu">
-              <option name="activationTimestamp" value="1693328331002" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="PS-232.9559.43" />
-              <option name="buildTimestamp" value="1692359441844" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="7" />
-              </option>
-              <frame x="-1920" y="122" width="1920" height="1080" fullScreen="true" />
-              <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1693240438332" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www">
           <value>
-            <RecentProjectMetaInfo frameTitle="app-coommercio-www – ApiTestCase.php" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
-              <option name="activationTimestamp" value="1693329471608" />
+            <RecentProjectMetaInfo frameTitle="app-coommercio-www – validate" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
+              <option name="activationTimestamp" value="1693417068552" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PS-232.9559.43" />
-              <option name="buildTimestamp" value="1692359441844" />
+              <option name="buildTimestamp" value="1692359403849" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="0" />
               </option>
               <frame x="0" y="0" width="2048" height="1280" fullScreen="true" />
               <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1693240465658" />
+              <option name="projectOpenTimestamp" value="1693385089826" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core">
+          <value>
+            <RecentProjectMetaInfo frameTitle="core – CollectionNormalizer.php" projectWorkspaceId="2TkdgijPeJmklDPXs6RDqrRh5iu">
+              <option name="activationTimestamp" value="1693402943345" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359403849" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="-1920" y="147" width="1920" height="1055" extendedState="6" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693390349766" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-value-objects">
+          <value>
+            <RecentProjectMetaInfo frameTitle="component-value-objects" projectWorkspaceId="1hB7mbOGU03J5twsqWaXK8bvba1">
+              <option name="activationTimestamp" value="1693393003924" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359403849" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="-1799" y="147" width="1400" height="1000" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693392332083" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-array-writer">
+          <value>
+            <RecentProjectMetaInfo frameTitle="component-array-writer" projectWorkspaceId="1WXDS5TrXpbFEKTf2xObLCRg3Mz">
+              <option name="activationTimestamp" value="1693393334178" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359403849" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="-1920" y="122" width="1920" height="1080" extendedState="6" fullScreen="true" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693393256611" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Projects/Mooney/app-mooney-www">
+          <value>
+            <RecentProjectMetaInfo frameTitle="app-mooney-www – composer.json" projectWorkspaceId="1qnrT6fXql78kDBvXIFoZbXpVfW">
+              <option name="activationTimestamp" value="1693395364515" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359403849" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="-1920" y="122" width="1920" height="1080" extendedState="6" fullScreen="true" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693394674795" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-remotes">
+          <value>
+            <RecentProjectMetaInfo frameTitle="component-remotes" projectWorkspaceId="1TZPWyEJPkn0JUQxnfZszNM4vk7">
+              <option name="activationTimestamp" value="1693394742809" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359403849" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="-1920" y="122" width="1920" height="1080" extendedState="6" fullScreen="true" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693394695907" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
     <option name="lastOpenedProject" value="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www" />
-    <option name="lastProjectLocation" value="$USER_HOME$/Documents/JooServer/Lab/_Forks" />
+    <option name="lastProjectLocation" value="$USER_HOME$/Documents/JooServer/Lab/Components" />
   </component>
 </application>
