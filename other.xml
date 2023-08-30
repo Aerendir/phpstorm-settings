@@ -15,6 +15,8 @@
     "Markdown Split EditorLayout": "Editor only",
     "MemberChooser.copyJavadoc": "false",
     "MemberChooser.showClasses": "true",
+    "NextRunPlatformUpdateBuild": "PS-232.9559.64",
+    "NextRunPlatformUpdateVersion": "2023.2.1",
     "NonModalCommitPromotionState": "ACCEPTED",
     "PhpStorm.InitialConfiguration": "true",
     "PhpUnit.Splitter.Proportion": "0.3198789",
@@ -56,21 +58,21 @@
     ]
   }
 }]]></component>
-  <component name="ShownTips"><![CDATA[{
-  "shownTips": {
-    "SpeedSearch": 1693210270615,
-    "Rename": 1692865125116,
-    "SearchEverywhere": 1692955144270,
-    "FindReplaceToggle": 1692630319380,
-    "ShowUsages": 1692691336950
+  <component name="ShownTips">{
+  &quot;shownTips&quot;: {
+    &quot;SpeedSearch&quot;: 1693210270615,
+    &quot;Rename&quot;: 1692865125116,
+    &quot;SearchEverywhere&quot;: 1692955144270,
+    &quot;FindReplaceToggle&quot;: 1692630319380,
+    &quot;ShowUsages&quot;: 1692691336950
   },
-  "proposedTips": {
-    "SpeedSearch": 1693210268465,
-    "Rename": 1692865123756,
-    "SearchEverywhere": 1692955144113,
-    "FindReplaceToggle": 1692630319173,
-    "ShowUsages": 1692691336579
+  &quot;proposedTips&quot;: {
+    &quot;SpeedSearch&quot;: 1693210268465,
+    &quot;Rename&quot;: 1692865123756,
+    &quot;SearchEverywhere&quot;: 1692955144113,
+    &quot;FindReplaceToggle&quot;: 1692630319173,
+    &quot;ShowUsages&quot;: 1692691336579
   },
-  "tipsOrderSeed": 1692630319149
-}]]></component>
+  &quot;tipsOrderSeed&quot;: 1692630319149
+}</component>
 </application>
