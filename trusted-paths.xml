@@ -6,6 +6,7 @@
         <entry key="$USER_HOME$/Documents/JooServer/Lab/Bundles/bundle-remotes" value="true" />
         <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-array-writer" value="true" />
         <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-remotes" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-text-matrix" value="true" />
         <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-value-objects" value="true" />
         <entry key="$USER_HOME$/Documents/JooServer/Lab/Integrations/rector-serendipity_hq" value="true" />
         <entry key="$USER_HOME$/Documents/JooServer/Lab/Misc/monolog-html-line-formatter" value="true" />

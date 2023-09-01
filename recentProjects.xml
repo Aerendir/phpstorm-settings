@@ -195,17 +195,33 @@
         </entry>
         <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www">
           <value>
-            <RecentProjectMetaInfo frameTitle="app-coommercio-www – ApiSearch.php" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
-              <option name="activationTimestamp" value="1693498492438" />
+            <RecentProjectMetaInfo frameTitle="app-coommercio-www – ~/Documents/JooServer/Projects/Coommercio/app-coommercio-www/vendor/prugala/symfony-request-dto/src/Serializer/Normalizer/CustomNormalizer.php" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
+              <option name="activationTimestamp" value="1693588239320" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PS-232.9559.43" />
-              <option name="buildTimestamp" value="1692359424472" />
+              <option name="buildTimestamp" value="1692359420547" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="0" />
               </option>
               <frame x="-1920" y="122" width="1920" height="1080" fullScreen="true" />
               <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1693470746908" />
+              <option name="projectOpenTimestamp" value="1693555552936" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-text-matrix">
+          <value>
+            <RecentProjectMetaInfo frameTitle="component-text-matrix" projectWorkspaceId="1eJhaXM4RLdqgCr1pzRug7yrRFe">
+              <option name="activationTimestamp" value="1693555825059" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359420547" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="-1920" y="122" width="1920" height="1080" fullScreen="true" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693555661617" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

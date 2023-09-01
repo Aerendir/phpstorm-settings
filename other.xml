@@ -7,11 +7,11 @@
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
     "CWM_LOGGING_VERSION": "1",
-    "CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2": "0.6460055",
+    "CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2": "0.6473829",
     "CommitChangeListDialog.SPLITTER_PROPORTION_2": "0.75206614",
     "FindSplitterProportion": "0.44925576",
     "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
-    "LAST_CALCULATED_COLOR_INDEX_KEY": "7",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "8",
     "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/extractors": "PS-232.9559.43",
     "Markdown Split EditorLayout": "Editor only",
     "MemberChooser.copyJavadoc": "false",
@@ -31,7 +31,7 @@
     "evlsprt3.232": "26",
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.used.version": "232.9559.43",
-    "file.gist.reindex.count": "8625",
+    "file.gist.reindex.count": "8680",
     "fileTypeChangedCounter": "2",
     "find.popup.splitter": "0.6705653",
     "fontSizeToResetConsole": "12.0",
@@ -62,22 +62,24 @@
 }]]></component>
   <component name="ShownTips"><![CDATA[{
   "shownTips": {
+    "Rename": 1692865125116,
     "CtrlW": 1693470754530,
     "SpeedSearch": 1693210270615,
-    "Rename": 1692865125116,
     "SearchEverywhere": 1692955144270,
     "CommentCode": 1693385096322,
+    "ShowUsages": 1692691336950,
     "FindReplaceToggle": 1692630319380,
-    "ShowUsages": 1692691336950
+    "CamelHumpsInCodeCompletion": 1693555563724
   },
   "proposedTips": {
+    "Rename": 1692865123756,
     "CtrlW": 1693470754108,
     "SpeedSearch": 1693210268465,
-    "Rename": 1692865123756,
     "SearchEverywhere": 1692955144113,
     "CommentCode": 1693385096040,
+    "ShowUsages": 1692691336579,
     "FindReplaceToggle": 1692630319173,
-    "ShowUsages": 1692691336579
+    "CamelHumpsInCodeCompletion": 1693555561847
   },
   "tipsOrderSeed": 1692630319149
 }]]></component>
