@@ -113,22 +113,6 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www">
-          <value>
-            <RecentProjectMetaInfo frameTitle="app-coommercio-www – validate" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
-              <option name="activationTimestamp" value="1693417068552" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="PS-232.9559.43" />
-              <option name="buildTimestamp" value="1692359403849" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="0" />
-              </option>
-              <frame x="0" y="0" width="2048" height="1280" fullScreen="true" />
-              <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1693385089826" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/Documents/JooServer/Lab/_Forks/api-platform/core">
           <value>
             <RecentProjectMetaInfo frameTitle="core – CollectionNormalizer.php" projectWorkspaceId="2TkdgijPeJmklDPXs6RDqrRh5iu">
@@ -206,6 +190,22 @@
               <frame x="-1920" y="122" width="1920" height="1080" extendedState="6" fullScreen="true" />
               <option name="productionCode" value="PS" />
               <option name="projectOpenTimestamp" value="1693394695907" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www">
+          <value>
+            <RecentProjectMetaInfo frameTitle="app-coommercio-www – ApiSearch.php" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
+              <option name="activationTimestamp" value="1693498492438" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359424472" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="-1920" y="122" width="1920" height="1080" fullScreen="true" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693470746908" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
