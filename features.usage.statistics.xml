@@ -21,7 +21,7 @@
     <feature id="editing.reformat.code" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.show.liveTemplates" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.copy.line" count="2" last-shown="0" last-used="1693586834482" shown-count="0" />
-    <feature id="navigation.find.in.files" count="54" last-shown="0" last-used="1693567737149" shown-count="0" />
+    <feature id="navigation.find.in.files" count="55" last-shown="0" last-used="1693816849730" shown-count="0" />
     <feature id="db.copy.table" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="ui.hide.tool.window" count="5" last-shown="0" last-used="1693670908916" shown-count="0" />
     <feature id="navigation.find.replace.in.files.toggle" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -34,7 +34,7 @@
     <feature id="editing.duplicate" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.copy.reference" count="1" last-shown="0" last-used="1693400902779" shown-count="0" />
     <feature id="codeassists.highlight.throws" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="navigation.find" count="40" last-shown="0" last-used="1693665049060" shown-count="0" />
+    <feature id="navigation.find" count="41" last-shown="0" last-used="1693816843102" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.basic" count="527" last-shown="0" last-used="1693813555324" shown-count="0" />
     <feature id="editing.completion.postfix" count="0" last-shown="0" last-used="0" shown-count="0" />

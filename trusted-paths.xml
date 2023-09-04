@@ -2,6 +2,12 @@
   <component name="Trusted.Paths">
     <option name="TRUSTED_PROJECT_PATHS">
       <map>
+        <entry key="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo/platform" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo/service-api" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo/service-campaignmanager" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo/service-creatorsearch" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo/service-mobileappapi" value="true" />
+        <entry key="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo/service-users" value="true" />
         <entry key="$USER_HOME$/Documents/JooServer/Lab/Bundles/bundle-features" value="true" />
         <entry key="$USER_HOME$/Documents/JooServer/Lab/Bundles/bundle-remotes" value="true" />
         <entry key="$USER_HOME$/Documents/JooServer/Lab/Components/component-array-writer" value="true" />
@@ -31,6 +37,7 @@
         <option value="$USER_HOME$/Documents/JooServer/Projects/SerendipityHQ" />
         <option value="$USER_HOME$/Documents/JooServer/Lab/Misc" />
         <option value="$USER_HOME$/Documents/JooServer/Projects/Mooney" />
+        <option value="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo" />
       </list>
     </option>
   </component>

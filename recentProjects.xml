@@ -236,9 +236,105 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo/service-mobileappapi">
+          <value>
+            <RecentProjectMetaInfo frameTitle="service-mobileappapi – .env" opened="true" projectWorkspaceId="2GcxAYIg510IigTrQyoRP2BpQSv">
+              <option name="activationTimestamp" value="1693820610262" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359427509" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="-1761" y="147" width="1400" height="1000" fullScreen="true" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693816321476" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo/platform">
+          <value>
+            <RecentProjectMetaInfo frameTitle="platform – buzzoole.php" projectWorkspaceId="2HXOali1jhvXDgbBebXScO4z0Z2">
+              <option name="activationTimestamp" value="1693816644835" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359427509" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="324" y="152" width="1400" height="1000" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693816645448" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo/service-api">
+          <value>
+            <RecentProjectMetaInfo frameTitle="service-api" projectWorkspaceId="2Gj0HD1yv8y4TyY0RYl6zzpaKgT">
+              <option name="activationTimestamp" value="1693816676565" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359427509" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="324" y="152" width="1400" height="1000" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693816676742" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo/service-campaignmanager">
+          <value>
+            <RecentProjectMetaInfo frameTitle="service-campaignmanager – Campaign.php" projectWorkspaceId="2H046k3Ej3n1BdlXiwcJqC8PdTb">
+              <option name="activationTimestamp" value="1693816697953" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359427509" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="324" y="152" width="1400" height="1000" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693816698208" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo/service-creatorsearch">
+          <value>
+            <RecentProjectMetaInfo frameTitle="service-creatorsearch" projectWorkspaceId="2Gcwy5YyFSJPIgaOVM3Pimj0MSf">
+              <option name="activationTimestamp" value="1693816717870" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359427509" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="324" y="152" width="1400" height="1000" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693816718080" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo/service-users">
+          <value>
+            <RecentProjectMetaInfo frameTitle="service-users – LoginTest.php" projectWorkspaceId="2GdNcaWQwdOAmL3yySCNCc97gXG">
+              <option name="activationTimestamp" value="1693816762269" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PS-232.9559.43" />
+              <option name="buildTimestamp" value="1692359427509" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="324" y="152" width="1400" height="1000" />
+              <option name="productionCode" value="PS" />
+              <option name="projectOpenTimestamp" value="1693816762541" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www" />
-    <option name="lastProjectLocation" value="$USER_HOME$/Documents/JooServer/Lab/Components" />
+    <option name="lastOpenedProject" value="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo/service-mobileappapi" />
+    <option name="lastProjectLocation" value="$USER_HOME$/Documents/JooServer/Customers/Buzzoole/repo" />
   </component>
 </application>

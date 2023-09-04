@@ -61,7 +61,7 @@
       <i c="1" l="1693400902732" />
     </e>
     <e n="CreateWebProject">
-      <i c="8" l="1693555651538" />
+      <i c="13" l="1693816725636" />
     </e>
     <e n="DatabaseView.DeactivateAction">
       <i c="1" l="1693408265057" />
@@ -82,7 +82,7 @@
       <i c="1" l="1692960889079" />
     </e>
     <e n="EditorCopy">
-      <i c="867" l="1693814483353" />
+      <i c="870" l="1693818001478" />
     </e>
     <e n="EditorDelete">
       <i c="212" l="1693814040727" />
@@ -118,7 +118,7 @@
       <i c="300" l="1693813804127" />
     </e>
     <e n="EditorLineStartWithSelection">
-      <i c="551" l="1693814452957" />
+      <i c="552" l="1693817585855" />
     </e>
     <e n="EditorNextWord">
       <i c="669" l="1693814037224" />
@@ -127,7 +127,7 @@
       <i c="705" l="1693814038153" />
     </e>
     <e n="EditorPaste">
-      <i c="988" l="1693814488698" />
+      <i c="990" l="1693816850352" />
     </e>
     <e n="EditorPreviousWord">
       <i c="917" l="1693814276215" />
@@ -154,16 +154,16 @@
       <i c="1084" l="1693814025625" />
     </e>
     <e n="EditorUpWithSelection">
-      <i c="757" l="1693814024586" />
+      <i c="759" l="1693817585453" />
     </e>
     <e n="ExpandLiveTemplateByTab">
       <i c="1" l="1692968715362" />
     </e>
     <e n="Find">
-      <i c="40" l="1693665049052" />
+      <i c="41" l="1693816843029" />
     </e>
     <e n="FindInPath">
-      <i c="54" l="1693567737106" />
+      <i c="55" l="1693816849538" />
     </e>
     <e n="FindUsages">
       <i c="16" l="1693811636990" />
@@ -175,7 +175,7 @@
       <i c="5" l="1693395100524" />
     </e>
     <e n="Git.Branches.Popup.Settings">
-      <i c="1" l="1693555680726" />
+      <i c="2" l="1693816918590" />
     </e>
     <e n="Git.Clone">
       <i c="1" l="1693642620877" />
@@ -187,7 +187,7 @@
       <i c="2" l="1692890846475" />
     </e>
     <e n="Git.Fetch">
-      <i c="25" l="1693555671510" />
+      <i c="27" l="1693816911272" />
     </e>
     <e n="Git.Merge.Abort">
       <i c="1" l="1692897495809" />
@@ -211,7 +211,7 @@
       <i c="1" l="1693555681476" />
     </e>
     <e n="GitCheckoutAction">
-      <i c="55" l="1693555872553" />
+      <i c="56" l="1693816906491" />
     </e>
     <e n="GitCheckoutAsNewBranch">
       <i c="1" l="1693642682652" />
@@ -229,7 +229,7 @@
       <i c="2" l="1692892281542" />
     </e>
     <e n="GitUpdateSelectedBranchAction">
-      <i c="2" l="1692890073657" />
+      <i c="3" l="1693816925109" />
     </e>
     <e n="GotoDeclaration">
       <i c="389" l="1693814438947" />
@@ -292,7 +292,7 @@
       <i c="48" l="1693643658156" />
     </e>
     <e n="RedesignedRunConfigurationSelector">
-      <i c="32" l="1693814103451" />
+      <i c="33" l="1693816901704" />
     </e>
     <e n="RenameElement">
       <i c="33" l="1693665174221" />
@@ -307,7 +307,7 @@
       <i c="31" l="1693664835431" />
     </e>
     <e n="Resume">
-      <i c="524" l="1693814080434" />
+      <i c="526" l="1693817539034" />
     </e>
     <e n="RevealIn">
       <i c="2" l="1692893479592" />
@@ -325,7 +325,7 @@
       <i c="1" l="1693243221640" />
     </e>
     <e n="SettingsEntryPoint">
-      <i c="4" l="1693498483738" />
+      <i c="5" l="1693820617913" />
     </e>
     <e n="ShelveChanges.UnshelveWithDialog">
       <i c="1" l="1693386152256" />
@@ -337,13 +337,13 @@
       <i c="3" l="1693476597933" />
     </e>
     <e n="StepInto">
-      <i c="60" l="1693654201381" />
+      <i c="62" l="1693817540717" />
     </e>
     <e n="StepOver">
-      <i c="1014" l="1693664318815" />
+      <i c="1023" l="1693817534734" />
     </e>
     <e n="Stop">
-      <i c="121" l="1693813917079" />
+      <i c="122" l="1693817070562" />
     </e>
     <e n="SynchronizeCurrentFile">
       <i c="10" l="1693814677304" />
@@ -358,7 +358,7 @@
       <i c="20" l="1693572247497" />
     </e>
     <e n="ToggleLineBreakpoint">
-      <i c="174" l="1693813920149" />
+      <i c="177" l="1693817537568" />
     </e>
     <e n="Tree-selectNext">
       <i c="24" l="1693491160307" />
@@ -394,7 +394,7 @@
       <i c="1" l="1692721031758" />
     </e>
     <e n="WelcomeScreen.CreateWebProject">
-      <i c="8" l="1692692294653" />
+      <i c="9" l="1693816302791" />
     </e>
     <e n="WelcomeScreen.OpenDirectoryProject">
       <i c="1" l="1692621919892" />
@@ -465,6 +465,12 @@
     <e n="com.intellij.history.integration.ui.views.HistoryDialog$RevertAction">
       <i c="2" l="1693671329365" />
     </e>
+    <e n="com.intellij.httpClient.http.request.run.v2.HttpRequestRunLineMarkerV2ProviderKt$wrapAction$1">
+      <i c="2" l="1693817996335" />
+    </e>
+    <e n="com.intellij.httpClient.http.request.run.v2.HttpRequestRunSplitButtonOnGutterAction">
+      <i c="4" l="1693817995383" />
+    </e>
     <e n="com.intellij.ide.ReopenProjectAction">
       <i c="11" l="1693394695624" />
     </e>
@@ -472,7 +478,7 @@
       <i c="5" l="1693670919370" />
     </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
-      <i c="1" l="1692717467788" />
+      <i c="2" l="1693820762936" />
     </e>
     <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
       <i c="1" l="1692892301782" />
@@ -494,6 +500,9 @@
     </e>
     <e n="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
       <i c="4" l="1693671505096" />
+    </e>
+    <e n="com.intellij.openapi.updateSettings.impl.UpdateSettingsEntryPointActionProvider$IdeUpdateAction">
+      <i c="1" l="1693820619235" />
     </e>
     <e n="com.intellij.openapi.vcs.changes.EditorTabPreviewEscapeAction">
       <i c="1" l="1692631452444" />
