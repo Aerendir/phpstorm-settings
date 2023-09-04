@@ -2,14 +2,14 @@
   <component name="DimensionService">
     <location key="find.popup.-1920.122.1920.1080" x="-1115" y="221" />
     <location key="find.popup.0.0.4096.2560@192dpi" x="1550" y="230" />
-    <size key="GridCell.Tab.0.left.-1920.122.1920.1080" width="1854" height="356" />
-    <size key="GridCell.Tab.0.center.-1920.122.1920.1080" width="1854" height="356" />
-    <size key="GridCell.Tab.0.right.-1920.122.1920.1080" width="1854" height="356" />
-    <size key="GridCell.Tab.0.bottom.-1920.122.1920.1080" width="1854" height="356" />
-    <size key="GridCell.Tab.1.left.-1920.122.1920.1080" width="1854" height="356" />
-    <size key="GridCell.Tab.1.center.-1920.122.1920.1080" width="1854" height="356" />
-    <size key="GridCell.Tab.1.right.-1920.122.1920.1080" width="1854" height="356" />
-    <size key="GridCell.Tab.1.bottom.-1920.122.1920.1080" width="1854" height="356" />
+    <size key="GridCell.Tab.0.left.-1920.122.1920.1080" width="1854" height="402" />
+    <size key="GridCell.Tab.0.center.-1920.122.1920.1080" width="1854" height="402" />
+    <size key="GridCell.Tab.0.right.-1920.122.1920.1080" width="1854" height="402" />
+    <size key="GridCell.Tab.0.bottom.-1920.122.1920.1080" width="1854" height="402" />
+    <size key="GridCell.Tab.1.left.-1920.122.1920.1080" width="1854" height="402" />
+    <size key="GridCell.Tab.1.center.-1920.122.1920.1080" width="1854" height="402" />
+    <size key="GridCell.Tab.1.right.-1920.122.1920.1080" width="1854" height="402" />
+    <size key="GridCell.Tab.1.bottom.-1920.122.1920.1080" width="1854" height="402" />
     <size key="GridCell.Tab.2.left.-1920.122.1920.1080" width="1854" height="273" />
     <size key="GridCell.Tab.2.center.-1920.122.1920.1080" width="1854" height="273" />
     <size key="GridCell.Tab.2.right.-1920.122.1920.1080" width="1854" height="273" />
@@ -30,17 +30,17 @@
     <size key="find.popup.0.0.4096.2560@192dpi" width="1288" height="1434" />
   </component>
   <component name="WindowManager">
-    <frame x="-1920" y="147" width="1920" height="1055" fullScreen="true" />
+    <frame x="-1920" y="122" width="1920" height="1080" fullScreen="true" />
   </component>
   <component name="WindowStateApplicationService">
     <state width="1184" height="625" key="ShowUsagesActions.dimensionServiceKey" timestamp="1693239237242">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="1184" height="625" key="ShowUsagesActions.dimensionServiceKey/-1920.122.1920.1080/0.0.2048.1280/2048.141.1920.1055" timestamp="1693239237242" />
-    <state x="1024" y="575" width="854" height="790" key="WELCOME_SCREEN" timestamp="1693810792140">
+    <state x="1024" y="575" width="854" height="790" key="WELCOME_SCREEN" timestamp="1693814723755">
       <screen x="0" y="25" width="2048" height="1255" />
     </state>
-    <state x="1024" y="575" width="854" height="790" key="WELCOME_SCREEN/-1920.147.1920.1055/0.25.2048.1255/2048.141.1920.1055" timestamp="1693810792140" />
+    <state x="1024" y="575" width="854" height="790" key="WELCOME_SCREEN/-1920.147.1920.1055/0.25.2048.1255/2048.141.1920.1055" timestamp="1693814723755" />
     <state x="1024" y="575" width="854" height="790" key="WELCOME_SCREEN/0.25.2048.1255" timestamp="1693417083290" />
     <state x="1024" y="572" width="854" height="774" key="WELCOME_SCREEN/2048.141.1920.1055/-1920.147.1920.1055/0.25.2048.1255" timestamp="1692901734344" />
     <state width="300" height="517" key="manage.recent.projects.popup" timestamp="1692717432199">

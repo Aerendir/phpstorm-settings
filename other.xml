@@ -31,7 +31,7 @@
     "evlsprt3.232": "26",
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.used.version": "232.9559.43",
-    "file.gist.reindex.count": "8685",
+    "file.gist.reindex.count": "8686",
     "fileTypeChangedCounter": "2",
     "find.popup.splitter": "0.6705653",
     "fontSizeToResetConsole": "12.0",
@@ -62,25 +62,27 @@
 }]]></component>
   <component name="ShownTips"><![CDATA[{
   "shownTips": {
-    "Rename": 1692865125116,
-    "CtrlW": 1693470754530,
     "SpeedSearch": 1693210270615,
+    "CtrlW": 1693470754530,
+    "Rename": 1692865125116,
     "SearchEverywhere": 1692955144270,
+    "EvaluateExpression": 1693810835711,
     "CommentCode": 1693385096322,
-    "ShowUsages": 1692691336950,
-    "SurroundWith": 1693641214477,
     "FindReplaceToggle": 1692630319380,
+    "SurroundWith": 1693641214477,
+    "ShowUsages": 1692691336950,
     "CamelHumpsInCodeCompletion": 1693555563724
   },
   "proposedTips": {
-    "Rename": 1692865123756,
-    "CtrlW": 1693470754108,
     "SpeedSearch": 1693210268465,
+    "CtrlW": 1693470754108,
+    "Rename": 1692865123756,
     "SearchEverywhere": 1692955144113,
+    "EvaluateExpression": 1693810835372,
     "CommentCode": 1693385096040,
-    "ShowUsages": 1692691336579,
-    "SurroundWith": 1693641213864,
     "FindReplaceToggle": 1692630319173,
+    "SurroundWith": 1693641213864,
+    "ShowUsages": 1692691336579,
     "CamelHumpsInCodeCompletion": 1693555561847
   },
   "tipsOrderSeed": 1692630319149

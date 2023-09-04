@@ -222,17 +222,17 @@
         </entry>
         <entry key="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-coommercio-www">
           <value>
-            <RecentProjectMetaInfo frameTitle="app-coommercio-www – SearchTest.php" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
-              <option name="activationTimestamp" value="1693671500633" />
+            <RecentProjectMetaInfo frameTitle="app-coommercio-www" projectWorkspaceId="2TCOJA2r9eV77GquXSJy240SH13">
+              <option name="activationTimestamp" value="1693814433657" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PS-232.9559.43" />
-              <option name="buildTimestamp" value="1692359424744" />
+              <option name="buildTimestamp" value="1692359423286" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="0" />
               </option>
-              <frame x="-1920" y="147" width="1920" height="1055" fullScreen="true" />
+              <frame x="-1920" y="122" width="1920" height="1080" fullScreen="true" />
               <option name="productionCode" value="PS" />
-              <option name="projectOpenTimestamp" value="1693671502463" />
+              <option name="projectOpenTimestamp" value="1693810829153" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
