@@ -53,7 +53,9 @@
         </PlaceSettings>
       </entry>
       <entry key="VcsFileHistoryView">
-        <PlaceSettings />
+        <PlaceSettings>
+          <option name="BREADCRUMBS_PLACEMENT" value="TOP" />
+        </PlaceSettings>
       </entry>
     </option>
     <option name="SHARED_SETTINGS">
