@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Load .env.dev.local" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="@if [ -f .env.dev.local ]; then export $$(grep -v '^#' .env.dev.local | xargs); fi" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
