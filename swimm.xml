@@ -1,0 +1,6 @@
+<application>
+  <component name="SwimmStateService">
+    <option name="installReported" value="true" />
+    <option name="loginNotificationDismissed" value="true" />
+  </component>
+</application>
