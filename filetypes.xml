@@ -5,6 +5,7 @@
       <mapping pattern="env" type=".env file" />
       <mapping pattern="phan" type="ARCHIVE" />
       <mapping ext="tmpl" type="HTML" />
+      <mapping pattern="github-actions-matrix" type="PHP" />
       <mapping ext="profile" type="PHP" />
       <mapping ext="test" type="PHP" />
       <mapping ext="engine" type="PHP" />
