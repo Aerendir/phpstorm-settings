@@ -1,11 +1,6 @@
 <application>
   <component name="GitToolBoxAppSettings2">
     <option name="autoFetchEnabled" value="false" />
-    <option name="outdatedBranchesAutoCleanup">
-      <OutdatedBranchesAutoCleanupConfig>
-        <option name="autoCheckEnabled" value="false" />
-      </OutdatedBranchesAutoCleanupConfig>
-    </option>
     <option name="startupNotificationVersion" value="1" />
     <option name="version" value="6" />
   </component>
