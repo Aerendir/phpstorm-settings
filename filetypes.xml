@@ -40,6 +40,7 @@
       <mapping pattern="_jquery-ui.scss" type="PLAIN_TEXT" />
       <mapping pattern="default_symfony" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
+      <mapping ext="meta" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="it" type="PLAIN_TEXT" />
       <mapping ext="it%2fspedizioni%2f" type="PLAIN_TEXT" />
