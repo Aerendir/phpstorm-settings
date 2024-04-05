@@ -1,9 +1,0 @@
-<application>
-  <component name="AdvancedSettings">
-    <option name="settings">
-      <map>
-        <entry key="terminal.buffer.max.lines.count" value="1000000" />
-      </map>
-    </option>
-  </component>
-</application>
