@@ -12,6 +12,7 @@
     <entry key="ide.editor.tabs.open.at.the.end" value="true" />
     <entry key="dumb.aware.run.configurations" value="true" />
     <entry key="debugger.new.tool.window.layout" value="true" />
+    <entry key="debugger.watches.in.variables" value="false" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
