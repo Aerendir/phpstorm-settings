@@ -6,5 +6,6 @@
         <entry key="*" value="true" />
       </map>
     </languageAllowList>
+    <option name="showIdeCompletions" value="true" />
   </component>
 </application>
