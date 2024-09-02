@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="2054caab-4227-481e-937e-d98bd37dd453" name="archimede.serendipityhq.com" url="http://archimede.commercianti.online">
-        <fileTransfer rootFolder="/var/www/archimede.serendipityhq.com" accessType="SFTP" sshConfigId="ef22f298-7170-4faf-92a8-44345cdf28f8" sshConfig="Root@DigitalOcean">
+        <fileTransfer rootFolder="/var/www/archimede.serendipityhq.com" accessType="SFTP" host="104.248.255.22" port="22" sshConfigId="ef22f298-7170-4faf-92a8-44345cdf28f8" sshConfig="Root@DigitalOcean" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
           </advancedOptions>
