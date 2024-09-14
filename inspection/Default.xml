@@ -14,6 +14,7 @@
     <option name="CHECK_CLASS" value="false" />
     <option name="CHECK_METHOD" value="false" />
   </inspection_tool>
+  <inspection_tool class="PhpNamedArgumentsWithChangedOrderInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpRedundantVariableDocTypeInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpStanGlobal" enabled="false" level="WEAK WARNING" enabled_by_default="false">
     <option name="config" value="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www/phpstan.neon" />
