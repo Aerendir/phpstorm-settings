@@ -30,6 +30,7 @@
       <w>duedate</w>
       <w>duedates</w>
       <w>embeddables</w>
+      <w>enqueuer</w>
       <w>fornitori</w>
       <w>fqcn</w>
       <w>gedmo</w>
@@ -44,6 +45,7 @@
       <w>mobileappapi</w>
       <w>opinione</w>
       <w>optin</w>
+      <w>pathize</w>
       <w>postgre</w>
       <w>potencier</w>
       <w>predictate</w>
