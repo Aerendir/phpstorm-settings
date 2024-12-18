@@ -11,6 +11,7 @@
         <option name="suppressed">
           <set>
             <option value="Also if" />
+            <option value="SUBJECT MATTER" />
           </set>
         </option>
       </SuppressingContext>
