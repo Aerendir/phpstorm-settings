@@ -8,5 +8,6 @@
       </map>
     </languageAllowList>
     <option name="showIdeCompletions" value="true" />
+    <option name="chatNaturalLanguage" value="italiano" />
   </component>
 </application>
