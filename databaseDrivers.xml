@@ -17,7 +17,7 @@
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="postgresql">
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.6.0" />
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.7.3" />
     </driver>
     <driver id="sybase.jtds">
       <option name="auto-sync" value="false" />
