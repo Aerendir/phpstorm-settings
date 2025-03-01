@@ -12,6 +12,7 @@
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
   </component>
   <component name="VcsApplicationSettings">
+    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Documents/JooServer/Projects/Coommercio/app-trust-back-me-www" />
     <option name="COMMIT_FROM_LOCAL_CHANGES" value="false" />
   </component>
 </application>
