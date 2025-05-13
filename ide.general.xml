@@ -14,6 +14,7 @@
     <entry key="debugger.new.tool.window.layout" value="true" source="SYSTEM" />
     <entry key="debugger.watches.in.variables" value="false" source="SYSTEM" />
     <entry key="terminal.new.ui.reworked" value="true" source="SYSTEM" />
+    <entry key="completion.cloud.enableTextCompletion" value="false" source="MANAGER" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
