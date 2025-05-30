@@ -1,0 +1,44 @@
+<application>
+  <component name="MatterhornModelPersistentStateComponent">
+    <option name="actionWhiteList">
+      <list>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind web/src -name &quot;*.test.ts&quot; -o -name &quot;*.test.tsx&quot; -o -name &quot;*.spec.ts&quot; -o -name \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web yarn \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind web/src -name &quot;*.test.ts&quot; -o -name &quot;*.test.tsx&quot; | xargs grep -l &quot;msw&quot; \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind web/src -type f -name &quot;*.ts&quot; -o -name &quot;*.tsx&quot; | xargs grep -l &quot;fetch(&quot; \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind web/src -type f -name &quot;*.ts&quot; -o -name &quot;*.tsx&quot; | xargs grep -l &quot;videos&quot; \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind web/src -type f -name &quot;use-creator-api.ts&quot; -o -name \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind web/src -type f -name &quot;*.ts&quot; -o -name &quot;*.tsx&quot; | xargs grep -l &quot;API_URL\|fetch(&quot; 2&gt;/dev/null | grep -v \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web yarn add -D \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web yarn list \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+      </list>
+    </option>
+  </component>
+</application>
