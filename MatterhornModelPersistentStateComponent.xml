@@ -42,6 +42,14 @@
           <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec yarn test\E$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web yarn test test/integration\E$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcp web/test/mocks/server.ts \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
