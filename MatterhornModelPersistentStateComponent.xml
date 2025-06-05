@@ -58,6 +58,38 @@
           <option name="actionRegex" value="^\Qmkdir -p \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; make composer c='install'\E$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; make composer c='update'\E$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; make composer c='require \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; make sf \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; make sf c='doctrine:migrations:migrate \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd /Users/Aerendir/Documents/JooServer/Projects/Tracker &amp;&amp; \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd /Users/Aerendir/Documents/JooServer/Projects/Tracker/backend &amp;&amp; docker compose exec php bin/console \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; docker compose exec php bin/console tracker:fetch -c \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
