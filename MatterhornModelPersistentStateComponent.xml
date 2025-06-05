@@ -54,6 +54,10 @@
           <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web yarn test \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qmkdir -p \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
