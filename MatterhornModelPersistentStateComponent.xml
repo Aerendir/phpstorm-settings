@@ -90,6 +90,18 @@
           <option name="actionRegex" value="^\Qcd backend &amp;&amp; docker compose exec php bin/console tracker:fetch -c \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; docker compose exec php bin/console doctrine:migrations:diff\E$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; docker compose exec php bin/console doctrine:migrations:migrate --no-interaction\E$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; docker compose exec php bin/console messenger:consume async \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
