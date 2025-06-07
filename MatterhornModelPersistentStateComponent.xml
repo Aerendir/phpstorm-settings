@@ -106,6 +106,14 @@
           <option name="actionRegex" value="^\Qcat \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcurl -X POST -H &quot;Content-Type: application/json&quot; -d '{&quot;email&quot;:&quot;test@example.com&quot;,&quot;password&quot;:&quot;password123&quot;}' \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcurl -H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3NDkzMDI4ODQsImV4cCI6MTc0OTMwNjQ4NCwicm9sZXMiOlsiUk9MRV9VU0VSIl0sInVzZXJuYW1lIjoidGVzdHVzZXIiLCJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20ifQ.b1bk4bcQgqkrhfMT95S0NORjcnEiipTkahFVS6oW5KWUBn_aK1Cpc8gHYBaTsZtEIjfVehtPsaLZvKwNk3NZhYP0chQhlVlMseyX-1omrxTigpxP4JkGYQXaAPJgnriWq9xTzalO5P9nELGftuHDASmHAgDuars0-ogW21mmjdXkvSVgHWnZNlAcnr3YIleIwTNHE2mw32DWrEt4gO1MVE6CWsOqYh_w7rUxFULDmKc3pdeIzO03QxWkHg76oKbY7pY-DSKnEtNf1jTjzD1SVz4yS-nqdHjSdOQ6N-Qbg7tjNY2pbSnUH1te_40ixtCctyuYMKNQIv26u9554_y19Q&quot; \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
