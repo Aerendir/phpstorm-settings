@@ -126,6 +126,70 @@
           <option name="actionRegex" value="^\Qfind web -type f -name &quot;*.ts&quot; -o -name &quot;*.tsx&quot; | xargs grep -l &quot;creator\|Creator&quot; \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind web -type f -name &quot;*.ts&quot; -o -name &quot;*.tsx&quot; | grep -v &quot;node_modules&quot; | xargs grep -l &quot;creator\|Creator&quot; \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgrep -r &quot;from '@/components/creators/&quot; web/src --include=&quot;*.ts&quot; --include=&quot;*.tsx&quot; | grep -v \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgrep -r &quot;from '@/hooks/use-creator-api&quot; web/src --include=&quot;*.ts&quot; --include=&quot;*.tsx&quot; | grep -v \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgrep -r &quot;from '@/pages/creator&quot; web/src --include=&quot;*.ts&quot; --include=&quot;*.tsx&quot; | grep -v \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgrep -r &quot;CreatorTable&quot; web/src --include=&quot;*.ts&quot; --include=&quot;*.tsx&quot; | grep -v &quot;node_modules&quot; | grep -v \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgrep -r &quot;AddToListDialog&quot; web/src --include=&quot;*.ts&quot; --include=&quot;*.tsx&quot; | grep -v &quot;node_modules&quot; | grep -v &quot;web/src/components/creators/add-to-list-dialog.tsx&quot; | grep -v \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgrep -r &quot;CreateListDialog&quot; web/src --include=&quot;*.ts&quot; --include=&quot;*.tsx&quot; | grep -v &quot;node_modules&quot; | grep -v &quot;web/src/components/creators/create-list-dialog.tsx&quot; | grep -v \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgrep -r &quot;Creator&quot; web/src --include=&quot;*.ts&quot; --include=&quot;*.tsx&quot; | grep -v &quot;node_modules&quot; | grep \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgrep -r &quot;mockCreators&quot; web/src --include=&quot;*.ts&quot; --include=&quot;*.tsx&quot; | grep -v \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgrep -r &quot;creators&quot; web/src --include=&quot;*.ts&quot; --include=&quot;*.tsx&quot; | grep -v &quot;node_modules&quot; | grep -v &quot;web/src/components/creators/&quot; | grep -v &quot;web/src/hooks/use-creator-api.ts&quot; | grep -v \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qrm web/src/components/creators/add-to-list-dialog.tsx web/src/components/creators/create-list-dialog.tsx \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qrm \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qrm web/src/pages/creator-detail-page.tsx \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind web -type f -name &quot;*.ts&quot; -o -name &quot;*.tsx&quot; | grep -v &quot;node_modules&quot; | xargs grep -l &quot;creators\|Creators&quot; \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qrmdir \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind web -type f -name &quot;*.ts&quot; -o -name &quot;*.tsx&quot; | grep -v &quot;node_modules&quot; | xargs grep -i &quot;creator&quot; \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
