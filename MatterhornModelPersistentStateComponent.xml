@@ -102,6 +102,10 @@
           <option name="actionRegex" value="^\Qcd backend &amp;&amp; docker compose exec php bin/console messenger:consume async \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcat \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
