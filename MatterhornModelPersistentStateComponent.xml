@@ -202,6 +202,14 @@
           <option name="actionRegex" value="^\Qcd web &amp;&amp; make yarn c=&quot;test -t 'Environment \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn val | grep -i \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn val | grep -B 1 -i \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
