@@ -258,6 +258,34 @@
           <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn eslint './src/components/ui/accordion.tsx' --cache --cache-location var/cache/.eslint/ | grep \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; node --trace-deprecation node_modules/.bin/yarn val\E$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web node --trace-deprecation node_modules/.bin/yarn \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec -e NODE_OPTIONS=&quot;--trace-deprecation&quot; web yarn \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind . -name &quot;docker-compose.yml&quot; -o -name \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind . -name &quot;docker-compose.yml&quot; -type \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind . -name &quot;*.yml&quot; -o -name &quot;*.yaml&quot; | grep -i \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; make \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
