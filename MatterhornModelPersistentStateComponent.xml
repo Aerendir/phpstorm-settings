@@ -210,6 +210,54 @@
           <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn val | grep -B 1 -i \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn eslint './src/**/*.tsx' --max-warnings=0 | grep -A 1 \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn eslint './src/**/*.tsx' --format=stylish | grep -B 2 \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn eslint './src/**/*.tsx' --format=stylish | grep -A 1 '/app/src/' | grep -v \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn eslint './src/**/*.tsx' --format=stylish | grep -B 1 'max-len' | grep -E \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn eslint './src/**/*.tsx' --format=json | grep -E \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn eslint './src/**/*.tsx' --format=stylish | grep -A 1 \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn eslint './src/**/*.tsx' --format=stylish | grep -B 5 \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web yarn val | grep \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn val 2&gt;&amp;1 | grep -B 1 'react/jsx-props-no-spreading' | grep \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn eslint './src/components/ui/input.tsx' --cache --cache-location \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn eslint './src/components/ui/input.tsx' --cache --cache-location var/cache/.eslint/ --fix &amp;&amp; yarn eslint './src/components/ui/input.tsx' --cache --cache-location var/cache/.eslint/ | grep \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd web &amp;&amp; docker compose exec web sh -c &quot;yarn eslint './src/components/ui/accordion.tsx' --cache --cache-location var/cache/.eslint/ | grep \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
