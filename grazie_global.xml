@@ -12,6 +12,7 @@
           <set>
             <option value="Also if" />
             <option value="SUBJECT MATTER" />
+            <option value="redirecting to login" />
           </set>
         </option>
       </SuppressingContext>
