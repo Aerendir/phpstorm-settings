@@ -334,6 +334,14 @@
           <option name="actionRegex" value="^\Qcd /Users/Aerendir/Documents/JooServer/Customers/Jagaad/donux-hr-surveys/backend &amp;&amp; php artisan test \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd /Users/Aerendir/Documents/JooServer/Customers/Jagaad/donux-hr-surveys &amp;&amp; ls -la \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd /Users/Aerendir/Documents/JooServer/Customers/Jagaad/donux-hr-surveys &amp;&amp; echo &quot;Testing is limited in this environment, but we can verify the code logic is \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
