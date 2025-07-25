@@ -370,6 +370,10 @@
           <option name="actionRegex" value="^\Qcd /Users/Aerendir/Documents/JooServer/Customers/Jagaad/donux-hr-surveys/backend &amp;&amp; php artisan \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd frontend &amp;&amp; npm run \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
