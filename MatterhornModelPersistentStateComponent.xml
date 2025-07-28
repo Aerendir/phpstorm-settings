@@ -374,6 +374,10 @@
           <option name="actionRegex" value="^\Qcd frontend &amp;&amp; npm run \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgit \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
