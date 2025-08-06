@@ -1,9 +1,6 @@
 <application>
-  <component name="ReworkedTerminalUsage"><![CDATA[{
-  "feedbackNotificationShown": true,
-  "enterKeyPressedTimes": 2567
-}]]></component>
-  <component name="TerminalOptionsProvider">
-    <option name="terminalEngine" value="REWORKED" />
-  </component>
+  <component name="ReworkedTerminalUsage">{
+  &quot;feedbackNotificationShown&quot;: true,
+  &quot;enterKeyPressedTimes&quot;: 2567
+}</component>
 </application>
