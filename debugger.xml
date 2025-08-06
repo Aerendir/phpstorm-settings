@@ -7,12 +7,6 @@
       <unmute-on-stop>true</unmute-on-stop>
     </general>
     <debuggers>
-      <debugger id="javascript">
-        <configuration alwaysDoSmartStepInto="false" doNotStepIntoLibraryCode="false">
-          <custom-object-presentation />
-          <stepping-filters-enabled>false</stepping-filters-enabled>
-        </configuration>
-      </debugger>
       <debugger id="oracle">
         <configuration>
           <option name="steppingPauseAtBegin" value="true" />
