@@ -1,3 +1,18 @@
 <application>
-  <component name="Logs.Categories"><![CDATA[{}]]></component>
+  <component name="Logs.Categories"><![CDATA[{
+  "categories": [
+    {
+      "category": "com.intellij.execution.configurations.GeneralCommandLine",
+      "level": "DEBUG"
+    },
+    {
+      "category": "com.jetbrains.php",
+      "level": "DEBUG"
+    },
+    {
+      "category": "com.intellij.docker",
+      "level": "DEBUG"
+    }
+  ]
+}]]></component>
 </application>

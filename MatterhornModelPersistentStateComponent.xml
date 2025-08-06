@@ -326,6 +326,94 @@
           <option name="actionRegex" value="^\Qdocker logs \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgit diff /Users/Aerendir/Documents/JooServer/Customers/Jagaad/donux-hr-surveys/frontend/components/pages/HRSuperAdminSidebar.tsx /Users/Aerendir/Documents/JooServer/Customers/Jagaad/donux-hr-surveys/frontend/components/pages/HRAdminSidebar.tsx \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd /Users/Aerendir/Documents/JooServer/Customers/Jagaad/donux-hr-surveys/backend &amp;&amp; php artisan test \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd /Users/Aerendir/Documents/JooServer/Customers/Jagaad/donux-hr-surveys &amp;&amp; ls -la \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd /Users/Aerendir/Documents/JooServer/Customers/Jagaad/donux-hr-surveys &amp;&amp; echo &quot;Testing is limited in this environment, but we can verify the code logic is \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; php artisan make:migration \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qphp artisan make:migration \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; mkdir -p database/factories &amp;&amp; php artisan make:factory UserFactory \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qmkdir -p database/factories &amp;&amp; php artisan make:factory UserFactory \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd .. &amp;&amp; ls \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd /Users/Aerendir/Documents/JooServer/Customers/Jagaad/donux-hr-surveys/backend &amp;&amp; php artisan make:migration \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd /Users/Aerendir/Documents/JooServer/Customers/Jagaad/donux-hr-surveys/backend &amp;&amp; php artisan \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd frontend &amp;&amp; npm run \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgit \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qphp \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind backend -type d -name Controllers | \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind backend -name &quot;routes&quot; -type \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind backend/tests -name &quot;*.php&quot; | grep -i \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind backend -name &quot;*.md&quot; | grep -i \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind backend -name &quot;*.rest&quot; | grep -i \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; php artisan make:migration add_enable_free_registration_to_organizations_table \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; php artisan \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qphp artisan \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
