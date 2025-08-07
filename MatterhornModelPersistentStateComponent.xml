@@ -418,6 +418,14 @@
           <option name="actionRegex" value="^\Qgrep -r &quot;pendingWireTransferPayments&quot; --include=&quot;*.php&quot; --include=&quot;*.vue&quot; \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind . -name &quot;ziggy*&quot; -type \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qfind . -name &quot;ziggy.php&quot; -type \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
