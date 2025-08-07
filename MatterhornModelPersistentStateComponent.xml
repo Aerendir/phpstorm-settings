@@ -426,6 +426,10 @@
           <option name="actionRegex" value="^\Qfind . -name &quot;ziggy.php&quot; -type \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgit add resources/js/Pages/Admin/Order/Agency/Index.vue resources/js/Pages/Admin/Order/Online/Index.vue \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
