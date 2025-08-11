@@ -430,6 +430,10 @@
           <option name="actionRegex" value="^\Qgit add resources/js/Pages/Admin/Order/Agency/Index.vue resources/js/Pages/Admin/Order/Online/Index.vue \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qphp -l backend/app/Enums/CampaignStatus.php &amp;&amp; php -l backend/app/Models/Campaign.php &amp;&amp; php -l backend/database/migrations/2025_08_11_154600_add_status_to_campaigns_table.php &amp;&amp; php -l \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
