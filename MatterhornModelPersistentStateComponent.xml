@@ -450,6 +450,10 @@
           <option name="actionRegex" value="^\Qnpx -y tsc \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgit diff -- frontend/components/ui/switch/Switch.tsx \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
