@@ -454,6 +454,10 @@
           <option name="actionRegex" value="^\Qgit diff -- frontend/components/ui/switch/Switch.tsx \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd /Users/Aerendir/Documents/JooServer/Customers/Jagaad/Donux/EggUp &amp;&amp; php \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
