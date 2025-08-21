@@ -466,6 +466,10 @@
           <option name="actionRegex" value="^\Qgit show -1 --patch \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qls frontend | grep \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
