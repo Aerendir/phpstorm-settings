@@ -458,6 +458,14 @@
           <option name="actionRegex" value="^\Qcd /Users/Aerendir/Documents/JooServer/Customers/Jagaad/Donux/EggUp &amp;&amp; php \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgit log -1 --pretty=fuller \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgit show -1 --patch \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
