@@ -470,6 +470,18 @@
           <option name="actionRegex" value="^\Qls frontend | grep \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; php artisan route:list --path=api \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qcd backend &amp;&amp; php artisan route:list \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qphp artisan route:list \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
