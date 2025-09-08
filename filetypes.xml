@@ -6,6 +6,7 @@
       <mapping pattern="phan" type="ARCHIVE" />
       <mapping pattern="app" type="AUTO_DETECTED" />
       <mapping ext="tmpl" type="HTML" />
+      <mapping pattern="mcp.json" type="JSON5" />
       <mapping pattern="sync" type="PHP" />
       <mapping pattern="github-actions-matrix" type="PHP" />
       <mapping ext="profile" type="PHP" />
