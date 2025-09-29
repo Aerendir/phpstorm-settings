@@ -1,9 +1,11 @@
 <application>
-  <component name="NextEditOnboardingComponent"><![CDATA[{}]]></component>
+  <component name="NextEditOnboardingComponent"><![CDATA[{
+  "isOnboardingShown": true
+}]]></component>
   <component name="NextEditPromotionState">
     <option name="promoted" value="true" />
   </component>
-  <component name="NextEditSettings"><![CDATA[{
-  "enabled": true
-}]]></component>
+  <component name="NextEditSettings">{
+  &quot;enabled&quot;: true
+}</component>
 </application>
