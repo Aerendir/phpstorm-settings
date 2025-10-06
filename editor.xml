@@ -7,9 +7,6 @@
     <option name="PARAMETER_INFO_DELAY" value="10" />
     <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings">
-    <option name="AUTOREPARSE_DELAY" value="0" />
-  </component>
   <component name="DeclarativeInlayHintsSettings">
     <option name="providerIdToEnabled">
       <map>
