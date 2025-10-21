@@ -510,6 +510,10 @@
           <option name="actionRegex" value="^\Qphp -l backend/app/Repository/TopicRepository.php &amp;&amp; php -l \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgit diff --name-only &amp;&amp; git diff -- backend/app/Report/Report.php | sed -n '1,200p' &amp;&amp; git diff -- backend/app/Report/Calculator | sed -n \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
