@@ -514,6 +514,14 @@
           <option name="actionRegex" value="^\Qgit diff --name-only &amp;&amp; git diff -- backend/app/Report/Report.php | sed -n '1,200p' &amp;&amp; git diff -- backend/app/Report/Calculator | sed -n \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgit diff --stat &amp;&amp; echo '---' &amp;&amp; git diff --unified=0 --backend/app/Report/Report.php | \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgit diff --stat &amp;&amp; echo '---' &amp;&amp; git diff -- backend/app/Report/Calculator/TopicGaussianCalculator.php backend/app/Report/Report.php | sed -n \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
