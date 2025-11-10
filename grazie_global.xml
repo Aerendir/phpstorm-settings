@@ -11,9 +11,9 @@
         <option name="suppressed">
           <set>
             <option value="Also if" />
+            <option value="In future," />
             <option value="SUBJECT MATTER" />
             <option value="redirecting to login" />
-            <option value="In future," />
           </set>
         </option>
       </SuppressingContext>
