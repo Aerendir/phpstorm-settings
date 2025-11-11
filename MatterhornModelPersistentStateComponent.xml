@@ -526,6 +526,10 @@
           <option name="actionRegex" value="^\Qgit log -2 --pretty=oneline --name-only --no-merges --decorate=short --abbrev-commit --date=relative --format=&quot;%C(yellow)%h%Creset %Cgreen(%ad)%Creset %C(auto)%d%Creset \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgit diff --name-only --diff-filter=M\E$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
