@@ -530,6 +530,10 @@
           <option name="actionRegex" value="^\Qgit diff --name-only --diff-filter=M\E$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgit show --name-only --pretty=oneline -1\E$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
