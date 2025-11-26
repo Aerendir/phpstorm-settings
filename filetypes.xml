@@ -5,6 +5,7 @@
       <mapping pattern="env" type=".env file" />
       <mapping pattern="phan" type="ARCHIVE" />
       <mapping pattern="app" type="AUTO_DETECTED" />
+      <mapping pattern="365f909805a496b0c7df0f48b95aa830a31a797f" type="AUTO_DETECTED" />
       <mapping ext="tmpl" type="HTML" />
       <mapping pattern="mcp.json" type="JSON5" />
       <mapping pattern="sync" type="PHP" />
