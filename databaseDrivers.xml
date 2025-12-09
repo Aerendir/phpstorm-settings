@@ -1,28 +1,15 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="sqlite.xerial">
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.38.0" />
+    </driver>
+    <driver id="oracle">
+      <option name="auto-sync" value="false" />
+    </driver>
     <driver id="sqlserver.ms">
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="sqlserver.jtds">
-      <option name="auto-sync" value="false" />
-    </driver>
-    <driver id="sqlite.xerial">
-      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.38.0" />
-    </driver>
-    <driver id="mariadb">
-      <artifact id="MariaDB Connector J" name="MariaDB Connector J" use="true" version="3.3.3" />
-    </driver>
-    <driver id="mysql.8">
-      <artifact />
-      <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.2.0" />
-    </driver>
-    <driver id="mysql">
-      <artifact id="MySQL Connector/J" name="MySQL Connector/J" use="true" version="5.1.46" />
-    </driver>
-    <driver id="postgresql">
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.7.3" />
-    </driver>
-    <driver id="oracle">
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="sybase.jtds">
@@ -30,6 +17,18 @@
     </driver>
     <driver id="sybase.ase">
       <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="mariadb">
+      <artifact id="MariaDB Connector J" name="MariaDB Connector J" use="true" version="3.3.3" />
+    </driver>
+    <driver id="mysql.8">
+      <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.2.0" />
+    </driver>
+    <driver id="mysql">
+      <artifact id="MySQL Connector/J" name="MySQL Connector/J" use="true" version="5.1.46" />
+    </driver>
+    <driver id="postgresql">
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.7.3" />
     </driver>
   </component>
 </application>
