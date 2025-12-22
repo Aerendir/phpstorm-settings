@@ -558,6 +558,10 @@
           <option name="actionRegex" value="^\Qphp -l \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgrep -r &quot;GB&quot; \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
