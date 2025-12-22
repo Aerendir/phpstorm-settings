@@ -554,6 +554,10 @@
           <option name="actionRegex" value="^\Qgrep -C 5 &quot;AdminTranslationController&quot; \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qphp -l \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
