@@ -550,6 +550,10 @@
           <option name="actionRegex" value="^\Qfind frontend -name &quot;*Header*&quot; -o -name &quot;*Navbar*&quot; -o -name \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qgrep -C 5 &quot;AdminTranslationController&quot; \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
