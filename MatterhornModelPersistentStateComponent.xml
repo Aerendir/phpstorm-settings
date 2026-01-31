@@ -562,6 +562,10 @@
           <option name="actionRegex" value="^\Qgrep -r &quot;GB&quot; \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\QPROJECT_ROOT=`pwd` docker compose exec php npm run build &gt; build_output_6.txt 2&gt;&amp;1 &amp;&amp; grep &quot;\[fix-css-wildcards\]&quot; build_output_6.txt &amp;&amp; grep -C 5 &quot;Issue #&quot; \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
       </list>
     </option>
   </component>
