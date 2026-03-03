@@ -16,6 +16,8 @@
     <entry key="terminal.new.ui.reworked" value="true" source="SYSTEM" />
     <entry key="completion.cloud.adaptive.debounce.is.active" value="true" source="SYSTEM" />
     <entry key="switched.from.classic.to.islands" value="false" source="SYSTEM" />
+    <entry key="llm.chat.agent.codex.install.codex.version" value="0.106.0" source="MANAGER" />
+    <entry key="llm.chat.agent.codex.install.acp.server.version" value="0.0.27" source="MANAGER" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
