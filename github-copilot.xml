@@ -9,5 +9,6 @@
     </languageAllowList>
     <option name="showIdeCompletions" value="true" />
     <option name="terminalRulesVersion" value="1" />
+    <option name="legacyXdgConfigMigrated" value="true" />
   </component>
 </application>
