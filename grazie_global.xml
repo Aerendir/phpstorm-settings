@@ -20,6 +20,7 @@
             <option value="In future," />
             <option value="SUBJECT MATTER" />
             <option value="redirecting to login" />
+            <option value="statement.|Pure readability/organization — no reuse, no independent logic, but the section is a visually distinct region (a card, a form step, a sidebar) that reads better as a named component than as an anonymous JSX block nested three levels deep in a 400-line return statement." />
           </set>
         </option>
       </SuppressingContext>
