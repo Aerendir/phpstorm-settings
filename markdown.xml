@@ -2,4 +2,7 @@
   <component name="MarkdownApplicationSettings">
     <MarkdownCssSettings />
   </component>
+  <component name="MarkdownSettings">
+    <option name="fontSize" value="14" />
+  </component>
 </application>
