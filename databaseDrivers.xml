@@ -3,6 +3,9 @@
     <driver id="sqlite.xerial">
       <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.51.1" />
     </driver>
+    <driver id="postgresql">
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.7.3" />
+    </driver>
     <driver id="oracle">
       <option name="auto-sync" value="false" />
     </driver>
@@ -26,9 +29,6 @@
     </driver>
     <driver id="mysql">
       <artifact id="MySQL Connector/J" name="MySQL Connector/J" use="true" version="5.1.46" />
-    </driver>
-    <driver id="postgresql">
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.7.3" />
     </driver>
   </component>
 </application>
