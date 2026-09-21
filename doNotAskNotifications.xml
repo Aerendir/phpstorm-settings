@@ -1,0 +1,9 @@
+<application>
+  <component name="DoNotAskAppManager">
+    <option name="idToDisplayName">
+      <map>
+        <entry key="ML Completion Plugin" value="ML Completion" />
+      </map>
+    </option>
+  </component>
+</application>
