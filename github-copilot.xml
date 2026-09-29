@@ -12,5 +12,6 @@
     <option name="showIdeCompletions" value="true" />
     <option name="terminalRulesVersion" value="2" />
     <option name="legacyXdgConfigMigrated" value="true" />
+    <option name="defaultMarketplacesSeeded" value="true" />
   </component>
 </application>
