@@ -1,5 +1,9 @@
 <application>
   <component name="NextEditProviderSettings"><![CDATA[{
+  "selectedProvider": {
+    "id": "none",
+    "kind": "NONE"
+  },
   "migration": {
     "legacyCompletionProviderMigrationApplied": true
   }
