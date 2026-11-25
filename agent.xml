@@ -1,4 +1,6 @@
 <application>
-  <component name="AgentGeneral"><![CDATA[{}]]></component>
-  <component name="AgentSessionProviderSettings"><![CDATA[{}]]></component>
+  <component name="AgentCommitMessageAgent"><![CDATA[{}]]></component>
+  <component name="AgentGeneral">{}</component>
+  <component name="AgentSessionPresetState"><![CDATA[{}]]></component>
+  <component name="AgentSessionProviderSettings">{}</component>
 </application>
